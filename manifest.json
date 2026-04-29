@@ -1,11 +1,6 @@
 {
-  "id": "obsidian-theme",
-  "name": "Dave's Obsidian Style",
+  "name": "DaveStyle",
   "version": "1.0.0",
   "minAppVersion": "1.0.0",
-  "author": "Dave",
-  "authorUrl": "https://github.com/daveton",
-  "description": "A minimalist, cinematic writing experience inspired by Bear, crafted by a senior UI/UX designer.",
-  "modes": ["light", "dark"],
-  "isDesktopOnly": false
+  "author": "Dave"
 }
