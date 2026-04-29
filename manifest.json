@@ -6,5 +6,6 @@
   "author": "Dave",
   "authorUrl": "https://github.com/daveton",
   "description": "A minimalist, cinematic writing experience inspired by Bear, crafted by a senior UI/UX designer.",
+  "modes": ["light", "dark"],
   "isDesktopOnly": false
 }
