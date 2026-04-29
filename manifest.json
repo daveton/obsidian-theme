@@ -1,9 +1,10 @@
 {
+  "id": "bear",
   "name": "Bear",
   "version": "1.0.0",
   "minAppVersion": "0.16.0",
-  "author": "Bear Obsidian Theme Project",
-  "authorUrl": "https://bear.app",
+  "author": "daveton",
+  "authorUrl": "https://github.com/daveton",
   "description": "A beautiful Obsidian theme inspired by Bear App's Red Graphite (Light) and Charcoal (Dark) themes",
   "modes": ["light", "dark"]
 }
