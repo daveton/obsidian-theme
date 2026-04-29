@@ -1,10 +1,10 @@
 {
-  "id": "bear",
-  "name": "Bear",
+  "id": "obsidian-theme",
+  "name": "Dave's Obsidian Style",
   "version": "1.0.0",
-  "minAppVersion": "0.16.0",
-  "author": "daveton",
+  "minAppVersion": "1.0.0",
+  "author": "Dave",
   "authorUrl": "https://github.com/daveton",
-  "description": "A beautiful Obsidian theme inspired by Bear App's Red Graphite (Light) and Charcoal (Dark) themes",
-  "modes": ["light", "dark"]
+  "description": "A minimalist, cinematic writing experience inspired by Bear, crafted by a senior UI/UX designer.",
+  "isDesktopOnly": false
 }
