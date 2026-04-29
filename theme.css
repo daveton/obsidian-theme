@@ -8,7 +8,7 @@
 /* ==========================================================================
    CSS Variables - Red Graphite (Light Theme)
    ========================================================================== */
-.theme-light {
+:root {
   /* Background Colors */
   --background-primary: #FFFFFF;
   --background-primary-alt: #F5F5F5;
@@ -59,6 +59,11 @@
   --dave-gray: #8E8E8E;
   --dave-light-gray: #B4B4B4;
   --dave-border: #E5E5E5;
+
+  /* Obsidian Accent Color (HSL) */
+  --accent-h: 0;
+  --accent-s: 66%;
+  --accent-l: 53%;
 }
 
 /* ==========================================================================
@@ -115,6 +120,11 @@
   --dave-gray: #999999;
   --dave-light-gray: #666666;
   --dave-border: #444444;
+
+  /* Obsidian Accent Color (HSL) - Dark */
+  --accent-h: 0;
+  --accent-s: 100%;
+  --accent-l: 70%;
 }
 
 /* ==========================================================================
