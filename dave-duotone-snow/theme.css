@@ -1,0 +1,49 @@
+/*
+ * Dave Duotone Snow Theme
+ * Cool blue-gray duotone
+ */
+
+:root {
+  --background-primary: #F0F4F8;
+  --background-primary-alt: #E1E8ED;
+  --background-secondary: #E8EEF3;
+  --background-secondary-alt: #D8E0E7;
+  --background-modifier-border: #B8C5D0;
+  --background-modifier-form-field: #F0F4F8;
+  --background-modifier-form-field-highlighted: #F0F4F8;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.08);
+  --background-modifier-success: #38A169;
+  --background-modifier-error: #E53E3E;
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
+  --text-normal: #2D3748;
+  --text-muted: #718096;
+  --text-faint: #A0AEC0;
+  --text-accent: #4A5568;
+  --text-accent-hover: #2D3748;
+  --text-error: #E53E3E;
+  --text-success: #38A169;
+  --text-highlight-bg: rgba(74, 85, 104, 0.15);
+  --text-selection: rgba(74, 85, 104, 0.25);
+  --interactive-normal: #F0F4F8;
+  --interactive-hover: #E1E8ED;
+  --interactive-accent: #4A5568;
+  --interactive-accent-hover: #2D3748;
+  --graph-node: #2D3748;
+  --graph-node-unresolved: #A0AEC0;
+  --graph-node-tag: #4A5568;
+  --graph-node-attachment: #38A169;
+  --graph-line: #B8C5D0;
+  --graph-text: #2D3748;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(45, 55, 72, 0.15);
+  --scrollbar-thumb-hover: rgba(45, 55, 72, 0.25);
+  --scrollbar-active-thumb: rgba(45, 55, 72, 0.35);
+  --dave-red: #E53E3E;
+  --dave-red-hover: #FC8181;
+  --dave-gray: #718096;
+  --dave-light-gray: #A0AEC0;
+  --dave-border: #B8C5D0;
+  --accent-h: 215;
+  --accent-s: 20%;
+  --accent-l: 35%;
+}

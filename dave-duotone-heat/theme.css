@@ -1,0 +1,49 @@
+/*
+ * Dave Duotone Heat Theme
+ * Warm red-orange duotone
+ */
+
+:root {
+  --background-primary: #FFFAF0;
+  --background-primary-alt: #FFF5E6;
+  --background-secondary: #FFF8ED;
+  --background-secondary-alt: #FFEFD6;
+  --background-modifier-border: #F6AD55;
+  --background-modifier-form-field: #FFFAF0;
+  --background-modifier-form-field-highlighted: #FFFAF0;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.08);
+  --background-modifier-success: #DD6B20;
+  --background-modifier-error: #E53E3E;
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
+  --text-normal: #744210;
+  --text-muted: #C05621;
+  --text-faint: #ED8936;
+  --text-accent: #C05621;
+  --text-accent-hover: #9C4221;
+  --text-error: #E53E3E;
+  --text-success: #DD6B20;
+  --text-highlight-bg: rgba(192, 86, 33, 0.15);
+  --text-selection: rgba(192, 86, 33, 0.25);
+  --interactive-normal: #FFFAF0;
+  --interactive-hover: #FFF5E6;
+  --interactive-accent: #C05621;
+  --interactive-accent-hover: #9C4221;
+  --graph-node: #744210;
+  --graph-node-unresolved: #ED8936;
+  --graph-node-tag: #C05621;
+  --graph-node-attachment: #DD6B20;
+  --graph-line: #F6AD55;
+  --graph-text: #744210;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(116, 66, 16, 0.15);
+  --scrollbar-thumb-hover: rgba(116, 66, 16, 0.25);
+  --scrollbar-active-thumb: rgba(116, 66, 16, 0.35);
+  --dave-red: #E53E3E;
+  --dave-red-hover: #FC8181;
+  --dave-gray: #C05621;
+  --dave-light-gray: #ED8936;
+  --dave-border: #F6AD55;
+  --accent-h: 24;
+  --accent-s: 70%;
+  --accent-l: 46%;
+}
