@@ -1,68 +1,66 @@
-# Bear Theme for Obsidian
+# Dave's Obsidian Style
 
-一款受 Bear App 启发的 Obsidian 主题，复刻了 Red Graphite（亮色）和 Charcoal（暗色）两种经典配色。
+A minimalist, cinematic writing experience for Obsidian. Crafted by a senior UI/UX designer with 9 years of experience.
 
-## 特性
+> 一款极简主义、电影感的 Obsidian 写作体验。由拥有 9 年经验的高级 UI/UX 设计师精心打造。
 
-- **双主题模式**：支持 Red Graphite 亮色主题和 Charcoal 暗色主题
-- **Bear 风格排版**：使用系统字体栈，还原 Bear 的字间距和行高
-- **SVG 图标**：内嵌 Bear 风格的 checkbox 和外链箭头图标
-- **语法高亮**：支持代码块和内联代码的 Bear 风格样式
-- **Graph 视图配色**：节点和连线使用 Bear 经典配色
+## 特性 / Features
 
-## 截图
+- **双主题模式 / Dual Themes**
+  - **Light** - 干净的白色背景配以标志性的红色强调色
+  - **Dark** - 深炭灰色背景配以亮红色强调色
 
-### Red Graphite（亮色）
+- **精致排版 / Refined Typography**
+  - 系统字体栈，优化字间距和行高
+  - System font stack with optimized letter spacing and line height
 
-干净的白色背景配上标志性的红色强调色。
+- **SVG 图标 / SVG Icons**
+  - 内嵌精心设计的 checkbox 和外链箭头图标
+  - Embedded custom checkbox and external link arrow icons
 
-### Charcoal（暗色）
+- **语法高亮 / Syntax Highlighting**
+  - 优雅的代码块和内联代码样式
+  - Elegant code block and inline code styling
 
-深炭灰色背景配以亮红色强调色，适合夜间使用。
+- **Graph 视图配色 / Graph View Colors**
+  - 精心调校的节点和连线配色
+  - Carefully tuned node and line colors
 
-## 字体
+## 字体 / Typography
 
-主题使用系统字体栈以确保跨平台兼容性：
+- **界面 / Interface**: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto`
+- **编辑 / Editor**: `-apple-system, "SF Pro Text", "Segoe UI", "Helvetica Neue"`
+- **代码 / Mono**: `"SF Mono", Monaco, "Cascadia Code", Consolas`
 
-- **界面字体**：-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto
-- **编辑字体**：-apple-system, "SF Pro Text", "Segoe UI", "Helvetica Neue"
-- **等宽字体**："SF Mono", Monaco, "Cascadia Code", Consolas
+## 颜色方案 / Color Schemes
 
-如需使用 BearSansUI 字体，请自行安装并在 Obsidian 设置中配置。
+### Light Theme
 
-## 颜色方案
+| 元素 / Element | 色值 / Color |
+|---------------|-------------|
+| 背景 / Background | `#FFFFFF` |
+| 主文本 / Primary Text | `#2C2C2C` |
+| 强调色 / Accent | `#E04E4E` |
+| 次要文本 / Secondary | `#8E8E8E` |
+| 代码背景 / Code BG | `#F5F5F5` |
 
-### Red Graphite（亮色）
+### Dark Theme
 
-| 元素 | 色值 |
-|------|------|
-| 背景 | `#FFFFFF` |
-| 主文本 | `#2C2C2C` |
-| 强调色 | `#E04E4E` |
-| 次要文本 | `#8E8E8E` |
-| 代码背景 | `#F5F5F5` |
+| 元素 / Element | 色值 / Color |
+|---------------|-------------|
+| 背景 / Background | `#2C2C2C` |
+| 主文本 / Primary Text | `#E0E0E0` |
+| 强调色 / Accent | `#FF6B6B` |
+| 次要文本 / Secondary | `#999999` |
+| 代码背景 / Code BG | `#1E1E1E` |
 
-### Charcoal（暗色）
+## 安装 / Installation
 
-| 元素 | 色值 |
-|------|------|
-| 背景 | `#2C2C2C` |
-| 主文本 | `#E0E0E0` |
-| 强调色 | `#FF6B6B` |
-| 次要文本 | `#999999` |
-| 代码背景 | `#1E1E1E` |
-
-## 安装
-
-1. 将 `theme.css` 和 `manifest.json` 复制到 Obsidian 的 `.obsidian/themes/Bear/` 目录
-2. 在 Obsidian 设置 → 外观 → 主题 中选择 "Bear"
+1. 将 `theme.css` 和 `manifest.json` 复制到 Obsidian 的 `.obsidian/themes/DaveStyle/` 目录
+2. 在 Obsidian 设置 → 外观 → 主题 中选择 "Dave's Obsidian Style"
 3. 根据需要切换亮色/暗色模式
 
-## 致谢
+---
 
-- 设计灵感来源于 [Bear App](https://bear.app/) by Shiny Frog
-- 图标资源来自 Bear App 资源包
-
-## 开源协议
-
-MIT License
+**作者 / Author**: Dave  
+**许可 / License**: MIT License
