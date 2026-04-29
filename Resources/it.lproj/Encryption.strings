@@ -1,0 +1,135 @@
+/* Class = "NSButtonCell"; title = "Set Password"; ObjectID = "5Kc-km-JLT"; */
+"5Kc-km-JLT.title" = "Imposta Password";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Password Hint"; ObjectID = "6BV-nC-knx"; */
+"6BV-nC-knx.ibExternalAccessibilityHelp" = "Suggerimento password";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Password Hint"; ObjectID = "6S9-B2-pdZ"; */
+"6S9-B2-pdZ.ibExternalAccessibilityHelp" = "Suggerimento password";
+
+/* Class = "NSTextFieldCell"; title = "Errors"; ObjectID = "7OZ-Yf-VYf"; */
+"7OZ-Yf-VYf.title" = "Errori";
+
+/* Class = "NSSecureTextFieldCell"; placeholderString = "Required"; ObjectID = "9oD-8a-SEs"; */
+"9oD-8a-SEs.placeholderString" = "Richiesto";
+
+/* Class = "NSTextFieldCell"; title = "New Password"; ObjectID = "79o-Pj-6E0"; */
+"79o-Pj-6E0.title" = "Nuova password";
+
+/* Class = "NSTextFieldCell"; title = "Password Hint"; ObjectID = "83D-jF-FHt"; */
+"83D-jF-FHt.title" = "Suggerimento password";
+
+/* Class = "NSSecureTextField"; ibExternalAccessibilityHelp = "New Password"; ObjectID = "Ake-M4-yyV"; */
+"Ake-M4-yyV.ibExternalAccessibilityHelp" = "Nuova password";
+
+/* Class = "NSTextFieldCell"; title = "Strength"; ObjectID = "B7q-w5-9Vg"; */
+"B7q-w5-9Vg.title" = "Sicurezza";
+
+/* Class = "NSSecureTextField"; ibExternalAccessibilityHelp = "New Password"; ObjectID = "bBk-ax-tXp"; */
+"bBk-ax-tXp.ibExternalAccessibilityHelp" = "Nuova password";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Cancel"; ObjectID = "dH7-U7-3S8"; */
+"dH7-U7-3S8.ibExternalAccessibilityHelp" = "Cancella";
+
+/* Class = "NSTextFieldCell"; title = "Unlock Note"; ObjectID = "dva-mY-gHi"; */
+"dva-mY-gHi.title" = "Visualizza nota";
+
+/* Class = "NSTextFieldCell"; title = "Change Password"; ObjectID = "e6D-Cn-s6u"; */
+"e6D-Cn-s6u.title" = "Cambia la password";
+
+/* Class = "NSTextFieldCell"; title = "New Password"; ObjectID = "efe-gc-MSn"; */
+"efe-gc-MSn.title" = "Nuova password";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Helps you remember your password"; ObjectID = "eRN-Ij-WD4"; */
+"eRN-Ij-WD4.placeholderString" = "Ti aiuta a ricordare la password";
+
+/* Class = "NSTextFieldCell"; title = "Strength"; ObjectID = "hey-kG-dwU"; */
+"hey-kG-dwU.title" = "Sicurezza";
+
+/* Class = "NSTextFieldCell"; title = "Unlock Bear"; ObjectID = "hiO-jH-CFk"; */
+"hiO-jH-CFk.title" = "Sblocca Bear";
+
+/* Class = "NSTextFieldCell"; title = "Create a Password"; ObjectID = "JhP-IQ-OIp"; */
+"JhP-IQ-OIp.title" = "Crea Password";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Password Errors"; ObjectID = "JNr-vN-iHi"; */
+"JNr-vN-iHi.ibExternalAccessibilityHelp" = "Errori Password";
+
+/* Class = "NSSecureTextField"; ibExternalAccessibilityHelp = "Password Field"; ObjectID = "jsD-oH-old"; */
+"jsD-oH-old.ibExternalAccessibilityHelp" = "Campo Password";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Jsz-aV-adY"; */
+"Jsz-aV-adY.title" = "Annulla";
+
+/* Class = "NSTextFieldCell"; title = "Retype Password"; ObjectID = "KFO-Gd-M9j"; */
+"KFO-Gd-M9j.title" = "Digita ancora la password";
+
+/* Class = "NSSecureTextFieldCell"; placeholderString = "Enter Your Password"; ObjectID = "KVQ-vW-JAa"; */
+"KVQ-vW-JAa.placeholderString" = "Inserisci la tua Password";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Password hint"; ObjectID = "LGM-wQ-Re8"; */
+"LGM-wQ-Re8.ibExternalAccessibilityHelp" = "Suggerimento Password";
+
+/* Class = "NSSecureTextField"; ibExternalAccessibilityHelp = "New Password"; ObjectID = "mbI-8w-WIf"; */
+"mbI-8w-WIf.ibExternalAccessibilityHelp" = "Nuova password";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Set Password"; ObjectID = "mc8-QP-Du6"; */
+"mc8-QP-Du6.ibExternalAccessibilityHelp" = "Imposta Password";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "mE9-in-Dic"; */
+"mE9-in-Dic.title" = "Cancella";
+
+/* Class = "NSTextFieldCell"; title = "Hint"; ObjectID = "mSU-VV-6O5"; */
+"mSU-VV-6O5.title" = "Suggerimento";
+
+/* Class = "NSTextFieldCell"; title = "Errors"; ObjectID = "Npe-37-kcT"; */
+"Npe-37-kcT.title" = "Errori";
+
+/* Class = "NSTextFieldCell"; title = "Current Password"; ObjectID = "NX7-Il-EFW"; */
+"NX7-Il-EFW.title" = "Password Attuale";
+
+/* Class = "NSTextFieldCell"; title = "Password Hint"; ObjectID = "oQc-hS-wrX"; */
+"oQc-hS-wrX.title" = "Suggerimento password";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "oz3-pj-ogU"; */
+"oz3-pj-ogU.title" = "Finestra";
+
+/* Class = "NSSecureTextFieldCell"; placeholderString = "Required"; ObjectID = "Q8S-pr-Wi5"; */
+"Q8S-pr-Wi5.placeholderString" = "Richiesto";
+
+/* Class = "NSSecureTextField"; ibExternalAccessibilityHelp = "New Password"; ObjectID = "qBS-iG-Ig1"; */
+"qBS-iG-Ig1.ibExternalAccessibilityHelp" = "Nuova password";
+
+/* Class = "NSSecureTextFieldCell"; placeholderString = "Required"; ObjectID = "Qmc-gz-k1L"; */
+"Qmc-gz-k1L.placeholderString" = "Richiesto";
+
+/* Class = "NSSecureTextField"; ibExternalAccessibilityHelp = "New Password"; ObjectID = "Sox-bn-pEM"; */
+"Sox-bn-pEM.ibExternalAccessibilityHelp" = "Nuova password";
+
+/* Class = "NSSecureTextFieldCell"; placeholderString = "Required"; ObjectID = "t1V-AN-b06"; */
+"t1V-AN-b06.placeholderString" = "Richiesto";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Password Strenght"; ObjectID = "U7o-UV-foD"; */
+"U7o-UV-foD.ibExternalAccessibilityHelp" = "Sicurezza Password";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Helps you remember your password"; ObjectID = "uCg-T6-83w"; */
+"uCg-T6-83w.placeholderString" = "Ti aiuta a ricordare la password";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Cancel"; ObjectID = "w9I-1x-fsL"; */
+"w9I-1x-fsL.ibExternalAccessibilityHelp" = "Annulla";
+
+/* Class = "NSTextFieldCell"; title = "Retype Password"; ObjectID = "WfP-Mc-UlO"; */
+"WfP-Mc-UlO.title" = "Digita ancora la password";
+
+/* Class = "NSTextFieldCell"; title = "Errors"; ObjectID = "wl9-fg-eXw"; */
+"wl9-fg-eXw.title" = "Errori";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Set Password"; ObjectID = "xLW-2R-9gx"; */
+"xLW-2R-9gx.ibExternalAccessibilityHelp" = "Imposta Password";
+
+/* Class = "NSButtonCell"; title = "Change Password"; ObjectID = "xmp-SN-Z6P"; */
+"xmp-SN-Z6P.title" = "Cambia la password";
+
+/* Class = "NSSecureTextFieldCell"; placeholderString = "Required"; ObjectID = "xVq-y4-GOi"; */
+"xVq-y4-GOi.placeholderString" = "Richiesto";
+

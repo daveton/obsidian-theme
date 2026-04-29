@@ -1,0 +1,30 @@
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Insert tags separated by commas"; ObjectID = "5bz-5E-56j"; */
+"5bz-5E-56j.ibExternalAccessibilityHelp" = "タグをコンマ区切りで挿入";
+
+/* Class = "NSView"; ibExternalAccessibilityHelp = "If enabled append page link to note"; ObjectID = "662-3p-sfL"; */
+"662-3p-sfL.ibExternalAccessibilityHelp" = "有効の場合、ページリンクをメモに追加";
+
+/* Class = "NSTextFieldCell"; title = "Set default tags"; ObjectID = "JJd-dg-hd3"; */
+"JJd-dg-hd3.title" = "デフォルトのタグを設定";
+
+/* Class = "NSTextFieldCell"; placeholderString = "web, to read, world domination"; ObjectID = "JuX-fg-dwO"; */
+"JuX-fg-dwO.placeholderString" = "ウェブ, 読む, 世界征服";
+
+/* Class = "NSTextFieldCell"; title = "Import web page images"; ObjectID = "Mus-ha-RKk"; */
+"Mus-ha-RKk.title" = "Web ページの画像をインポート";
+
+/* Class = "NSTextFieldCell"; title = "WEB CONTENT PREFERENCES"; ObjectID = "q35-KV-jYQ"; */
+"q35-KV-jYQ.title" = "Web コンテンツ環境設定";
+
+/* Class = "NSView"; ibExternalAccessibilityHelp = "If enabled import web images"; ObjectID = "T3B-jK-SXO"; */
+"T3B-jK-SXO.ibExternalAccessibilityHelp" = "有効の場合、Web 画像をインポート";
+
+/* Class = "NSTextFieldCell"; title = "Append web page link to note"; ObjectID = "tf3-zj-TMH"; */
+"tf3-zj-TMH.title" = "Web ページのリンクをメモに追加";
+
+/* Class = "NSTextFieldCell"; title = "Multi-word tags are supported. Separate tags with commas. Es: web, to read, world domination."; ObjectID = "TyU-W6-nXQ"; */
+"TyU-W6-nXQ.title" = "マルチワードタグにも対応しています。タグはコンマで区切ることができます。例: ウェブ, 読む, 世界征服";
+
+/* Class = "NSTextFieldCell"; title = "Change the behavior of Bear when collecting web pages with the browser extensions."; ObjectID = "x8v-De-Aov"; */
+"x8v-De-Aov.title" = "ブラウザの拡張機能で Web ページを収集する際の、Bear の挙動を変更します。";
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationDescription</key>
+	<string>Bear est une appli d&apos;écriture et de prise de notes pour macOS, iOS et Apple Watch. Elle offre des outils d&apos;écriture simples mais flexibles, une prise en charge forte de Markdown, et un système de marquage robuste pour l&apos;organisation.</string>
+	<key>DeveloperName</key>
+	<string>Shiny Frog Ltd.</string>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*.appcenter.ms,*.data.microsoft.com</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear a récemment crashé. Pourrions-nous avoir la permission d&apos;envoyer un journal de crash anonyme à AppCenter afin de pouvoir enquêter sur le problème ? Aucune donnée personnelle ne sera partagée.</string>
+			<key>DenyConsequences</key>
+			<string>Nous ne pourrons pas enquêter sur les circonstances de ce crash ou potentiellement résoudre le problème.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>https://mercury.bear.app</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear a besoin de l&apos;autorisation de vérifier ce lien pour le mobiliser et l&apos;enregistrer comme une note.  Bear ne partage aucune information personnelle dans ce processus.</string>
+			<key>DenyConsequences</key>
+			<string>Bear ne pourra pas enregistrer le contenu du site web de ce lien dans une note.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear veut vérifier l&apos;URL dans votre presse-papiers pour ajouter et associer le titre de la page à une note. Bear ne partage aucune information personnelle dans ce processus. Pour désactiver cette fonctionnalité, désactivez l&apos;option &quot;remplissage auto du titre&quot; dans les préférences de Bear.</string>
+			<key>DenyConsequences</key>
+			<string>Bear ne pourra pas vérifier si la page a un titre de lien avant que l&apos;URL soit collée dans une note.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

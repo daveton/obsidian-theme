@@ -1,0 +1,60 @@
+/* Class = "NSButtonCell"; title = "base64 images"; ObjectID = "2Ut-IN-1wH"; */
+"2Ut-IN-1wH.title" = "base64로 이미지 내보내기";
+
+/* Class = "NSMenuItem"; title = "Bear Note"; ObjectID = "4f0-HS-ngw"; */
+"4f0-HS-ngw.title" = "베어 메모";
+
+/* Class = "NSButtonCell"; title = "Convert note links to HTML links"; ObjectID = "4lF-U4-7de"; */
+"4lF-U4-7de.title" = "HTML 링크로 메모 링크 전환";
+
+/* Class = "NSMenuItem"; title = "JPG"; ObjectID = "6Hm-qh-4SN"; */
+"6Hm-qh-4SN.title" = "JPG";
+
+/* Class = "NSMenuItem"; title = "ePub"; ObjectID = "7nu-ck-FZz"; */
+"7nu-ck-FZz.title" = "ePub";
+
+/* Class = "NSMenuItem"; title = "Text Bundle"; ObjectID = "afo-uo-Ob1"; */
+"afo-uo-Ob1.title" = "텍스트 번들";
+
+/* Class = "NSMenuItem"; title = "HTML"; ObjectID = "cBj-nN-xua"; */
+"cBj-nN-xua.title" = "HTML";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Export format"; ObjectID = "f0O-QK-vjT"; */
+"f0O-QK-vjT.ibExternalAccessibilityDescription" = "내보내기 형식";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Export attachments"; ObjectID = "GzR-kD-UNg"; */
+"GzR-kD-UNg.ibExternalAccessibilityDescription" = "첨부 파일 내보내기";
+
+/* Class = "NSMenuItem"; title = "RTF"; ObjectID = "Jma-Bn-XMY"; */
+"Jma-Bn-XMY.title" = "RTF";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Merge notes in single file"; ObjectID = "kJW-Dt-DwV"; */
+"kJW-Dt-DwV.ibExternalAccessibilityDescription" = "하나의 파일에 메모 병합";
+
+/* Class = "NSTextFieldCell"; title = "Export as:"; ObjectID = "lfh-18-aMH"; */
+"lfh-18-aMH.title" = "다음으로 보내기:";
+
+/* Class = "NSButtonCell"; title = "Export attachments"; ObjectID = "NRz-UK-iXV"; */
+"NRz-UK-iXV.title" = "첨부 파일 내보내기";
+
+/* Class = "NSMenuItem"; title = "TXT"; ObjectID = "o01-Hh-WEc"; */
+"o01-Hh-WEc.title" = "TXT";
+
+/* Class = "NSButtonCell"; title = "Merge notes in single file"; ObjectID = "P8m-ON-ygz"; */
+"P8m-ON-ygz.title" = "하나의 파일에 메모 병합";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Export attachments"; ObjectID = "u6W-d3-fHw"; */
+"u6W-d3-fHw.ibExternalAccessibilityDescription" = "첨부 파일 내보내기";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Export attachments"; ObjectID = "Utv-db-dpD"; */
+"Utv-db-dpD.ibExternalAccessibilityDescription" = "첨부 파일 내보내기";
+
+/* Class = "NSMenuItem"; title = "DOCX"; ObjectID = "Vb1-KN-mpe"; */
+"Vb1-KN-mpe.title" = "DOCX";
+
+/* Class = "NSMenuItem"; title = "PDF"; ObjectID = "WHS-O9-cbs"; */
+"WHS-O9-cbs.title" = "PDF";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "wmw-Dm-ECw"; */
+"wmw-Dm-ECw.title" = "Markdown";
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationDescription</key>
+	<string>Bear é um aplicativo de notas e escrita para macOS, iOS e Apple Watch. Oferece ferramentas de escrita simples e flexíveis, forte compatibilidade com Markdown e um sistema de marcação robusto para permitir a organização.</string>
+	<key>DeveloperName</key>
+	<string>Shiny Frog Ltd.</string>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*.appcenter.ms,*.data.microsoft.com</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>O Bear apresentou pane recentemente. Permite que enviemos um registro anônimo de pane para a AppCenter para investigarmos o problema? Não será compartilhada nenhuma informação pessoal.</string>
+			<key>DenyConsequences</key>
+			<string>Não poderemos investigar as circunstâncias dessa pane e possivelmente nem corrigir o problema.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>https://mercury.bear.app</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>O Bear precisa de permissão para verificar esse link, para mobilizá-lo e salvá-lo como uma nota.  O Bear não compartilha nenhuma informação pessoal nesse processo.</string>
+			<key>DenyConsequences</key>
+			<string>O Bear não poderá salvar o conteúdo do site desse link em uma nota.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>O Bear deseja verificar o URL da Área de transferência para adicionar e vincular o título da página a uma nota. O Bear não compartilha nenhuma informação pessoal nesse processo. Para desativar o recurso, desligue a opção “preenchimento automático do título” nas preferências do Bear.</string>
+			<key>DenyConsequences</key>
+			<string>O Bear não poderá verificar o título do link na página até que o URL seja colado em uma nota.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

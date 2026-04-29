@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationDescription</key>
+	<string>Bear es una aplicación de escritura para iOS, macOS y Apple Watch. Ofrece herramientas de escritura sencillas pero flexibles, gran compatibilidad con Markdown y un potente sistema de etiquetado para organizar los contenidos.</string>
+	<key>DeveloperName</key>
+	<string>Shiny Frog Ltd.</string>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*.appcenter.ms,*.data.microsoft.com</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear se ha bloqueado recientemente. ¿Nos das permiso para enviar un registro anónimo del bloqueo a AppCenter para que podamos investigar el problema? No se compartirá ningún dato personal.</string>
+			<key>DenyConsequences</key>
+			<string>No podremos investigar las circunstancias de este bloqueo ni, potencialmente, solucionar el problema.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>https://mercury.bear.app</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear necesita permiso para ver este enlace con el fin de descargar su contenido y guardarlo como una nota.  Bear no comparte ninguna información personal en ese proceso.</string>
+			<key>DenyConsequences</key>
+			<string>Bear no podrá guardar en una nota el contenido del sitio web de este enlace.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear quiere comprobar la URL del portapapeles para añadir y enlazar el título de la página a una nota. Bear no comparte ninguna información personal en ese proceso. Para desactivar esta función, cambia la opción de rellenar el título automáticamente en las preferencias de Bear.</string>
+			<key>DenyConsequences</key>
+			<string>Bear no podrá comprobar la página para buscar un título para el enlace antes de que la URL se pegue en una nota.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

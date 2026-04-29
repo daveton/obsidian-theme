@@ -1,0 +1,48 @@
+/* Class = "NSTextFieldCell"; title = "Tag name"; ObjectID = "135-s5-BZH"; */
+"135-s5-BZH.title" = "태그 이름";
+
+/* Class = "NSMenuItem"; title = "Delete Tag"; ObjectID = "aCG-MV-SVX"; */
+"aCG-MV-SVX.title" = "태그 삭제";
+
+/* Class = "NSMenuItem"; title = "Pin Tag"; ObjectID = "aij-0m-8jd"; */
+"aij-0m-8jd.title" = "태그 고정";
+
+/* Class = "NSMenuItem"; title = "Edit Tag"; ObjectID = "baF-0u-6NT"; */
+"baF-0u-6NT.title" = "태그 편집";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Preferences"; ObjectID = "bh6-tk-WEq"; */
+"bh6-tk-WEq.ibExternalAccessibilityDescription" = "환경설정";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Show preferences"; ObjectID = "bh6-tk-WEq"; */
+"bh6-tk-WEq.ibExternalAccessibilityHelp" = "환경설정 표시";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Preferences"; ObjectID = "bh6-tk-WEq"; */
+"bh6-tk-WEq.ibShadowedToolTip" = "환경설정";
+
+/* Class = "NSMenuItem"; title = "Empty Trash"; ObjectID = "duJ-RP-UPj"; */
+"duJ-RP-UPj.title" = "휴지통 비우기";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "mPV-oi-CFY"; */
+"mPV-oi-CFY.title" = "완료";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Rename tag"; ObjectID = "oKm-lt-3iv"; */
+"oKm-lt-3iv.placeholderString" = "태그 이름 변경";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "s45-1V-8wI"; */
+"s45-1V-8wI.title" = "텍스트 셀";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Preferences"; ObjectID = "VCa-BU-s4M"; */
+"VCa-BU-s4M.ibExternalAccessibilityDescription" = "동기화";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Show preferences"; ObjectID = "VCa-BU-s4M"; */
+"VCa-BU-s4M.ibExternalAccessibilityHelp" = "동기화";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Preferences"; ObjectID = "VCa-BU-s4M"; */
+"VCa-BU-s4M.ibShadowedToolTip" = "동기화";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Vdu-nx-bCb"; */
+"Vdu-nx-bCb.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "Edit Tag"; ObjectID = "Xq6-Ir-fmu"; */
+"Xq6-Ir-fmu.title" = "태그 편집";
+

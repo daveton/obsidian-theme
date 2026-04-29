@@ -1,0 +1,15 @@
+/* Class = "NSMenuItem"; title = "Show Unlinked Mentions"; ObjectID = "gSQ-37-Zef"; */
+"gSQ-37-Zef.title" = "リンクされていないメンションを表示";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "hro-fF-fbT"; */
+"hro-fF-fbT.title" = "テーブルビューセル";
+
+/* Class = "NSTextFieldCell"; title = "No Backlinks"; ObjectID = "Lfy-Q5-lQY"; */
+"Lfy-Q5-lQY.title" = "バックリンクなし";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "QhP-xI-uN3"; */
+"QhP-xI-uN3.title" = "テキストセル";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "THH-Gw-37B"; */
+"THH-Gw-37B.title" = "テーブルビューセル";
+

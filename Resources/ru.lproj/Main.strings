@@ -1,0 +1,831 @@
+/* Class = "NSMenu"; title = "Copy Table As"; ObjectID = "0Ie-Ln-pYf"; */
+"0Ie-Ln-pYf.title" = "Копировать таблицу как";
+
+/* Class = "NSMenuItem"; title = "Note List Search..."; ObjectID = "0TH-WF-IBH"; */
+"0TH-WF-IBH.title" = "Поиск в списке заметок...";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "1b7-l0-nxx"; */
+"1b7-l0-nxx.title" = "Найти";
+
+/* Class = "NSMenuItem"; title = "Show Text Theme Editor"; ObjectID = "1Lo-CS-Ed1"; */
+"1Lo-CS-Ed1.title" = "Показать текст редактора тем";
+
+/* Class = "NSMenu"; title = "Format"; ObjectID = "1mI-yt-cqk"; */
+"1mI-yt-cqk.title" = "Формат";
+
+/* Class = "NSMenuItem"; title = "Advanced"; ObjectID = "1Om-Tk-hyx"; */
+"1Om-Tk-hyx.title" = "Дополнительно";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; */
+"1UK-8n-QPP.title" = "Настроить панель инструментов…";
+
+/* Class = "NSMenuItem"; title = "Bear"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Bear";
+
+/* Class = "NSMenuItem"; title = "Ordered List"; ObjectID = "2ci-bb-zOY"; */
+"2ci-bb-zOY.title" = "Упорядоченный список";
+
+/* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "2oI-Rn-ZJC"; */
+"2oI-Rn-ZJC.title" = "Трансформации";
+
+/* Class = "NSMenuItem"; title = "Wiki Link"; ObjectID = "2RU-9n-xcv"; */
+"2RU-9n-xcv.title" = "Ссылка на Wiki";
+
+/* Class = "NSMenuItem"; title = "Tags Sorting"; ObjectID = "3eP-by-v1Z"; */
+"3eP-by-v1Z.title" = "Сортировка тегов";
+
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "3IN-sU-3Bg"; */
+"3IN-sU-3Bg.title" = "Правописание";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "3rS-ZA-NoH"; */
+"3rS-ZA-NoH.title" = "Речь";
+
+/* Class = "NSMenuItem"; title = "Heading 4"; ObjectID = "3ZG-aO-TBZ"; */
+"3ZG-aO-TBZ.title" = "Заголовок 4";
+
+/* Class = "NSMenuItem"; title = "Format"; ObjectID = "4dd-FY-anP"; */
+"4dd-FY-anP.title" = "Формат";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "4EN-yA-p0u"; */
+"4EN-yA-p0u.title" = "Найти";
+
+/* Class = "NSMenuItem"; title = "Move Up"; ObjectID = "4Hp-zl-t26"; */
+"4Hp-zl-t26.title" = "Переместить вверх";
+
+/* Class = "NSMenuItem"; title = "Reset Spotlight Index"; ObjectID = "4KE-WR-aWi"; */
+"4KE-WR-aWi.title" = "Сбросить индекс Spotlight";
+
+/* Class = "NSMenuItem"; title = "Todo"; ObjectID = "4Nq-S1-4Kp"; */
+"4Nq-S1-4Kp.title" = "Список дел";
+
+/* Class = "NSMenuItem"; title = "Quit Bear"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Завершить Bear";
+
+/* Class = "NSMenuItem"; title = "Add Password"; ObjectID = "4SI-zD-bny"; */
+"4SI-zD-bny.title" = "Добавить пароль";
+
+/* Class = "NSMenuItem"; title = "Copy Code"; ObjectID = "4vi-UZ-JCi"; */
+"4vi-UZ-JCi.title" = "Копировать код";
+
+/* Class = "NSMenuItem"; title = "Plain Text"; ObjectID = "5fI-hV-Uak"; */
+"5fI-hV-Uak.title" = "Простой текст";
+
+/* Class = "NSMenuItem"; title = "Code"; ObjectID = "5g0-Bq-ek3"; */
+"5g0-Bq-ek3.title" = "Код";
+
+/* Class = "NSMenuItem"; title = "About Bear"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "О программе Bear";
+
+/* Class = "NSMenuItem"; title = "Rich Text"; ObjectID = "5N9-pH-CMm"; */
+"5N9-pH-CMm.title" = "Форматированный текст";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
+"5QF-Oa-p0T.title" = "Правка";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "5Wl-no-smR"; */
+"5Wl-no-smR.title" = "Окно";
+
+/* Class = "NSMenuItem"; title = "Purchase Bear Pro"; ObjectID = "6Cj-Nc-q1o"; */
+"6Cj-Nc-q1o.title" = "Купить Bear Pro";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
+"6dh-zS-Vam.title" = "Повторить";
+
+/* Class = "NSMenu"; title = "Todo"; ObjectID = "6LI-Uf-ERi"; */
+"6LI-Uf-ERi.title" = "Список дел";
+
+/* Class = "NSMenuItem"; title = "Move Completed to Bottom"; ObjectID = "6lN-zL-qbt"; */
+"6lN-zL-qbt.title" = "Переместить завершенные вниз";
+
+/* Class = "NSMenuItem"; title = "Small"; ObjectID = "6xX-CP-RXI"; */
+"6xX-CP-RXI.title" = "Маленький размер";
+
+/* Class = "NSMenuItem"; title = "Lock All Notes"; ObjectID = "7ay-O5-gDh"; */
+"7ay-O5-gDh.title" = "Заблокировать все заметки";
+
+/* Class = "NSTextFieldCell"; title = "Message"; ObjectID = "7hW-dL-hdy"; */
+"7hW-dL-hdy.title" = "Сообщение";
+
+/* Class = "NSMenuItem"; title = "Separator"; ObjectID = "7Uz-c4-TTO"; */
+"7Uz-c4-TTO.title" = "Разделитель";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "7xm-bY-3qe"; */
+"7xm-bY-3qe.title" = "Окно";
+
+/* Class = "NSMenuItem"; title = "FAQ"; ObjectID = "8CL-X5-tiZ"; */
+"8CL-X5-tiZ.title" = "Вопросы и ответы";
+
+/* Class = "NSMenuItem"; title = "Remove Password"; ObjectID = "8Hv-bF-zGL"; */
+"8Hv-bF-zGL.title" = "Удалить пароль";
+
+/* Class = "NSMenuItem"; title = "Heading 1"; ObjectID = "09c-Le-Ysg"; */
+"09c-Le-Ysg.title" = "Заголовок 1";
+
+/* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "9ic-FL-obx"; */
+"9ic-FL-obx.title" = "Замены";
+
+/* Class = "NSMenuItem"; title = "Backup Notes..."; ObjectID = "9IS-lb-Tjj"; */
+"9IS-lb-Tjj.title" = "Резервировать заметки...";
+
+/* Class = "NSMenuItem"; title = "Show Trash"; ObjectID = "9MC-4f-W4h"; */
+"9MC-4f-W4h.title" = "Показать корзину";
+
+/* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "9yt-4B-nSM"; */
+"9yt-4B-nSM.title" = "Смарт-копирование/вставка";
+
+/* Class = "NSMenuItem"; title = "Show Notes and Editor"; ObjectID = "28q-Um-Jj6"; */
+"28q-Um-Jj6.title" = "Показать заметки и редактор";
+
+/* Class = "NSMenuItem"; title = "Open Link In New Window"; ObjectID = "46n-Xi-Z81"; */
+"46n-Xi-Z81.title" = "Открыть ссылку в новом окне";
+
+/* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "78Y-hA-62v"; */
+"78Y-hA-62v.title" = "Исправлять правописание автоматически";
+
+/* Class = "NSMenuItem"; title = "Title"; ObjectID = "84B-YO-hRl"; */
+"84B-YO-hRl.title" = "Заголовок";
+
+/* Class = "NSMenuItem"; title = "Export Notes..."; ObjectID = "a5D-2N-Otc"; */
+"a5D-2N-Otc.title" = "Экспорт заметок...";
+
+/* Class = "NSMenuItem"; title = "Headers"; ObjectID = "AG3-FV-ZkT"; */
+"AG3-FV-ZkT.title" = "Заголовки";
+
+/* Class = "NSMenuItem"; title = "Footnotes"; ObjectID = "AkJ-t2-Loa"; */
+"AkJ-t2-Loa.title" = "Сноски";
+
+/* Class = "NSMenuItem"; title = "Code"; ObjectID = "AQb-fQ-sZ9"; */
+"AQb-fQ-sZ9.title" = "Код";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "aTl-1u-JFS"; */
+"aTl-1u-JFS.title" = "Напечатать…";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Окно";
+
+/* Class = "NSMenuItem"; title = "Copy Table As"; ObjectID = "avY-UK-L5p"; */
+"avY-UK-L5p.title" = "Копировать таблицу как";
+
+/* Class = "NSMenuItem"; title = "HTML"; ObjectID = "awf-La-keI"; */
+"awf-La-keI.title" = "HTML";
+
+/* Class = "NSMenuItem"; title = "Print First Responder"; ObjectID = "AWq-3V-yZN"; */
+"AWq-3V-yZN.title" = "Печатать первый ответ";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Главное меню";
+
+/* Class = "NSMenuItem"; title = "Show Editor Only"; ObjectID = "b56-FA-hFj"; */
+"b56-FA-hFj.title" = "Показать только редактор";
+
+/* Class = "NSMenuItem"; title = "A to Z"; ObjectID = "BC1-M4-8pj"; */
+"BC1-M4-8pj.title" = "От A до Я";
+
+/* Class = "NSMenu"; title = "Headers"; ObjectID = "bcX-iU-9j2"; */
+"bcX-iU-9j2.title" = "Заголовки";
+
+/* Class = "NSMenuItem"; title = "Italic"; ObjectID = "BDX-jx-SUJ"; */
+"BDX-jx-SUJ.title" = "Курсив";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu"; */
+"bib-Uj-vzu.title" = "Файл";
+
+/* Class = "NSTextFieldCell"; title = "No note selected"; ObjectID = "bLN-al-WNd"; */
+"bLN-al-WNd.title" = "Заметки не выбраны";
+
+/* Class = "NSMenuItem"; title = "Todo"; ObjectID = "bo1-xf-Erw"; */
+"bo1-xf-Erw.title" = "Список дел";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Настройки…";
+
+/* Class = "NSMenuItem"; title = "HTML"; ObjectID = "Bq2-eJ-win"; */
+"Bq2-eJ-win.title" = "HTML";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "buJ-ug-pKt"; */
+"buJ-ug-pKt.title" = "Использовать выбранное для Поиска";
+
+/* Class = "NSMenuItem"; title = "Keep Tags"; ObjectID = "c5I-js-2xM"; */
+"c5I-js-2xM.title" = "Оставить теги";
+
+/* Class = "NSMenu"; title = "Transformations"; ObjectID = "c8a-y6-VQd"; */
+"c8a-y6-VQd.title" = "Трансформации";
+
+/* Class = "NSMenu"; title = "Note"; ObjectID = "CFe-bd-C0R"; */
+"CFe-bd-C0R.title" = "Заметка";
+
+/* Class = "NSMenuItem"; title = "Time Only (ISO 8601)"; ObjectID = "ciR-V6-LwS"; */
+"ciR-V6-LwS.title" = "Только время (ISO 8601)";
+
+/* Class = "NSMenuItem"; title = "Save Theme"; ObjectID = "cpY-u5-wze"; */
+"cpY-u5-wze.title" = "Сохранить тему";
+
+/* Class = "NSMenu"; title = "Tags Sorting"; ObjectID = "cwb-ev-Eq6"; */
+"cwb-ev-Eq6.title" = "Сортировка тегов";
+
+/* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "cwL-P1-jid"; */
+"cwL-P1-jid.title" = "Смарт-ссылки";
+
+/* Class = "NSMenuItem"; title = "Make Youtube Playlist"; ObjectID = "d0g-EG-Xh1"; */
+"d0g-EG-Xh1.title" = "Сделать плейлист Youtube";
+
+/* Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "d9M-CD-aMd"; */
+"d9M-CD-aMd.title" = "Нижний регистр";
+
+/* Class = "NSMenuItem"; title = "Pin To Top"; ObjectID = "deu-bL-9wr"; */
+"deu-bL-9wr.title" = "Прикрепить сверху";
+
+/* Class = "NSMenuItem"; title = "Date (ISO 8601)"; ObjectID = "dGV-eM-XeI"; */
+"dGV-eM-XeI.title" = "Дата (ISO 8601)";
+
+/* Class = "NSMenuItem"; title = "Merge"; ObjectID = "dha-QH-7bC"; */
+"dha-QH-7bC.title" = "Объединить";
+
+/* Class = "NSMenuItem"; title = "Paste From"; ObjectID = "dK7-yG-LrO"; */
+"dK7-yG-LrO.title" = "Вставить из";
+
+/* Class = "NSMenuItem"; title = "Actual Size"; ObjectID = "DKW-iP-MxU"; */
+"DKW-iP-MxU.title" = "Фактический размер";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ"; */
+"dMs-cI-mzQ.title" = "Файл";
+
+/* Class = "NSMenuItem"; title = "Privacy"; ObjectID = "DnN-dv-D4i"; */
+"DnN-dv-D4i.title" = "Конфиденциальность";
+
+/* Class = "NSMenuItem"; title = "Move Row Down"; ObjectID = "Dqs-PY-pr1"; */
+"Dqs-PY-pr1.title" = "Переместить строку вниз";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
+"dRJ-4n-Yzg.title" = "Отменить";
+
+/* Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "Dv1-io-Yv7"; */
+"Dv1-io-Yv7.title" = "Правописание и грамматика";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG"; */
+"DVo-aG-piG.title" = "Закрыть";
+
+/* Class = "NSMenuItem"; title = "Delete Bear DB"; ObjectID = "E0n-Ds-pKk"; */
+"E0n-Ds-pKk.title" = "Удалить Bear DB";
+
+/* Class = "NSMenuItem"; title = "YAML"; ObjectID = "e3T-Tb-M39"; */
+"e3T-Tb-M39.title" = "YAML";
+
+/* Class = "NSMenuItem"; title = "Fold All Headers"; ObjectID = "ecQ-JS-xBe"; */
+"ecQ-JS-xBe.title" = "Свернуть все заголовки";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "eFh-vG-Nvn"; */
+"eFh-vG-Nvn.title" = "Дата и время";
+
+/* Class = "NSMenuItem"; title = "Add Column"; ObjectID = "efK-LS-RbZ"; */
+"efK-LS-RbZ.title" = "Добавить столбец";
+
+/* Class = "NSTextFieldCell"; title = "Title"; ObjectID = "Emc-8H-TdV"; */
+"Emc-8H-TdV.title" = "Заголовок";
+
+/* Class = "NSMenuItem"; title = "Mark as Completed"; ObjectID = "etg-xd-IiY"; */
+"etg-xd-IiY.title" = "Отметить как завершенное";
+
+/* Class = "NSMenuItem"; title = "Forward"; ObjectID = "ews-ix-QMf"; */
+"ews-ix-QMf.title" = "Вперед";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Справка";
+
+/* Class = "NSMenu"; title = "Preview Style"; ObjectID = "F4e-jk-JLb"; */
+"F4e-jk-JLb.title" = "Стиль предпросмотра";
+
+/* Class = "NSMenuItem"; title = "Code Block"; ObjectID = "f9v-MG-PXb"; */
+"f9v-MG-PXb.title" = "Блок кода";
+
+/* Class = "NSMenuItem"; title = "New Note In External Window"; ObjectID = "f75-YX-gbp"; */
+"f75-YX-gbp.title" = "Новая заметка во внешнем окне";
+
+/* Class = "NSMenuItem"; title = "Show Tags, Notes and Editor"; ObjectID = "fbb-lb-ENY"; */
+"fbb-lb-ENY.title" = "Показать теги, заметки и редактор";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "fc5-Jj-IdF"; */
+"fc5-Jj-IdF.title" = "Markdown";
+
+/* Class = "NSMenu"; title = "Current Date"; ObjectID = "FCD-bM-vrX"; */
+"FCD-bM-vrX.title" = "Ввести текущую дату";
+
+/* Class = "NSMenuItem"; title = "Center"; ObjectID = "FdV-Is-N0K"; */
+"FdV-Is-N0K.title" = "По центру";
+
+/* Class = "NSMenu"; title = "Substitutions"; ObjectID = "FeM-D8-WVr"; */
+"FeM-D8-WVr.title" = "Замены";
+
+/* Class = "NSMenuItem"; title = "Request Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "Запросить помощь";
+
+/* Class = "NSMenuItem"; title = "Copy Token"; ObjectID = "Fq4-fD-olz"; */
+"Fq4-fD-olz.title" = "Скопировать маркер";
+
+/* Class = "NSMenuItem"; title = "Quote"; ObjectID = "FUM-Mv-xZR"; */
+"FUM-Mv-xZR.title" = "Цитата";
+
+/* Class = "NSMenuItem"; title = "Plain Text"; ObjectID = "fVp-C3-lxu"; */
+"fVp-C3-lxu.title" = "Простой текст";
+
+/* Class = "NSMenuItem"; title = "Toggle"; ObjectID = "gCR-GA-27O"; */
+"gCR-GA-27O.title" = "Переключить";
+
+/* Class = "NSMenuItem"; title = "Heading 3"; ObjectID = "gkK-sd-s5H"; */
+"gkK-sd-s5H.title" = "Заголовок 3";
+
+/* Class = "NSMenu"; title = "Align Column"; ObjectID = "Gue-Hb-y0o"; */
+"Gue-Hb-y0o.title" = "Выровнять столбец";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
+"gVA-U4-sdL.title" = "Вставить";
+
+/* Class = "NSMenuItem"; title = "Notes Sorting"; ObjectID = "gXK-H6-EcW"; */
+"gXK-H6-EcW.title" = "Сортировка заметок";
+
+/* Class = "NSMenuItem"; title = "Drafts"; ObjectID = "H3P-jv-eq5"; */
+"H3P-jv-eq5.title" = "Drafts";
+
+/* Class = "NSMenuItem"; title = "Markdown Folder"; ObjectID = "gFm-1Y-47E"; */
+"gFm-1Y-47E.title" = "Markdown Папка";
+
+/* Class = "NSMenuItem"; title = "Quick Open"; ObjectID = "ORD-vg-M70"; */
+"ORD-vg-M70.title" = "Быстрый поиск";
+
+/* Class = "NSMenuItem"; title = "Tag Quick Open"; ObjectID = "gGE-Dw-3lM"; */
+"gGE-Dw-3lM.title" = "Теги быстрого поиска";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
+"H8h-7b-M4v.title" = "Вид";
+
+/* Class = "NSMenuItem"; title = "Heading 2"; ObjectID = "hAA-K3-UXZ"; */
+"hAA-K3-UXZ.title" = "Заголовок 2";
+
+/* Class = "NSMenuItem"; title = "Copy As"; ObjectID = "han-1o-jSu"; */
+"han-1o-jSu.title" = "Скопировать как";
+
+/* Class = "NSMenuItem"; title = "Open In New Window"; ObjectID = "hcV-tZ-HQd"; */
+"hcV-tZ-HQd.title" = "Открыть в новом окне";
+
+/* Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "HFo-cy-zxI"; */
+"HFo-cy-zxI.title" = "Показать правописание и грамматику";
+
+/* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "HFQ-gK-NFA"; */
+"HFQ-gK-NFA.title" = "Замена текста";
+
+/* Class = "NSMenuItem"; title = "Toggle Folding"; ObjectID = "hGp-mi-5Fp"; */
+"hGp-mi-5Fp.title" = "Переключить сворачивание";
+
+/* Class = "NSMenuItem"; title = "CSV"; ObjectID = "hLI-Tf-AUR"; */
+"hLI-Tf-AUR.title" = "CSV";
+
+/* Class = "NSMenuItem"; title = "Heading 5"; ObjectID = "Hmg-M7-ixU"; */
+"Hmg-M7-ixU.title" = "Заголовок 5";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "hOq-CL-0c1"; */
+"hOq-CL-0c1.title" = "Markdown";
+
+/* Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "hQb-2v-fYv"; */
+"hQb-2v-fYv.title" = "Смарт-кавычки";
+
+/* Class = "NSMenuItem"; title = "Heading 6"; ObjectID = "hTx-KN-PqK"; */
+"hTx-KN-PqK.title" = "Заголовок 6";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
+"HyV-fh-RgO.title" = "Вид";
+
+/* Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "hz2-CU-CR7"; */
+"hz2-CU-CR7.title" = "Проверить документ сейчас";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Службы";
+
+/* Class = "NSMenuItem"; title = "Table"; ObjectID = "iAV-RB-bPQ"; */
+"iAV-RB-bPQ.title" = "Таблица";
+
+/* Class = "NSMenu"; title = "Copy As"; ObjectID = "Ij2-Ja-PKv"; */
+"Ij2-Ja-PKv.title" = "Скопировать как";
+
+/* Class = "NSMenuItem"; title = "Number of Notes"; ObjectID = "INW-aY-IK3"; */
+"INW-aY-IK3.title" = "Количество заметок";
+
+/* Class = "NSMenuItem"; title = "Modification Date"; ObjectID = "ipE-Ku-Cq7"; */
+"ipE-Ku-Cq7.title" = "Дата изменения";
+
+/* Class = "NSWindow"; title = "Bear"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Bear";
+
+/* Class = "NSMenuItem"; title = "Archive"; ObjectID = "Iv4-OT-I8Q"; */
+"Iv4-OT-I8Q.title" = "Архив";
+
+/* Class = "NSMenuItem"; title = "Title"; ObjectID = "ivh-hQ-tPH"; */
+"ivh-hQ-tPH.title" = "Заголовок";
+
+/* Class = "NSMenuItem"; title = "Tables"; ObjectID = "IzJ-Tc-LNM"; */
+"IzJ-Tc-LNM.title" = "Таблицы";
+
+/* Class = "NSMenuItem"; title = "Strikethrough"; ObjectID = "jDo-IK-Vcf"; */
+"jDo-IK-Vcf.title" = "Зачеркивание";
+
+/* Class = "NSMenu"; title = "Tables"; ObjectID = "Jnt-8O-jjA"; */
+"Jnt-8O-jjA.title" = "Таблицы";
+
+/* Class = "NSMenuItem"; title = "Twitter"; ObjectID = "Jtw-RA-1g2"; */
+"Jtw-RA-1g2.title" = "Twitter";
+
+/* Class = "NSMenuItem"; title = "Mark as Incomplete"; ObjectID = "JzU-tM-ZPt"; */
+"JzU-tM-ZPt.title" = "Отметить как незавершенное";
+
+/* Class = "NSMenuItem"; title = "Add Row Above"; ObjectID = "kaw-A5-Pfx"; */
+"kaw-A5-Pfx.title" = "Добавить строку выше";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Показать все";
+
+/* Class = "NSMenuItem"; title = "Website"; ObjectID = "Kgs-bE-kRc"; */
+"Kgs-bE-kRc.title" = "Веб-сайт";
+
+/* Class = "NSMenuItem"; title = "Community"; ObjectID = "kxk-8f-zmY"; */
+"kxk-8f-zmY.title" = "Сообщество";
+
+/* Class = "NSMenuItem"; title = "Open Logs Folder"; ObjectID = "kjG-UC-ULf"; */
+"kjG-UC-ULf.title" = "Открыть папку журналов";
+
+/* Class = "NSMenuItem"; title = "Preview in Marked"; ObjectID = "kyQ-at-yIj"; */
+"kyQ-at-yIj.title" = "Предпросмотр в Marked";
+
+/* Class = "NSMenuItem"; title = "Short Date (ISO 8601)"; ObjectID = "l6s-2c-9h9"; */
+"l6s-2c-9h9.title" = "Краткая дата (ISO 8601)";
+
+/* Class = "NSMenu"; title = "API Token"; ObjectID = "lAy-CL-Qat"; */
+"lAy-CL-Qat.title" = "Маркер API";
+
+/* Class = "NSMenuItem"; title = "Open App Support"; ObjectID = "LDQ-Zm-Ywf"; */
+"LDQ-Zm-Ywf.title" = "Окрыть поддержку приложения";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "Все окна — на передний план";
+
+/* Class = "NSMenuItem"; title = "Copy Link To Note"; ObjectID = "LMY-CU-PVh"; */
+"LMY-CU-PVh.title" = "Скопировать Cсылку на Заметку";
+
+/* Class = "NSMenuItem"; title = "Empty Trash"; ObjectID = "LTn-kn-QTj"; */
+"LTn-kn-QTj.title" = "Очистить Корзину";
+
+/* Class = "NSMenuItem"; title = "Time Only"; ObjectID = "LvB-av-s7c"; */
+"LvB-av-s7c.title" = "Только время";
+
+/* Class = "NSMenuItem"; title = "Show Todo"; ObjectID = "LVo-sa-xMP"; */
+"LVo-sa-xMP.title" = "Показать дело";
+
+/* Class = "NSMenuItem"; title = "Show All Notes"; ObjectID = "lz2-Ln-YDs"; */
+"lz2-Ln-YDs.title" = "Показать все заметки";
+
+/* Class = "NSMenuItem"; title = "Duplicate"; ObjectID = "m3x-1O-fX9"; */
+"m3x-1O-fX9.title" = "Дублировать";
+
+/* Class = "NSMenuItem"; title = "Show Untagged"; ObjectID = "maj-4h-fF3"; */
+"maj-4h-fF3.title" = "Показать без тегов";
+
+/* Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "mK6-2p-4JG"; */
+"mK6-2p-4JG.title" = "Проверить грамматику и правописание";
+
+/* Class = "NSMenuItem"; title = "Hide Attachments"; ObjectID = "mnm-de-gHK"; */
+"mnm-de-gHK.title" = "Скрыть вложения";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "mOR-hc-D2v"; */
+"mOR-hc-D2v.title" = "Файл";
+
+/* Class = "NSMenuItem"; title = "Delete Bear DB and CloudKit"; ObjectID = "mOY-wG-UhG"; */
+"mOY-wG-UhG.title" = "Удалить Bear DB и CloudKit";
+
+/* Class = "NSMenuItem"; title = "Main Window"; ObjectID = "mvl-rC-nH6"; */
+"mvl-rC-nH6.title" = "Главное окно";
+
+/* Class = "NSMenu"; title = "Advanced"; ObjectID = "mYT-uN-QlS"; */
+"mYT-uN-QlS.title" = "Дополнительно";
+
+/* Class = "NSMenuItem"; title = "Footnote"; ObjectID = "Mzf-0K-w0C"; */
+"Mzf-0K-w0C.title" = "Сноска";
+
+/* Class = "NSMenuItem"; title = "🎩 Debug"; ObjectID = "n5W-ct-6rm"; */
+"n5W-ct-6rm.title" = "🎩 Отладка";
+
+/* Class = "NSMenuItem"; title = "Move Row Up"; ObjectID = "NA2-xL-JVZ"; */
+"NA2-xL-JVZ.title" = "Переместить строку вверх";
+
+/* Class = "NSMenuItem"; title = "Note From Selection"; ObjectID = "NBA-UZ-9uf"; */
+"NBA-UZ-9uf.title" = "Заметка из выбранного";
+
+/* Class = "NSMenuItem"; title = "Delete Row"; ObjectID = "Nde-PJ-i1r"; */
+"Nde-PJ-i1r.title" = "Удалить строку";
+
+/* Class = "NSMenuItem"; title = "Move Column Right"; ObjectID = "NfH-Rd-IBp"; */
+"NfH-Rd-IBp.title" = "Переместить столбец вправо";
+
+/* Class = "NSMenuItem"; title = "Shift Right"; ObjectID = "Nju-yg-96n"; */
+"Nju-yg-96n.title" = "Сдвиг вправо";
+
+/* Class = "NSMenuItem"; title = "Renumber Footnotes"; ObjectID = "nlX-Rx-3ol"; */
+"nlX-Rx-3ol.title" = "Перенумеровать сноски";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Службы";
+
+/* Class = "NSMenuItem"; title = "Code"; ObjectID = "nUB-wC-Lyf"; */
+"nUB-wC-Lyf.title" = "Код";
+
+/* Class = "NSMenuItem"; title = "Evernote"; ObjectID = "obb-ND-LlW"; */
+"obb-ND-LlW.title" = "Evernote";
+
+/* Class = "NSMenuItem"; title = "Show App Theme Editor"; ObjectID = "oDU-Q5-kGa"; */
+"oDU-Q5-kGa.title" = "Показать приложение редактора тем";
+
+/* Class = "NSMenuItem"; title = "Hide Bear"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Скрыть Bear";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; */
+"OwM-mh-QMV.title" = "Найти предыдущее";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "Убрать в Dock";
+
+/* Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "Oyz-dy-DGm"; */
+"Oyz-dy-DGm.title" = "Остановить проговаривание";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "p2C-bf-Jnd"; */
+"p2C-bf-Jnd.title" = "Перейти в полноэкранный режим";
+
+/* Class = "NSMenuItem"; title = "Delete Notes Password"; ObjectID = "p7E-ey-CNz"; */
+"p7E-ey-CNz.title" = "Удалить пароль заметок";
+
+/* Class = "NSMenuItem"; title = "Align Column"; ObjectID = "Pcv-lh-GEa"; */
+"Pcv-lh-GEa.title" = "Выровнять столбец";
+
+/* Class = "NSMenuItem"; title = "Bold"; ObjectID = "pEz-cH-u5a"; */
+"pEz-cH-u5a.title" = "Жирный";
+
+/* Class = "NSMenuItem"; title = "Import Notes..."; ObjectID = "pfS-IA-Q9U"; */
+"pfS-IA-Q9U.title" = "Импорт заметок...";
+
+/* Class = "NSMenuItem"; title = "Open App Container"; ObjectID = "poy-ib-nWi"; */
+"poy-ib-nWi.title" = "Открыть контейнер приложения";
+
+/* Class = "NSMenuItem"; title = "Web Content Preferences..."; ObjectID = "Q4A-XV-CqL"; */
+"Q4A-XV-CqL.title" = "Настройки Веб-Контента...";
+
+/* Class = "NSMenuItem"; title = "Enable File Log"; ObjectID = "Q7E-KA-3Nc"; */
+"Q7E-KA-3Nc.title" = "Включить журнал файла";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "q09-fT-Sye"; */
+"q09-fT-Sye.title" = "Найти далее";
+
+/* Class = "NSMenuItem"; title = "Add Column Before"; ObjectID = "Q94-VJ-JYx"; */
+"Q94-VJ-JYx.title" = "Добавить столбец перед";
+
+/* Class = "NSMenuItem"; title = "Float on Top"; ObjectID = "QDn-0r-OVi"; */
+"QDn-0r-OVi.title" = "Поверх всех окон";
+
+/* Class = "NSMenu"; title = "Code"; ObjectID = "QFO-Ha-2gQ"; */
+"QFO-Ha-2gQ.title" = "Код";
+
+/* Class = "NSMenuItem"; title = "Short Date"; ObjectID = "qRC-bo-hCM"; */
+"qRC-bo-hCM.title" = "Краткий формат даты";
+
+/* Class = "NSMenuItem"; title = "Date and Time (ISO 8601)"; ObjectID = "Qye-eX-FvD"; */
+"Qye-eX-FvD.title" = "Дата и время (ISO 8601)";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "Изменение масштаба";
+
+/* Class = "NSMenuItem"; title = "Add Row"; ObjectID = "R4P-iG-joh"; */
+"R4P-iG-joh.title" = "Добавить строку";
+
+/* Class = "NSMenuItem"; title = "Right"; ObjectID = "R89-AD-XQk"; */
+"R89-AD-XQk.title" = "Справа";
+
+/* Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "rbD-Rh-wIN"; */
+"rbD-Rh-wIN.title" = "Проверять правописание при вводе";
+
+/* Class = "NSMenuItem"; title = "Lock Bear"; ObjectID = "rbq-Ln-IL4"; */
+"rbq-Ln-IL4.title" = "Блокировать Bear";
+
+/* Class = "NSMenu"; title = "Notes Sorting"; ObjectID = "rDh-7F-0ls"; */
+"rDh-7F-0ls.title" = "Сортировка заметок";
+
+/* Class = "NSMenuItem"; title = "API Token"; ObjectID = "RfL-zk-eUu"; */
+"RfL-zk-eUu.title" = "Маркер API";
+
+/* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "rgM-f4-ycn"; */
+"rgM-f4-ycn.title" = "Смарт-тире";
+
+/* Class = "NSMenuItem"; title = "Link"; ObjectID = "rnI-gE-Gbe"; */
+"rnI-gE-Gbe.title" = "Ввести ссылку";
+
+/* Class = "NSMenuItem"; title = "Show Locked"; ObjectID = "rTI-OT-dPN"; */
+"rTI-OT-dPN.title" = "Показать блокированные";
+
+/* Class = "NSMenuItem"; title = "Show Today"; ObjectID = "RTm-4i-lWE"; */
+"RTm-4i-lWE.title" = "Показать сегодняшние";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
+"Ruw-6m-B2m.title" = "Выбрать все";
+
+/* Class = "NSMenuItem"; title = "Move Down"; ObjectID = "Rzv-CY-1kt"; */
+"Rzv-CY-1kt.title" = "Переместить вниз";
+
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "S0p-oC-mLd"; */
+"S0p-oC-mLd.title" = "Перейти к выбранному";
+
+/* Class = "NSMenuItem"; title = "Restore"; ObjectID = "s6r-XX-RZj"; */
+"s6r-XX-RZj.title" = "Восстановить";
+
+/* Class = "NSMenuItem"; title = "Medium"; ObjectID = "SfR-K1-T1z"; */
+"SfR-K1-T1z.title" = "Средний размер";
+
+/* Class = "NSMenuItem"; title = "Toggle Styles Bar"; ObjectID = "sHx-ob-EA2"; */
+"sHx-ob-EA2.title" = "Переключить панель стилей";
+
+/* Class = "NSMenuItem"; title = "Toggle Word Count"; ObjectID = "SJf-Ju-uHj"; */
+"SJf-Ju-uHj.title" = "Переключить количество слов";
+
+/* Class = "NSMenuItem"; title = "Copy Note's Identifier"; ObjectID = "Soq-Hd-o0f"; */
+"Soq-Hd-o0f.title" = "Скопировать идентификатор заметки";
+
+/* Class = "NSMenuItem"; title = "Open Link"; ObjectID = "sU7-X7-jXF"; */
+"sU7-X7-jXF.title" = "Открыть ссылку";
+
+/* Class = "NSMenu"; title = "Privacy"; ObjectID = "Sxt-5S-NwX"; */
+"Sxt-5S-NwX.title" = "Конфиденциальность";
+
+/* Class = "NSMenuItem"; title = "Unfold All Headers"; ObjectID = "T8j-7f-ece"; */
+"T8j-7f-ece.title" = "Развернуть все заголовки";
+
+/* Class = "NSMenuItem"; title = "CloudKit Sync"; ObjectID = "tBb-i7-fbH"; */
+"tBb-i7-fbH.title" = "Синхронизация CloudKit";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Окно";
+
+/* Class = "NSMenuItem"; title = "Unarchive"; ObjectID = "tmZ-za-2AU"; */
+"tmZ-za-2AU.title" = "Разархивировать";
+
+/* Class = "NSMenuItem"; title = "Toggle Table of Contents"; ObjectID = "tqg-91-DfR"; */
+"tqg-91-DfR.title" = "Переключить содержание";
+
+/* Class = "NSMenuItem"; title = "Data Detectors"; ObjectID = "tRr-pd-1PS"; */
+"tRr-pd-1PS.title" = "Детекторы данных";
+
+/* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "UEZ-Bs-lqG"; */
+"UEZ-Bs-lqG.title" = "Прописные";
+
+/* Class = "NSMenu"; title = "Bear"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Bear";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
+"uRl-iY-unG.title" = "Вырезать";
+
+/* Class = "NSMenuItem"; title = "Toggle Backlinks"; ObjectID = "UvJ-yb-cAJ"; */
+"UvJ-yb-cAJ.title" = "Переключить обратные ссылки";
+
+/* Class = "NSMenuItem"; title = "Toggle Statistics"; ObjectID = "v0q-AX-khh"; */
+"v0q-AX-khh.title" = "Переключить панель информации";
+
+/* Class = "NSMenuItem"; title = "Newest on Top"; ObjectID = "Vbj-pt-XY6"; */
+"Vbj-pt-XY6.title" = "Сначала самые новые";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Скрыть другие";
+
+/* Class = "NSMenuItem"; title = "Creation Date"; ObjectID = "Vf1-6c-jdr"; */
+"Vf1-6c-jdr.title" = "Дата создания";
+
+/* Class = "NSMenuItem"; title = "End Editing"; ObjectID = "viO-YL-6vl"; */
+"viO-YL-6vl.title" = "Закончить редактирование";
+
+/* Class = "NSMenuItem"; title = "Highlighted Parts Only"; ObjectID = "vJn-Sd-Nt1"; */
+"vJn-Sd-Nt1.title" = "Только выделенные части";
+
+/* Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "vmV-6d-7jI"; */
+"vmV-6d-7jI.title" = "Верхний регистр";
+
+/* Class = "NSMenuItem"; title = "Current Date"; ObjectID = "VQ7-JN-nzV"; */
+"VQ7-JN-nzV.title" = "Ввести текущую дату";
+
+/* Class = "NSMenuItem"; title = "Import From..."; ObjectID = "VXV-vs-wYk"; */
+"VXV-vs-wYk.title" = "Импортировать из...";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
+"W48-6f-4Dl.title" = "Правка";
+
+/* Class = "NSMenuItem"; title = "New Note"; ObjectID = "Was-JA-tGl"; */
+"Was-JA-tGl.title" = "Новая заметка";
+
+/* Class = "NSMenu"; title = "Import From..."; ObjectID = "wie-dq-kqe"; */
+"wie-dq-kqe.title" = "Импортировать из...";
+
+/* Class = "NSMenuItem"; title = "Reddit"; ObjectID = "wkA-sE-99s"; */
+"wkA-sE-99s.title" = "Reddit";
+
+/* Class = "NSMenuItem"; title = "Preview Style"; ObjectID = "WLB-fh-7a5"; */
+"WLB-fh-7a5.title" = "Стиль предпросмотра";
+
+/* Class = "NSMenuItem"; title = "Print Current Text Storage"; ObjectID = "wld-kn-eXi"; */
+"wld-kn-eXi.title" = "Напечатать текущее хранилище текста";
+
+/* Class = "NSMenuItem"; title = "HTML"; ObjectID = "Woc-y5-qPO"; */
+"Woc-y5-qPO.title" = "HTML";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Справка";
+
+/* Class = "NSMenuItem"; title = "Large"; ObjectID = "wru-Qe-XxY"; */
+"wru-Qe-XxY.title" = "Большой размер";
+
+/* Class = "NSMenuItem"; title = "Hide Subtag Notes"; ObjectID = "Wtk-JU-hZQ"; */
+"Wtk-JU-hZQ.title" = "Скрыть заметки с подтегами";
+
+/* Class = "NSMenuItem"; title = "Show Archive"; ObjectID = "WvR-54-hIS"; */
+"WvR-54-hIS.title" = "Показать архив";
+
+/* Class = "NSMenu"; title = "Footnotes"; ObjectID = "x0q-NY-Q1m"; */
+"x0q-NY-Q1m.title" = "Сноски";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
+"x3v-GG-iWU.title" = "Скопировать";
+
+/* Class = "NSMenuItem"; title = "List"; ObjectID = "xBs-HE-hYa"; */
+"xBs-HE-hYa.title" = "Список";
+
+/* Class = "NSMenuItem"; title = "Toggle History Navigation"; ObjectID = "xr8-yq-kGs"; */
+"xr8-yq-kGs.title" = "Переключить отображение навигационных инструментов в истории";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "xrE-MZ-jX0"; */
+"xrE-MZ-jX0.title" = "Речь";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "Xz5-n4-O0W"; */
+"Xz5-n4-O0W.title" = "Найти…";
+
+/* Class = "NSMenuItem"; title = "Highlighter"; ObjectID = "y6k-ZJ-uxD"; */
+"y6k-ZJ-uxD.title" = "Отметка";
+
+/* Class = "NSMenu"; title = "Paste From"; ObjectID = "y6L-Rg-CjC"; */
+"y6L-Rg-CjC.title" = "Вставить из";
+
+/* Class = "NSMenuItem"; title = "Shift Left"; ObjectID = "Ybh-el-ZfM"; */
+"Ybh-el-ZfM.title" = "Сдвиг влево";
+
+/* Class = "NSMenu"; title = "🎩 Debug"; ObjectID = "Ycj-Al-bzS"; */
+"Ycj-Al-bzS.title" = "🎩 Отладка";
+
+/* Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "YEy-JH-Tfz"; */
+"YEy-JH-Tfz.title" = "Найти и заменить…";
+
+/* Class = "NSMenuItem"; title = "Underline"; ObjectID = "yfM-Mx-dlg"; */
+"yfM-Mx-dlg.title" = "Подчеркивание";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "yhp-Gm-Mt9"; */
+"yhp-Gm-Mt9.title" = "Удалить";
+
+/* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "Ynk-f8-cLZ"; */
+"Ynk-f8-cLZ.title" = "Начать проговаривание";
+
+/* Class = "NSMenuItem"; title = "Zoom In"; ObjectID = "Yo2-xf-9Os"; */
+"Yo2-xf-9Os.title" = "Приблизить";
+
+/* Class = "NSMenuItem"; title = "Move Column Left"; ObjectID = "ySa-uw-hZF"; */
+"ySa-uw-hZF.title" = "Переместить столбец влево";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "Ytm-Sl-Qzd"; */
+"Ytm-Sl-Qzd.title" = "Дата";
+
+/* Class = "NSMenuItem"; title = "Back"; ObjectID = "YUa-1i-YKT"; */
+"YUa-1i-YKT.title" = "Назад";
+
+/* Class = "NSMenuItem"; title = "Delete CloudKit"; ObjectID = "YYt-kT-tei"; */
+"YYt-kT-tei.title" = "Удалить CloudKit";
+
+/* Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "z6F-FW-3nz"; */
+"z6F-FW-3nz.title" = "Показать замены";
+
+/* Class = "NSMenuItem"; title = "Zoom Out"; ObjectID = "Ze7-go-EBO"; */
+"Ze7-go-EBO.title" = "Отдалить";
+
+/* Class = "NSMenuItem"; title = "Note"; ObjectID = "zHg-QN-NA6"; */
+"zHg-QN-NA6.title" = "Заметка";
+
+/* Class = "NSMenuItem"; title = "Restore Backup..."; ObjectID = "ziP-7c-3vx"; */
+"ziP-7c-3vx.title" = "Восстановить из резервной копии...";
+
+/* Class = "NSMenuItem"; title = "Change Password"; ObjectID = "zkz-dH-KDw"; */
+"zkz-dH-KDw.title" = "Изменить пароль";
+
+/* Class = "NSMenuItem"; title = "Left"; ObjectID = "zrB-IH-py7"; */
+"zrB-IH-py7.title" = "Слева";
+
+/* Class = "NSMenuItem"; title = "Delete Column"; ObjectID = "ZWf-3j-xNJ"; */
+"ZWf-3j-xNJ.title" = "Удалить столбец";
+
+/* Class = "NSMenuItem"; title = "Rich Text"; ObjectID = "zyc-sA-zR7"; */
+"zyc-sA-zR7.title" = "Форматированный текст";
+

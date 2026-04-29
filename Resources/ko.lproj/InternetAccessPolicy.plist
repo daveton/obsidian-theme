@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationDescription</key>
+	<string>Bear는 macOS, iOS, Apple Watch용 메모 및 필기 앱입니다. 간단하지만 유연한 필기 도구와 뛰어난 마크다운 지원 그리고 메모 정리에 사용되는 강력한 태그 시스템을 제공합니다.</string>
+	<key>DeveloperName</key>
+	<string>Shiny Frog Ltd.</string>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*.appcenter.ms,*.data.microsoft.com</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear의 작동의 최근에 중단되었습니다. 익명으로 된 작동 중단 로그를 AppCenter 에 전송하여 이 문제를 해결하도록 허락하시겠습니까? 개인 데이터는 공유되지 않습니다.</string>
+			<key>DenyConsequences</key>
+			<string>저희가 이 작동 중단 상황을 조사하거나 문제를 해결할 수 없게 됩니다.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>https://mercury.bear.app</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear가 이 링크를 사용하고 메모로 저장하려면 해당 링크를 검사할 수 있는 권한이 필요합니다.  이 과정 중 Bear는 개인 정보를 공유하지 않습니다.</string>
+			<key>DenyConsequences</key>
+			<string>Bear가 이 링크의 웹사이트에 포함된 콘텐츠를 메모에 저장할 수 없게 됩니다.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>페이지의 제목을 메모에 추가하고 링크로 연결할 수 있도록 Bear가 클립보드 안의 URL을 확인하려고 합니다. 이 과정 중 Bear는 개인 정보를 공유하지 않습니다. 이 기능을 비활성화하려면 Bear의 환경 설정에서 &apos;제목 자동 채우기&apos; 옵션을 전환하세요.</string>
+			<key>DenyConsequences</key>
+			<string>Bear가 링크 페이지의 제목를 확인하려면 먼저 URL을 메모 안에 붙여넣어야 합니다.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

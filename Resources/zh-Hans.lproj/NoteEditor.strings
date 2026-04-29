@@ -1,0 +1,110 @@
+/* Class = "NSMenuItem"; title = "HTML"; ObjectID = "0zO-3E-XLd"; */
+"0zO-3E-XLd.title" = "网页 (.html)";
+
+/* Class = "NSMenuItem"; title = "Copy Note's Identifier"; ObjectID = "5zC-fe-Wp1"; */
+"5zC-fe-Wp1.title" = "复制笔记的标识符";
+
+/* Class = "NSMenuItem"; title = "Heading 3"; ObjectID = "6yC-8R-rqB"; */
+"6yC-8R-rqB.title" = "三级标题";
+
+/* Class = "NSMenuItem"; title = "Keep Tags"; ObjectID = "7gE-M3-Vfi"; */
+"7gE-M3-Vfi.title" = "保留标签";
+
+/* Class = "NSMenuItem"; title = "Heading 4"; ObjectID = "8Nv-xk-vBy"; */
+"8Nv-xk-vBy.title" = "四级标题";
+
+/* Class = "NSMenu"; title = "Privacy"; ObjectID = "B8O-ti-fkr"; */
+"B8O-ti-fkr.title" = "加密与锁定";
+
+/* Class = "NSMenuItem"; title = "Copy Link to here"; ObjectID = "Bee-1l-gaQ"; */
+"Bee-1l-gaQ.title" = "拷贝笔记标题链接";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "bTV-GQ-WVf"; */
+"bTV-GQ-WVf.title" = "Markdown";
+
+/* Class = "NSMenuItem"; title = "Privacy"; ObjectID = "Bz0-78-pmH"; */
+"Bz0-78-pmH.title" = "加密与锁定";
+
+/* Class = "NSTextFieldCell"; title = "Note Title"; ObjectID = "chp-a8-czd"; */
+"chp-a8-czd.title" = "笔记标题";
+
+/* Class = "NSMenuItem"; title = "Unarchive"; ObjectID = "dyK-vh-E7h"; */
+"dyK-vh-E7h.title" = "取消归档";
+
+/* Class = "NSMenuItem"; title = "Heading 2"; ObjectID = "EbE-qZ-4Ji"; */
+"EbE-qZ-4Ji.title" = "二级标题";
+
+/* Class = "NSMenuItem"; title = "Heading 1"; ObjectID = "eKC-Ac-9y9"; */
+"eKC-Ac-9y9.title" = "一级标题";
+
+/* Class = "NSMenuItem"; title = "Open In New Window"; ObjectID = "ex2-jY-43H"; */
+"ex2-jY-43H.title" = "在新窗口中打开";
+
+/* Class = "NSMenuItem"; title = "Plain Text"; ObjectID = "fKH-1S-qs4"; */
+"fKH-1S-qs4.title" = "纯文本";
+
+/* Class = "NSMenuItem"; title = "Fold All Headers"; ObjectID = "GQB-wO-8uZ"; */
+"GQB-wO-8uZ.title" = "折叠所有标题";
+
+/* Class = "NSMenuItem"; title = "Copy As"; ObjectID = "hdG-bp-pvy"; */
+"hdG-bp-pvy.title" = "复制为";
+
+/* Class = "NSMenuItem"; title = "Add Password"; ObjectID = "iAY-qb-0s3"; */
+"iAY-qb-0s3.title" = "加密";
+
+/* Class = "NSMenuItem"; title = "Remove Password"; ObjectID = "iG1-Gw-Gi0"; */
+"iG1-Gw-Gi0.title" = "移除加密";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "Jil-wZ-B49"; */
+"Jil-wZ-B49.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "Change Password"; ObjectID = "kdm-gl-qmT"; */
+"kdm-gl-qmT.title" = "更改密码";
+
+/* Class = "NSMenuItem"; title = "Unfold All Headers"; ObjectID = "kf0-AQ-01d"; */
+"kf0-AQ-01d.title" = "展开所有标题";
+
+/* Class = "NSMenuItem"; title = "Rich Text"; ObjectID = "KsE-78-AVy"; */
+"KsE-78-AVy.title" = "多信息文本";
+
+/* Class = "NSMenuItem"; title = "Heading 6"; ObjectID = "MEx-bp-l1d"; */
+"MEx-bp-l1d.title" = "六级标题";
+
+/* Class = "NSMenuItem"; title = "Archive"; ObjectID = "pDo-ak-ZgK"; */
+"pDo-ak-ZgK.title" = "归档";
+
+/* Class = "NSMenuItem"; title = "Export Note..."; ObjectID = "s8L-Ex-yJV"; */
+"s8L-Ex-yJV.title" = "导出笔记...";
+
+/* Class = "NSMenuItem"; title = "Highlighted Parts Only"; ObjectID = "ta5-2z-qOr"; */
+"ta5-2z-qOr.title" = "仅显示高亮部分";
+
+/* Class = "NSMenuItem"; title = "Restore"; ObjectID = "Tuj-8T-LRa"; */
+"Tuj-8T-LRa.title" = "恢复";
+
+/* Class = "NSMenuItem"; title = "Heading 5"; ObjectID = "TVX-Ah-MZl"; */
+"TVX-Ah-MZl.title" = "五级标题";
+
+/* Class = "NSMenu"; title = "Copy As"; ObjectID = "tZc-Iy-U9q"; */
+"tZc-Iy-U9q.title" = "复制为";
+
+/* Class = "NSMenuItem"; title = "Toggle History Navigation"; ObjectID = "Led-ix-iBm"; */
+"Led-ix-iBm.title" = "显示/隐藏浏览导航";
+
+/* Class = "NSMenuItem"; title = "Float on Top"; ObjectID = "y2t-7C-cqO"; */
+"y2t-7C-cqO.title" = "窗口置于最上层";
+
+/* Class = "NSMenuItem"; title = "Copy Link To Note"; ObjectID = "Y8U-qT-t6y"; */
+"Y8U-qT-t6y.title" = "拷贝笔记链接";
+
+/* Class = "NSMenuItem"; title = "Toggle Folding"; ObjectID = "ynn-P9-uVr"; */
+"ynn-P9-uVr.title" = "折叠/展开";
+
+/* Class = "NSMenuItem"; title = "Toggle Statistics"; ObjectID = "B3l-ae-gnE"; */
+"B3l-ae-gnE.title" = "切换数据";
+
+/* Class = "NSMenuItem"; title = "Search"; ObjectID = "xE1-qg-mEB"; */
+"xE1-qg-mEB.title" = "搜索";
+
+/* Class = "NSMenuItem"; title = "Share"; ObjectID = "XSO-UE-DtE"; */
+"fdK-FK-BfO.title" = "共享";

@@ -1,0 +1,48 @@
+/* Class = "NSTextFieldCell"; title = "Tag name"; ObjectID = "135-s5-BZH"; */
+"135-s5-BZH.title" = "Nombre de etiqueta";
+
+/* Class = "NSMenuItem"; title = "Delete Tag"; ObjectID = "aCG-MV-SVX"; */
+"aCG-MV-SVX.title" = "Eliminar etiqueta";
+
+/* Class = "NSMenuItem"; title = "Pin Tag"; ObjectID = "aij-0m-8jd"; */
+"aij-0m-8jd.title" = "Anclar etiqueta";
+
+/* Class = "NSMenuItem"; title = "Edit Tag"; ObjectID = "baF-0u-6NT"; */
+"baF-0u-6NT.title" = "Editar etiqueta";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Preferences"; ObjectID = "bh6-tk-WEq"; */
+"bh6-tk-WEq.ibExternalAccessibilityDescription" = "Preferencias";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Show preferences"; ObjectID = "bh6-tk-WEq"; */
+"bh6-tk-WEq.ibExternalAccessibilityHelp" = "Mostrar preferencias";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Preferences"; ObjectID = "bh6-tk-WEq"; */
+"bh6-tk-WEq.ibShadowedToolTip" = "Preferencias";
+
+/* Class = "NSMenuItem"; title = "Empty Trash"; ObjectID = "duJ-RP-UPj"; */
+"duJ-RP-UPj.title" = "Vaciar papelera";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "mPV-oi-CFY"; */
+"mPV-oi-CFY.title" = "Hecho";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Rename tag"; ObjectID = "oKm-lt-3iv"; */
+"oKm-lt-3iv.placeholderString" = "Cambiar nombre de etiqueta";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "s45-1V-8wI"; */
+"s45-1V-8wI.title" = "Celda de texto";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Preferences"; ObjectID = "VCa-BU-s4M"; */
+"VCa-BU-s4M.ibExternalAccessibilityDescription" = "Sinc.";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Show preferences"; ObjectID = "VCa-BU-s4M"; */
+"VCa-BU-s4M.ibExternalAccessibilityHelp" = "Mostrar Sinc.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Preferences"; ObjectID = "VCa-BU-s4M"; */
+"VCa-BU-s4M.ibShadowedToolTip" = "Sinc.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Vdu-nx-bCb"; */
+"Vdu-nx-bCb.title" = "Cancelar";
+
+/* Class = "NSTextFieldCell"; title = "Edit Tag"; ObjectID = "Xq6-Ir-fmu"; */
+"Xq6-Ir-fmu.title" = "Editar etiqueta";
+
