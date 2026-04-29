@@ -1,0 +1,594 @@
+/*
+ * Bear Theme for Obsidian
+ * Based on Bear App's Red Graphite (Light) and Charcoal (Dark) themes
+ * Author: Bear Obsidian Theme Project
+ * Version: 1.0.0
+ */
+
+/* ==========================================================================
+   CSS Variables - Red Graphite (Light Theme)
+   ========================================================================== */
+.theme-light {
+  /* Background Colors */
+  --background-primary: #FFFFFF;
+  --background-primary-alt: #F5F5F5;
+  --background-secondary: #FAFAFA;
+  --background-secondary-alt: #F0F0F0;
+  --background-modifier-border: #E5E5E5;
+  --background-modifier-form-field: #FFFFFF;
+  --background-modifier-form-field-highlighted: #FFFFFF;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+  --background-modifier-success: #4CAF50;
+  --background-modifier-error: #E04E4E;
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
+
+  /* Text Colors */
+  --text-normal: #2C2C2C;
+  --text-muted: #8E8E8E;
+  --text-faint: #B4B4B4;
+  --text-accent: #E04E4E;
+  --text-accent-hover: #C73E3E;
+  --text-error: #E04E4E;
+  --text-success: #4CAF50;
+  --text-highlight-bg: rgba(224, 78, 78, 0.15);
+  --text-selection: rgba(224, 78, 78, 0.25);
+
+  /* Interactive Elements */
+  --interactive-normal: #FFFFFF;
+  --interactive-hover: #F5F5F5;
+  --interactive-accent: #E04E4E;
+  --interactive-accent-hover: #C73E3E;
+
+  /* Graph Colors */
+  --graph-node: #2C2C2C;
+  --graph-node-unresolved: #B4B4B4;
+  --graph-node-tag: #E04E4E;
+  --graph-node-attachment: #0EA35F;
+  --graph-line: #E5E5E5;
+  --graph-text: #2C2C2C;
+
+  /* Scrollbar */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(0, 0, 0, 0.15);
+  --scrollbar-thumb-hover: rgba(0, 0, 0, 0.25);
+  --scrollbar-active-thumb: rgba(0, 0, 0, 0.3);
+
+  /* Bear-specific Colors */
+  --bear-red: #E04E4E;
+  --bear-red-hover: #C73E3E;
+  --bear-gray: #8E8E8E;
+  --bear-light-gray: #B4B4B4;
+  --bear-border: #E5E5E5;
+}
+
+/* ==========================================================================
+   CSS Variables - Charcoal (Dark Theme)
+   ========================================================================== */
+.theme-dark {
+  /* Background Colors */
+  --background-primary: #2C2C2C;
+  --background-primary-alt: #3C3C3C;
+  --background-secondary: #262626;
+  --background-secondary-alt: #323232;
+  --background-modifier-border: #444444;
+  --background-modifier-form-field: #3C3C3C;
+  --background-modifier-form-field-highlighted: #4C4C4C;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #4CAF50;
+  --background-modifier-error: #FF6B6B;
+  --background-modifier-cover: rgba(0, 0, 0, 0.6);
+
+  /* Text Colors */
+  --text-normal: #E0E0E0;
+  --text-muted: #999999;
+  --text-faint: #666666;
+  --text-accent: #FF6B6B;
+  --text-accent-hover: #FF8585;
+  --text-error: #FF6B6B;
+  --text-success: #4CAF50;
+  --text-highlight-bg: rgba(255, 107, 107, 0.2);
+  --text-selection: rgba(255, 107, 107, 0.3);
+
+  /* Interactive Elements */
+  --interactive-normal: #3C3C3C;
+  --interactive-hover: #4C4C4C;
+  --interactive-accent: #FF6B6B;
+  --interactive-accent-hover: #FF8585;
+
+  /* Graph Colors */
+  --graph-node: #E0E0E0;
+  --graph-node-unresolved: #666666;
+  --graph-node-tag: #FF6B6B;
+  --graph-node-attachment: #4CAF50;
+  --graph-line: #444444;
+  --graph-text: #E0E0E0;
+
+  /* Scrollbar */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(255, 255, 255, 0.15);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.25);
+  --scrollbar-active-thumb: rgba(255, 255, 255, 0.35);
+
+  /* Bear-specific Colors */
+  --bear-red: #FF6B6B;
+  --bear-red-hover: #FF8585;
+  --bear-gray: #999999;
+  --bear-light-gray: #666666;
+  --bear-border: #444444;
+}
+
+/* ==========================================================================
+   Typography - Bear Sans UI Style
+   ========================================================================== */
+body {
+  /* Font Families */
+  --font-interface: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-editor: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", SFMono-Regular, Monaco, "Cascadia Code", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+  /* Font Sizes */
+  --font-ui-smaller: 11px;
+  --font-ui-small: 12px;
+  --font-ui-medium: 14px;
+  --font-ui-large: 16px;
+  --font-editor-size: 16px;
+  --font-editor-heading-size: 28px;
+
+  /* Line Heights */
+  --line-height-normal: 1.6;
+  --line-height-tight: 1.4;
+  --line-height-heading: 1.3;
+
+  /* Letter Spacing */
+  --letter-spacing-normal: 0;
+  --letter-spacing-tight: -0.01em;
+}
+
+/* Apply fonts */
+body,
+.app-container {
+  font-family: var(--font-interface);
+}
+
+.markdown-source-view,
+.markdown-preview-view {
+  font-family: var(--font-editor);
+  font-size: var(--font-editor-size);
+  line-height: var(--line-height-normal);
+}
+
+/* ==========================================================================
+   Editor Styles - Markdown Content
+   ========================================================================== */
+
+/* Headings - Bear style with generous spacing */
+.markdown-preview-view h1,
+.markdown-source-view .HyperMD-header-1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-tight);
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  color: var(--text-normal);
+}
+
+.markdown-preview-view h2,
+.markdown-source-view .HyperMD-header-2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: var(--line-height-heading);
+  margin-top: 28px;
+  margin-bottom: 14px;
+  color: var(--text-normal);
+}
+
+.markdown-preview-view h3,
+.markdown-source-view .HyperMD-header-3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: var(--line-height-heading);
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: var(--text-normal);
+}
+
+.markdown-preview-view h4,
+.markdown-source-view .HyperMD-header-4,
+.markdown-preview-view h5,
+.markdown-source-view .HyperMD-header-5,
+.markdown-preview-view h6,
+.markdown-source-view .HyperMD-header-6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: var(--line-height-heading);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text-normal);
+}
+
+/* Paragraphs */
+.markdown-preview-view p,
+.markdown-source-view .cm-line {
+  margin-bottom: 16px;
+}
+
+/* Bold and Italic - Bear style inline markers */
+.markdown-preview-view strong,
+.markdown-source-view .cm-strong {
+  font-weight: 700;
+  color: var(--text-normal);
+}
+
+.markdown-preview-view em,
+.markdown-source-view .cm-em {
+  font-style: italic;
+}
+
+/* Links - Bear red accent */
+.markdown-preview-view a,
+.markdown-source-view .cm-link {
+  color: var(--text-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.markdown-preview-view a:hover,
+.markdown-source-view .cm-link:hover {
+  color: var(--text-accent-hover);
+  border-bottom-color: var(--text-accent);
+}
+
+/* External link indicator - Arrow icon from Bear */
+.external-link::after {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 10px;
+  margin-left: 4px;
+  vertical-align: middle;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='10' viewBox='0 0 11 10'%3E%3Cpath d='M0 5h9M11 5L6 0.5v9L11 5z' fill='none' stroke='%23E04E4E' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.theme-dark .external-link::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='10' viewBox='0 0 11 10'%3E%3Cpath d='M0 5h9M11 5L6 0.5v9L11 5z' fill='none' stroke='%23FF6B6B' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+
+/* Lists - Bear style with offset */
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  padding-left: 24px;
+  margin-bottom: 16px;
+}
+
+.markdown-preview-view ul {
+  list-style-type: disc;
+}
+
+.markdown-preview-view ul ul {
+  list-style-type: circle;
+}
+
+.markdown-preview-view ol {
+  list-style-type: decimal;
+}
+
+.markdown-preview-view li {
+  margin-bottom: 6px;
+  padding-left: 4px;
+}
+
+/* Checkboxes - Bear SVG checkbox style */
+.markdown-preview-view input[type="checkbox"],
+.task-list-item-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--bear-light-gray);
+  border-radius: 3px;
+  background-color: var(--background-primary);
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+  margin-right: 8px;
+  transition: all 0.15s ease;
+}
+
+.markdown-preview-view input[type="checkbox"]:checked,
+.task-list-item-checkbox:checked {
+  background-color: var(--background-primary);
+  border-color: var(--bear-light-gray);
+}
+
+.markdown-preview-view input[type="checkbox"]:checked::after,
+.task-list-item-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 0;
+  width: 9px;
+  height: 6px;
+  border: solid #555;
+  border-width: 0 0 2px 2px;
+  transform: rotate(-45deg);
+}
+
+.theme-dark .markdown-preview-view input[type="checkbox"]:checked::after,
+.theme-dark .task-list-item-checkbox:checked::after {
+  border-color: #E0E0E0;
+}
+
+/* Task list item styling */
+.task-list-item {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.task-list-item.is-checked {
+  text-decoration: line-through;
+  color: var(--text-faint);
+}
+
+/* Blockquotes - Bear style */
+.markdown-preview-view blockquote,
+.markdown-source-view .HyperMD-quote {
+  border-left: 3px solid var(--text-accent);
+  padding: 8px 16px;
+  margin: 16px 0;
+  background-color: var(--background-primary-alt);
+  border-radius: 0 4px 4px 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Code - Inline and blocks */
+.markdown-preview-view code,
+.markdown-source-view .cm-inline-code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background-color: var(--background-primary-alt);
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: var(--text-normal);
+}
+
+.markdown-preview-view pre {
+  background-color: var(--background-primary-alt);
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.markdown-preview-view pre code {
+  background-color: transparent;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Code blocks with syntax highlighting background */
+.cm-s-obsidian .HyperMD-codeblock {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.5;
+  background-color: var(--background-primary-alt);
+  padding: 2px 0;
+}
+
+/* Horizontal Rule */
+.markdown-preview-view hr,
+.markdown-source-view .HyperMD-hr {
+  border: none;
+  border-top: 1px solid var(--background-modifier-border);
+  margin: 24px 0;
+}
+
+/* Tables - Bear minimal style */
+.markdown-preview-view table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-preview-view th {
+  font-weight: 600;
+  color: var(--text-normal);
+  background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view tr:hover {
+  background-color: var(--background-primary-alt);
+}
+
+/* ==========================================================================
+   UI Components - Sidebars, Tags, etc.
+   ========================================================================== */
+
+/* Sidebar */
+.nav-folder-title,
+.nav-file-title {
+  font-size: 14px;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.nav-folder-title:hover,
+.nav-file-title:hover {
+  background-color: var(--interactive-hover);
+}
+
+.nav-folder-title.is-active,
+.nav-file-title.is-active {
+  background-color: var(--interactive-accent);
+  color: white;
+}
+
+/* Tags - Bear pill style */
+.tag {
+  background-color: var(--background-primary-alt);
+  color: var(--text-accent);
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.tag:hover {
+  background-color: var(--text-accent);
+  color: white;
+}
+
+/* Search highlights */
+.search-result-file-matched-text {
+  background-color: var(--text-highlight-bg);
+  color: var(--text-normal);
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+/* Status bar */
+.status-bar {
+  font-size: 12px;
+  background-color: var(--background-secondary);
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Scrollbars - Minimal Bear style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--scrollbar-active-thumb);
+}
+
+/* ==========================================================================
+   Graph View - Bear colors
+   ========================================================================== */
+.graph-view.color-fill {
+  color: var(--graph-node);
+}
+
+.graph-view.color-fill-unresolved {
+  color: var(--graph-node-unresolved);
+  opacity: 0.5;
+}
+
+.graph-view.color-fill-tag {
+  color: var(--graph-node-tag);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--graph-node-attachment);
+}
+
+.graph-view.color-line {
+  color: var(--graph-line);
+}
+
+.graph-view.color-text {
+  color: var(--graph-text);
+}
+
+/* ==========================================================================
+   Special Elements - Hashtags, Arrows, etc.
+   ========================================================================== */
+
+/* Highlight inline hashtags with Bear style */
+.cm-hashtag {
+  color: var(--text-accent);
+  text-decoration: none;
+}
+
+/* Arrow symbols styling */
+.cm-hmd-internal-link,
+.cm-link {
+  transition: color 0.15s ease;
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--text-selection);
+}
+
+/* Focus outline - minimal */
+*:focus {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Mobile Adjustments
+   ========================================================================== */
+@media screen and (max-width: 768px) {
+  .markdown-preview-view h1,
+  .markdown-source-view .HyperMD-header-1 {
+    font-size: 24px;
+  }
+
+  .markdown-preview-view h2,
+  .markdown-source-view .HyperMD-header-2 {
+    font-size: 20px;
+  }
+
+  .markdown-preview-view h3,
+  .markdown-source-view .HyperMD-header-3 {
+    font-size: 17px;
+  }
+
+  .markdown-preview-view ul,
+  .markdown-preview-view ol {
+    padding-left: 20px;
+  }
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+@media print {
+  .markdown-preview-view {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  .markdown-preview-view a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .external-link::after {
+    display: none;
+  }
+}

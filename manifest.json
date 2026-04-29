@@ -1,0 +1,9 @@
+{
+  "name": "Obsidian UI",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "author": "Obsidian Theme Project",
+  "authorUrl": "",
+  "description": "A clean, minimal theme inspired by Bear App's Red Graphite and Charcoal themes",
+  "modes": ["light", "dark"]
+}
