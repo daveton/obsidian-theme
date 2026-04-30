@@ -1,8 +1,8 @@
 # Dave's Bear Themes for Obsidian
 
-> 本主题系列包含 16 个 Bear App 风格的 Obsidian 主题，以及一个极简电影感的 Obsidian Style 主题。
+> 本主题系列包含 12 个 Bear App 风格的 Obsidian 主题，以及一个极简电影感的 DaveStyle 主题。
 
-## 🎬 Dave's Obsidian Style（核心主题）
+## 🎬 DaveStyle（极简风格主题）
 
 A minimalist, cinematic writing experience for Obsidian. Crafted by a senior UI/UX designer with 9 years of experience.
 
@@ -72,6 +72,7 @@ A pixel-perfect conversion of all 16 [Bear App](https://bear.app) themes to Obsi
 | **Dave Toothpaste** | ✅ | ✅ | Fresh mint colors |
 | **Dave Dieci** | - | ✅ | Warm amber-brown |
 | **Dave Ayu** | - | ✅ | Ayu Mirage colors |
+| **DaveStyle** | ✅ | ✅ | 极简电影感主题 / Minimalist cinematic theme |
 
 ## ✨ Features
 
@@ -136,14 +137,24 @@ Near-black background for OLED displays and dark room writing.
 
 ```
 obsidian-theme/
-├── dave-graphite/          # ⭐ Main theme (submitted to Obsidian Store)
+├── README.md
+├── dave-style/             # ⭐ 极简电影感主题
+│   ├── theme.css
+│   └── manifest.json
+├── dave-graphite/          # Bear 风格主题
 │   ├── theme.css
 │   └── manifest.json
 ├── dave-solarized/
 ├── dave-duotone/
 ├── dave-charcoal/
 ├── dave-dracula/
-└── ... (12 more themes)
+├── dave-gotham/
+├── dave-high-contrast/
+├── dave-panic-mode/
+├── dave-cobalt/
+├── dave-toothpaste/
+├── dave-dieci/
+└── dave-ayu/
 ```
 
 ## 🏷️ Release Tags
