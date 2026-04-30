@@ -29,6 +29,11 @@ const THEMES = {
     name: 'Dave Toothpaste',
     description: 'Fresh mint colors',
     modes: ['light', 'dark']
+  },
+  'primary': {
+    name: 'Primary',
+    description: 'Primary theme by Cecilia May',
+    modes: ['light', 'dark']
   }
 };
 
