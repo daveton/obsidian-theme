@@ -1,6 +1,7 @@
 {
-  "name": "Dave High Contrast",
+  "name": "Dave uhigh-contrast",
   "version": "1.0.0",
-  "minAppVersion": "1.0.0",
-  "author": "Dave"
+  "minAppVersion": "0.15.0",
+  "author": "Dave",
+  "modes": ["dark"]
 }

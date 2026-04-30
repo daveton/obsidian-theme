@@ -1,15 +1,63 @@
 /*
  * Dave Gotham Theme
- * Dark blue-based theme
+ * Dark blue-based theme - unified format
  * Author: Dave
  * Version: 1.0.0
  */
 
 /* ==========================================================================
-   CSS Variables - Gotham
+   SHARED VARIABLES
    ========================================================================== */
 :root {
-  /* Background Colors - Gotham */
+  --font-interface: 'Bear Sans UI', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-editor: 'Bear Sans UI', -apple-system, "SF Pro Text", "Segoe UI", Arial, sans-serif;
+  --font-mono: "SF Mono", Monaco, Consolas, monospace;
+
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 24px;
+
+  --line-height-tight: 1.3;
+  --line-height-normal: 1.65;
+  --p-spacing: 1.2em;
+  --heading-spacing: 1.5em;
+  --file-line-width: 720px;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --transition-fast: 150ms ease;
+}
+
+@font-face {
+  font-family: 'Bear Sans UI';
+  src: local('BearSansUI-Regular'), local('Bear Sans UI');
+  font-weight: 400 500;
+  font-display: swap;
+}
+
+body {
+  font-family: var(--font-interface);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+}
+
+.markdown-preview-view h1 { font-size: var(--font-size-3xl); font-weight: 700; }
+.markdown-preview-view h2 { font-size: var(--font-size-2xl); font-weight: 600; }
+.markdown-preview-view h3 { font-size: var(--font-size-xl); font-weight: 600; }
+
+.markdown-source-view .cm-content,
+.markdown-preview-view {
+  padding-bottom: 30vh;
+}
+
+/* ==========================================================================
+   DARK THEME - Gotham
+   ========================================================================== */
+.theme-dark {
   --background-primary: #0A0F14;
   --background-primary-alt: #1A2028;
   --background-secondary: #05080C;
@@ -22,7 +70,6 @@
   --background-modifier-error: #E74C3C;
   --background-modifier-cover: rgba(0, 0, 0, 0.7);
 
-  /* Text Colors - Gotham */
   --text-normal: #D6E9FF;
   --text-muted: #195466;
   --text-faint: #2A4A5C;
@@ -33,13 +80,11 @@
   --text-highlight-bg: rgba(37, 178, 188, 0.2);
   --text-selection: rgba(37, 178, 188, 0.3);
 
-  /* Interactive Elements */
   --interactive-normal: #1A2028;
   --interactive-hover: #253040;
   --interactive-accent: #25B2BC;
   --interactive-accent-hover: #3BE0E8;
 
-  /* Graph Colors */
   --graph-node: #D6E9FF;
   --graph-node-unresolved: #2A4A5C;
   --graph-node-tag: #25B2BC;
@@ -47,20 +92,17 @@
   --graph-line: #2B3A4D;
   --graph-text: #D6E9FF;
 
-  /* Scrollbar */
   --scrollbar-bg: transparent;
   --scrollbar-thumb: rgba(25, 84, 102, 0.5);
   --scrollbar-thumb-hover: rgba(37, 178, 188, 0.6);
   --scrollbar-active-thumb: rgba(37, 178, 188, 0.8);
 
-  /* Theme Colors */
   --dave-red: #E74C3C;
   --dave-red-hover: #FF6B6B;
   --dave-gray: #195466;
   --dave-light-gray: #2A4A5C;
   --dave-border: #2B3A4D;
 
-  /* Obsidian Accent Color (HSL) - Teal */
   --accent-h: 183;
   --accent-s: 66%;
   --accent-l: 42%;

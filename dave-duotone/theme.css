@@ -1,12 +1,12 @@
 /*
- * Dave Charcoal Theme
- * Dark charcoal theme - unified format
+ * Dave Duotone Theme
+ * Unified duotone theme with purple and warm variants
  * Author: Dave
  * Version: 1.0.0
  */
 
 /* ==========================================================================
-   SHARED VARIABLES - Typography, Spacing
+   SHARED VARIABLES
    ========================================================================== */
 :root {
   --font-interface: 'Bear Sans UI', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
@@ -24,7 +24,11 @@
   --line-height-tight: 1.3;
   --line-height-normal: 1.65;
   --p-spacing: 1.2em;
-  --heading-spac  --heading-spac  --heading-spac  --heading-spac  --heading-spac  --heading-spac  -us-md: 6px;
+  --heading-spacing: 1.5em;
+  --file-line-width: 720px;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
   --transition-fast: 150ms ease;
 }
 
@@ -51,57 +55,97 @@ body {
 }
 
 /* ==========================================================================
-   DARK THEME - Charcoal
+   LIGHT THEME - Duotone Light (Purple)
    ========================================================================== */
-.theme-dark {
-  --background-primary: #1A1A1A;
-  --background-primary-alt: #2A2A2A;
-  --background-secondary: #141414;
-  --background-secondary-alt: #222222;
-  --background-modifier-border: #3A3A3A;
-  --background-modifier-form-field: #2A2A2A;
-  --background-modifier-form-field-highlighted: #333333;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.5);
-  --background-modifier-success: #4CAF50;
-  --background-modifier-error: #FF6B6B;
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+.theme-light {
+  --background-primary: #F8F5FF;
+  --background-primary-alt: #EDE5F7;
+  --background-secondary: #F2EDFA;
+  --background-secondary-alt: #E5DAF2;
+  --background-modifier-border: #D1C4E9;
+  --background-modifier-success: #7E57C2;
+  --background-modifier-error: #E53935;
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
 
-  --text-normal: #E0E0E0;
-  --text-muted: #888888;
-  --text-faint: #555555;
-  --text-accent: #FF6B6B;
-  --text-accent-hover: #FF8A8A;
-  --text-error: #FF6B6B;
-  --text-success: #4CAF50;
-  --text-highlight-bg: rgba(255, 107, 107, 0.2);
-  --text-selection: rgba(255, 107, 107, 0.3);
+  --text-normal: #4A148C;
+  --text-muted: #9575CD;
+  --text-faint: #B39DDB;
+  --text-accent: #7E57C2;
+  --text-accent-hover: #9575CD;
+  --text-error: #E53935;
+  --text-success: #7E57C2;
+  --text-highlight-bg: rgba(126, 87, 194, 0.15);
+  --text-selection: rgba(126, 87, 194, 0.25);
 
-  --interactive-normal: #2A2A2A;
-  --interactive-hover: #333333;
-  --interactive-accent: #FF6B6B;
-  --interactive-accent-hover: #FF8A8A;
+  --interactive-normal: #F8F5FF;
+  --interactive-hover: #EDE5F7;
+  --interactive-accent: #7E57C2;
+  --interactive-accent-hover: #9575CD;
 
-  --graph-node: #E0E0E0;
-  --graph-node-unresolved: #555555;
-  --graph-node-tag: #FF6B6B;
-  --graph-node-attachment: #4CAF50;
-  --graph-line: #3A3A3A;
-  --graph-text: #E0E0E0;
+  --graph-node: #4A148C;
+  --graph-node-unresolved: #B39DDB;
+  --graph-node-tag: #7E57C2;
+  --graph-line: #D1C4E9;
+  --graph-text: #4A148C;
 
   --scrollbar-bg: transparent;
-  --scrollbar-thumb: rgba(255, 255, 255, 0.1);
-  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.2);
-  --scrollbar-active-thumb: rgba(255, 255, 255, 0.3);
+  --scrollbar-thumb: rgba(74, 20, 140, 0.15);
+  --scrollbar-thumb-hover: rgba(74, 20, 140, 0.25);
 
-  --dave-red: #FF6B6B;
-  --dave-red-hover: #FF8A8A;
-  --dave-gray: #888888;
-  --dave-light-gray: #555555;
-  --dave-border: #3A3A3A;
+  --dave-red: #E53935;
+  --dave-gray: #9575CD;
+  --dave-border: #D1C4E9;
 
-  --accent-h: 0;
-  --accent-s: 100%;
-  --accent-l: 71%;
+  --accent-h: 262;
+  --accent-s: 52%;
+  --accent-l: 47%;
+}
+
+/* ==========================================================================
+   DARK THEME - Duotone Heat (Warm)
+   ========================================================================== */
+.theme-dark {
+  --background-primary: #2D1B0E;
+  --background-primary-alt: #3D2616;
+  --background-secondary: #1F1208;
+  --background-secondary-alt: #2A1A0F;
+  --background-modifier-border: #5A3D2A;
+  --background-modifier-success: #DD6B20;
+  --background-modifier-error: #E53E3E;
+  --background-modifier-cover: rgba(0, 0, 0, 0.7);
+
+  --text-normal: #FFE4C4;
+  --text-muted: #C05621;
+  --text-faint: #9C4221;
+  --text-accent: #F6AD55;
+  --text-accent-hover: #FBD38D;
+  --text-error: #E53E3E;
+  --text-success: #DD6B20;
+  --text-highlight-bg: rgba(246, 173, 85, 0.2);
+  --text-selection: rgba(246, 173, 85, 0.3);
+
+  --interactive-normal: #3D2616;
+  --interactive-hover: #4D3020;
+  --interactive-accent: #F6AD55;
+  --interactive-accent-hover: #FBD38D;
+
+  --graph-node: #FFE4C4;
+  --graph-node-unresolved: #9C4221;
+  --graph-node-tag: #F6AD55;
+  --graph-line: #5A3D2A;
+  --graph-text: #FFE4C4;
+
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(255, 228, 196, 0.15);
+  --scrollbar-thumb-hover: rgba(255, 228, 196, 0.25);
+
+  --dave-red: #E53E3E;
+  --dave-gray: #C05621;
+  --dave-border: #5A3D2A;
+
+  --accent-h: 30;
+  --accent-s: 90%;
+  --accent-l: 60%;
 }
 
 /* ==========================================================================

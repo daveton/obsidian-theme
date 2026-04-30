@@ -1,6 +1,7 @@
 {
-  "name": "Dave Panic Mode",
+  "name": "Dave upanic-mode",
   "version": "1.0.0",
-  "minAppVersion": "1.0.0",
-  "author": "Dave"
+  "minAppVersion": "0.15.0",
+  "author": "Dave",
+  "modes": ["dark"]
 }
