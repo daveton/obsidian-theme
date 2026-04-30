@@ -82,10 +82,93 @@ class DaveThemesPlugin {
     // Add settings tab
     this.addSettingTab();
     
-    // Apply active theme
-    await this.applyTheme(this.settings.activeTheme);
+    // Add commands for quick theme switching
+    this.addCommands();
+    
+    // Apply active theme (no animation on initial load)
+    await this.applyTheme(this.settings.activeTheme, false);
     
     console.log('Dave Themes plugin loaded');
+  }
+
+  addCommands() {
+    const plugin = this;
+    
+    // Add command: Next theme
+    if (app.commands) {
+      app.commands.addCommand({
+        id: 'dave-themes-next',
+        name: '切换到下一个主题',
+        hotkeys: [{ modifiers: ['Ctrl', 'Shift'], key: 'T' }],
+        callback: () => {
+          plugin.switchToNextTheme();
+        }
+      });
+      
+      // Add command: Previous theme
+      app.commands.addCommand({
+        id: 'dave-themes-previous',
+        name: '切换到上一个主题',
+        hotkeys: [{ modifiers: ['Ctrl', 'Shift'], key: 'R' }],
+        callback: () => {
+          plugin.switchToPreviousTheme();
+        }
+      });
+      
+      // Add command: Random theme
+      app.commands.addCommand({
+        id: 'dave-themes-random',
+        name: '随机切换主题',
+        callback: () => {
+          plugin.switchToRandomTheme();
+        }
+      });
+      
+      // Add command for each theme
+      Object.keys(THEMES).forEach(themeId => {
+        app.commands.addCommand({
+          id: `dave-themes-${themeId}`,
+          name: `切换主题: ${THEMES[themeId].name}`,
+          callback: () => {
+            plugin.settings.activeTheme = themeId;
+            plugin.saveSettings();
+            plugin.applyTheme(themeId);
+          }
+        });
+      });
+    }
+  }
+
+  switchToNextTheme() {
+    const themeIds = Object.keys(THEMES);
+    const currentIndex = themeIds.indexOf(this.settings.activeTheme);
+    const nextIndex = (currentIndex + 1) % themeIds.length;
+    const nextTheme = themeIds[nextIndex];
+    
+    this.settings.activeTheme = nextTheme;
+    this.saveSettings();
+    this.applyTheme(nextTheme);
+  }
+
+  switchToPreviousTheme() {
+    const themeIds = Object.keys(THEMES);
+    const currentIndex = themeIds.indexOf(this.settings.activeTheme);
+    const prevIndex = (currentIndex - 1 + themeIds.length) % themeIds.length;
+    const prevTheme = themeIds[prevIndex];
+    
+    this.settings.activeTheme = prevTheme;
+    this.saveSettings();
+    this.applyTheme(prevTheme);
+  }
+
+  switchToRandomTheme() {
+    const themeIds = Object.keys(THEMES);
+    const randomIndex = Math.floor(Math.random() * themeIds.length);
+    const randomTheme = themeIds[randomIndex];
+    
+    this.settings.activeTheme = randomTheme;
+    this.saveSettings();
+    this.applyTheme(randomTheme);
   }
 
   async loadSettings() {
@@ -97,10 +180,15 @@ class DaveThemesPlugin {
     await this.saveData(this.settings);
   }
 
-  async applyTheme(themeId) {
+  async applyTheme(themeId, animate = true) {
     if (!THEMES[themeId]) {
       console.error(`Theme "${themeId}" not found`);
       return;
+    }
+
+    // Add transition animation
+    if (animate) {
+      this.addTransitionStyles();
     }
 
     // Remove previous theme styles
@@ -112,10 +200,35 @@ class DaveThemesPlugin {
       if (cssContent) {
         this.injectThemeStyles(cssContent);
         document.body.setAttribute('data-dave-theme', themeId);
+        
+        // Show notice
+        if (typeof Notice !== 'undefined') {
+          new Notice(`已切换到主题：${THEMES[themeId].name}`, 2000);
+        }
+        
         console.log(`Applied theme: ${THEMES[themeId].name}`);
       }
     } catch (error) {
       console.error(`Failed to load theme "${themeId}":`, error);
+      new Notice(`切换主题失败：${error.message}`, 3000);
+    }
+  }
+
+  addTransitionStyles() {
+    // Add CSS transition for smooth theme switching
+    const transitionEl = document.getElementById('dave-themes-transition');
+    if (!transitionEl) {
+      const style = document.createElement('style');
+      style.id = 'dave-themes-transition';
+      style.textContent = `
+        body {
+          transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .markdown-preview-view {
+          transition: background-color 0.3s ease;
+        }
+      `;
+      document.head.appendChild(style);
     }
   }
 
