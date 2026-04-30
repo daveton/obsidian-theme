@@ -1,13 +1,13 @@
-/* Dave Theme: dracula */
+/* Dave Theme: duotone */
 /*
- * Dave Dracula Theme
- * Dracula color palette - unified format
+ * Dave Duotone Theme
+ * Unified duotone theme with purple and warm variants
  * Author: Dave
  * Version: 1.0.0
  */
 
 /* ==========================================================================
-   SHARED VARIABLES - Typography, Spacing
+   SHARED VARIABLES
    ========================================================================== */
 :root {
   --font-interface: 'Bear Sans UI', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
@@ -56,61 +56,101 @@ body {
 }
 
 /* ==========================================================================
-   DARK THEME - Dracula
+   LIGHT THEME - Duotone Light (Purple)
    ========================================================================== */
-.theme-dark {
-  --background-primary: #282A36;
-  --background-primary-alt: #44475A;
-  --background-secondary: #21222C;
-  --background-secondary-alt: #353746;
-  --background-modifier-border: #6272A4;
-  --background-modifier-form-field: #44475A;
-  --background-modifier-form-field-highlighted: #4D5071;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.5);
-  --background-modifier-success: #50FA7B;
-  --background-modifier-error: #FF5555;
-  --background-modifier-cover: rgba(0, 0, 0, 0.7);
+.theme-light {
+  --background-primary: #F8F5FF;
+  --background-primary-alt: #EDE5F7;
+  --background-secondary: #F2EDFA;
+  --background-secondary-alt: #E5DAF2;
+  --background-modifier-border: #D1C4E9;
+  --background-modifier-success: #7E57C2;
+  --background-modifier-error: #E53935;
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
 
-  --text-normal: #F8F8F2;
-  --text-muted: #6272A4;
-  --text-faint: #6D7285;
-  --text-accent: #BD93F9;
-  --text-accent-hover: #FF79C6;
-  --text-error: #FF5555;
-  --text-success: #50FA7B;
-  --text-highlight-bg: rgba(189, 147, 249, 0.2);
-  --text-selection: rgba(189, 147, 249, 0.3);
+  --text-normal: #4A148C;
+  --text-muted: #9575CD;
+  --text-faint: #B39DDB;
+  --text-accent: #7E57C2;
+  --text-accent-hover: #9575CD;
+  --text-error: #E53935;
+  --text-success: #7E57C2;
+  --text-highlight-bg: rgba(126, 87, 194, 0.15);
+  --text-selection: rgba(126, 87, 194, 0.25);
 
-  --interactive-normal: #44475A;
-  --interactive-hover: #4D5071;
-  --interactive-accent: #BD93F9;
-  --interactive-accent-hover: #FF79C6;
+  --interactive-normal: #F8F5FF;
+  --interactive-hover: #EDE5F7;
+  --interactive-accent: #7E57C2;
+  --interactive-accent-hover: #9575CD;
 
-  --graph-node: #F8F8F2;
-  --graph-node-unresolved: #6D7285;
-  --graph-node-tag: #BD93F9;
-  --graph-node-attachment: #50FA7B;
-  --graph-line: #6272A4;
-  --graph-text: #F8F8F2;
+  --graph-node: #4A148C;
+  --graph-node-unresolved: #B39DDB;
+  --graph-node-tag: #7E57C2;
+  --graph-line: #D1C4E9;
+  --graph-text: #4A148C;
 
   --scrollbar-bg: transparent;
-  --scrollbar-thumb: rgba(255, 255, 255, 0.12);
-  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.22);
-  --scrollbar-active-thumb: rgba(255, 255, 255, 0.32);
+  --scrollbar-thumb: rgba(74, 20, 140, 0.15);
+  --scrollbar-thumb-hover: rgba(74, 20, 140, 0.25);
 
-  --dave-red: #FF5555;
-  --dave-red-hover: #FF6E6E;
-  --dave-gray: #6272A4;
-  --dave-light-gray: #6D7285;
-  --dave-border: #6272A4;
+  --dave-red: #E53935;
+  --dave-gray: #9575CD;
+  --dave-border: #D1C4E9;
 
-  --accent-h: 265;
-  --accent-s: 89%;
-  --accent-l: 76%;
+  --accent-h: 262;
+  --accent-s: 52%;
+  --accent-l: 47%;
 }
 
 /* ==========================================================================
-   COMPONENT STYLES
+   DARK THEME - Duotone Heat (Warm)
+   ========================================================================== */
+.theme-dark {
+  --background-primary: #2D1B0E;
+  --background-primary-alt: #3D2616;
+  --background-secondary: #1F1208;
+  --background-secondary-alt: #2A1A0F;
+  --background-modifier-border: #5A3D2A;
+  --background-modifier-success: #DD6B20;
+  --background-modifier-error: #E53E3E;
+  --background-modifier-cover: rgba(0, 0, 0, 0.7);
+
+  --text-normal: #FFE4C4;
+  --text-muted: #C05621;
+  --text-faint: #9C4221;
+  --text-accent: #F6AD55;
+  --text-accent-hover: #FBD38D;
+  --text-error: #E53E3E;
+  --text-success: #DD6B20;
+  --text-highlight-bg: rgba(246, 173, 85, 0.2);
+  --text-selection: rgba(246, 173, 85, 0.3);
+
+  --interactive-normal: #3D2616;
+  --interactive-hover: #4D3020;
+  --interactive-accent: #F6AD55;
+  --interactive-accent-hover: #FBD38D;
+
+  --graph-node: #FFE4C4;
+  --graph-node-unresolved: #9C4221;
+  --graph-node-tag: #F6AD55;
+  --graph-line: #5A3D2A;
+  --graph-text: #FFE4C4;
+
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(255, 228, 196, 0.15);
+  --scrollbar-thumb-hover: rgba(255, 228, 196, 0.25);
+
+  --dave-red: #E53E3E;
+  --dave-gray: #C05621;
+  --dave-border: #5A3D2A;
+
+  --accent-h: 30;
+  --accent-s: 90%;
+  --accent-l: 60%;
+}
+
+/* ==========================================================================
+   COMPONENTS
    ========================================================================== */
 input[type="checkbox"].task-list-item-checkbox {
   appearance: none;

@@ -1,0 +1,339 @@
+/* Dave Theme: solarized */
+/*
+ * Dave Solarized Theme
+ * Unified light/dark Solarized theme
+ * Author: Dave
+ * Version: 1.0.0
+ */
+
+/* ==========================================================================
+   SHARED VARIABLES - Typography, Spacing, Fonts
+   ========================================================================== */
+:root {
+  /* Font Families */
+  --font-interface: 'Bear Sans UI', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-editor: 'Bear Sans UI', -apple-system, "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", SFMono-Regular, Monaco, "Cascadia Code", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+  /* Font Sizes */
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 24px;
+
+  /* Line Heights */
+  --line-height-tight: 1.3;
+  --line-height-normal: 1.65;
+  --line-height-relaxed: 1.8;
+
+  /* Spacing */
+  --p-spacing: 1.2em;
+  --heading-spacing: 1.5em;
+  --list-spacing: 0.5em;
+
+  /* Editor Width */
+  --file-line-width: 720px;
+  --editor-max-width: 720px;
+
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 8px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY
+   ========================================================================== */
+@font-face {
+  font-family: 'Bear Sans UI';
+  src: local('BearSansUI-Regular'), local('BearSansUI-Medium'), local('Bear Sans UI');
+  font-weight: 400 500;
+  font-display: swap;
+}
+
+body {
+  font-family: var(--font-interface);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+}
+
+.markdown-source-view,
+.markdown-preview-view {
+  font-family: var(--font-editor);
+}
+
+.markdown-source-view .cm-content,
+.markdown-preview-view {
+  padding-bottom: 30vh;
+}
+
+/* Headings */
+.markdown-preview-view h1 { font-size: var(--font-size-3xl); font-weight: 700; }
+.markdown-preview-view h2 { font-size: var(--font-size-2xl); font-weight: 600; }
+.markdown-preview-view h3 { font-size: var(--font-size-xl); font-weight: 600; }
+.markdown-preview-view h4 { font-size: var(--font-size-lg); font-weight: 600; }
+.markdown-preview-view h5 { font-size: var(--font-size-base); font-weight: 600; }
+.markdown-preview-view h6 { font-size: var(--font-size-sm); font-weight: 600; }
+
+.HyperMD-header,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  font-family: var(--font-editor);
+  line-height: var(--line-height-tight);
+  margin-top: var(--heading-spacing);
+  margin-bottom: 0.5em;
+}
+
+.HyperMD-paragraph,
+.markdown-preview-view p {
+  margin-bottom: var(--p-spacing);
+  line-height: var(--line-height-normal);
+}
+
+/* ==========================================================================
+   LIGHT THEME - Solarized Light
+   ========================================================================== */
+.theme-light {
+  /* Background Colors */
+  --background-primary: #FDF6E3;
+  --background-primary-alt: #EEE8D5;
+  --background-secondary: #F5EFDC;
+  --background-secondary-alt: #E8E1CF;
+  --background-modifier-border: #D3CBB8;
+  --background-modifier-form-field: #FDF6E3;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+  --background-modifier-success: #859900;
+  --background-modifier-error: #DC322F;
+  --background-modifier-cover: rgba(0, 0, 0, 0.5);
+
+  /* Text Colors */
+  --text-normal: #586E75;
+  --text-muted: #93A1A1;
+  --text-faint: #B58900;
+  --text-accent: #268BD2;
+  --text-accent-hover: #2AA198;
+  --text-error: #DC322F;
+  --text-success: #859900;
+  --text-highlight-bg: rgba(38, 139, 210, 0.15);
+  --text-selection: rgba(38, 139, 210, 0.25);
+
+  /* Interactive */
+  --interactive-normal: #FDF6E3;
+  --interactive-hover: #EEE8D5;
+  --interactive-accent: #268BD2;
+  --interactive-accent-hover: #2AA198;
+
+  /* Graph */
+  --graph-node: #586E75;
+  --graph-node-unresolved: #93A1A1;
+  --graph-node-tag: #268BD2;
+  --graph-node-attachment: #859900;
+  --graph-line: #D3CBB8;
+  --graph-text: #586E75;
+
+  /* Scrollbar */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(0, 0, 0, 0.15);
+  --scrollbar-thumb-hover: rgba(0, 0, 0, 0.25);
+  --scrollbar-active-thumb: rgba(0, 0, 0, 0.35);
+
+  /* Theme Colors */
+  --dave-red: #DC322F;
+  --dave-red-hover: #CB4B16;
+  --dave-gray: #93A1A1;
+  --dave-light-gray: #B58900;
+  --dave-border: #D3CBB8;
+
+  /* Accent HSL - Blue */
+  --accent-h: 205;
+  --accent-s: 69%;
+  --accent-l: 49%;
+}
+
+/* ==========================================================================
+   DARK THEME - Solarized Dark
+   ========================================================================== */
+.theme-dark {
+  /* Background Colors */
+  --background-primary: #002B36;
+  --background-primary-alt: #073642;
+  --background-secondary: #001E27;
+  --background-secondary-alt: #052831;
+  --background-modifier-border: #2A4A52;
+  --background-modifier-form-field: #073642;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.5);
+  --background-modifier-success: #859900;
+  --background-modifier-error: #DC322F;
+  --background-modifier-cover: rgba(0, 0, 0, 0.7);
+
+  /* Text Colors */
+  --text-normal: #839496;
+  --text-muted: #586E75;
+  --text-faint: #657B83;
+  --text-accent: #268BD2;
+  --text-accent-hover: #2AA198;
+  --text-error: #DC322F;
+  --text-success: #859900;
+  --text-highlight-bg: rgba(38, 139, 210, 0.2);
+  --text-selection: rgba(38, 139, 210, 0.3);
+
+  /* Interactive */
+  --interactive-normal: #073642;
+  --interactive-hover: #0A3D4A;
+  --interactive-accent: #268BD2;
+  --interactive-accent-hover: #2AA198;
+
+  /* Graph */
+  --graph-node: #839496;
+  --graph-node-unresolved: #657B83;
+  --graph-node-tag: #268BD2;
+  --graph-node-attachment: #859900;
+  --graph-line: #2A4A52;
+  --graph-text: #839496;
+
+  /* Scrollbar */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: rgba(255, 255, 255, 0.12);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.22);
+  --scrollbar-active-thumb: rgba(255, 255, 255, 0.32);
+
+  /* Theme Colors */
+  --dave-red: #DC322F;
+  --dave-red-hover: #CB4B16;
+  --dave-gray: #586E75;
+  --dave-light-gray: #657B83;
+  --dave-border: #2A4A52;
+
+  /* Accent HSL - Blue */
+  --accent-h: 205;
+  --accent-s: 69%;
+  --accent-l: 49%;
+}
+
+/* ==========================================================================
+   COMPONENT STYLES
+   ========================================================================== */
+
+/* Checkboxes */
+input[type="checkbox"].task-list-item-checkbox {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--dave-red);
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  transition: all var(--transition-fast);
+  margin-right: 8px;
+}
+
+input[type="checkbox"].task-list-item-checkbox:checked {
+  background: var(--dave-red);
+}
+
+input[type="checkbox"].task-list-item-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.task-list-item.is-checked {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+/* Links */
+.external-link {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'%3E%3C/path%3E%3Cpolyline points='15 3 21 3 21 9'%3E%3C/polyline%3E%3Cline x1='10' y1='14' x2='21' y2='3'%3E%3C/line%3E%3C/svg%3E");
+  background-size: 14px;
+  background-position: right 2px center;
+  padding-right: 18px;
+}
+
+/* Tags */
+.tag {
+  background: rgba(var(--interactive-accent-rgb), 0.15);
+  color: var(--interactive-accent);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: var(--font-size-xs);
+}
+
+/* Blockquotes */
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--dave-red);
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Code */
+code {
+  background: var(--background-primary-alt);
+  padding: 2px 6px;
+  border-radius: var(--border-radius-sm);
+}
+
+pre[class*="language-"] {
+  background: var(--background-primary-alt);
+  border-radius: var(--border-radius-md);
+  padding: 1em;
+}
+
+/* Tables */
+th, td {
+  border: 1px solid var(--dave-border);
+  padding: 8px 12px;
+}
+
+th {
+  background: var(--background-secondary);
+}
+
+/* HR */
+.markdown-preview-view hr {
+  border-top: 1px solid var(--dave-border);
+  margin: 2em 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Toggle */
+.checkbox-container.is-enabled {
+  background: var(--dave-red);
+}

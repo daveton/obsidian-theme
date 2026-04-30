@@ -1,0 +1,605 @@
+/*
+ * Dave {ThemeName} Theme
+ * {Description}
+ * Author: Dave
+ * Version: 2.0.0
+ * 
+ * Syntax optimized based on Primary Theme structure
+ */
+
+/* ==========================================================================
+   CSS Variables - {ThemeName}
+   ========================================================================== */
+
+:root {
+  /* Typography */
+  --font-interface: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-editor: -apple-system, "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", SFMono-Regular, Monaco, "Cascadia Code", Consolas, monospace;
+  
+  /* Font Sizes */
+  --font-ui-smallest: 11px;
+  --font-ui-smaller: 12px;
+  --font-ui-small: 13px;
+  --font-ui-medium: 15px;
+  --font-ui-large: 20px;
+  --font-editor-size: 16px;
+  
+  /* Line Heights */
+  --line-height-tight: 1.3;
+  --line-height-normal: 1.7;
+  --line-height-relaxed: 2;
+  
+  /* Spacing */
+  --content-width: 740px;
+  --p-spacing: 1.2em;
+  --heading-spacing: 1.8em;
+  
+  /* Radius - Primary Style */
+  --radius-none: 0;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  
+  /* Shadows - Primary Style */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+  
+  /* Background Colors - OVERRIDE WITH THEME COLORS */
+  --background-primary: /* Base background */;
+  --background-primary-alt: /* Slightly different background */;
+  --background-secondary: /* Sidebar background */;
+  --background-secondary-alt: /* Sidebar alt */;
+  --background-modifier-border: /* Border color */;
+  --background-modifier-form-field: /* Input background */;
+  --background-modifier-form-field-highlighted: /* Input focus */;
+  --background-modifier-box-shadow: /* Shadow color */;
+  --background-modifier-success: /* Success green */;
+  --background-modifier-error: /* Error red */;
+  --background-modifier-cover: /* Overlay */;
+  
+  /* Text Colors - OVERRIDE WITHME COLORS */
+  --text-normal: /* Main text */;
+  --text-muted: /* Secondary text */;
+  --text-faint: /* Tertiary text */;
+  --text-accent: /* Accent color */;
+  --text-accent-hover: /* Accent hover */;
+  --text-error: /* Error text */;
+  --text-success: /* Success text */;
+  --text-highlight-bg: /* Highlight bg */;
+  --text-selection: /* Selection bg */;
+  --text-on-accent: /* Text on accent bg */;
+  
+  /* Interactive Elements - OVERRIDE WITH THEME COLORS */
+  --interactive-normal: /* Button normal */;
+  --interactive-hover: /* Button hover */;
+  --interactive-accent: /* Primary button */;
+  --interactive-accent-hover: /* Primary hover */;
+  
+  /* Graph Colors - OVERRIDE WITH THEME COLORS */
+  --graph-node: /* Node fill */;
+  --graph-node-unresolved: /* Broken link */;
+  --graph-node-tag: /* Tag node */;
+  --graph-node-attachment: /* File node */;
+  --graph-line: /* Connection line */;
+  --graph-text: /* Label text */;
+  
+  /* Scrollbar - OVERRIDE WITH THEME COLORS */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb: /* Scrollbar thumb */;
+  --scrollbar-thumb-hover: /* Scrollbar hover */;
+  --scrollbar-active-thumb: /* Scrollbar active */;
+  
+  /* HSL Accent - for Obsidian calculations */
+  --accent-h: /* Hue */;
+  --accent-s: /* Saturation */;
+  --accent-l: /* Lightness */;
+}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+body {
+  font-family: var(--font-interface);
+  font-size: var(--font-ui-medium);
+  line-height: var(--line-height-normal);
+}
+
+/* Editor Styles */
+.markdown-source-view,
+.markdown-preview-view {
+  font-family: var(--font-editor);
+  font-size: var(--font-editor-size);
+  line-height: var(--line-height-normal);
+}
+
+.markdown-source-view .cm-content,
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding-bottom: 35vh;
+  padding-top: 16px;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/* Headings */
+.markdown-preview-view h1,
+.HyperMD-header-1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  line-height: var(--line-height-tight);
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--background-modifier-border);
+  letter-spacing: -0.025em;
+}
+
+.markdown-preview-view h2,
+.HyperMD-header-2 {
+  font-size: 1.75em;
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.02em;
+}
+
+.markdown-preview-view h3,
+.HyperMD-header-3 {
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-preview-view h4,
+.HyperMD-header-4 {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+
+.markdown-preview-view h5,
+.HyperMD-header-5,
+.markdown-preview-view h6,
+.HyperMD-header-6 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  opacity: 0.9;
+}
+
+/* Paragraphs */
+.markdown-preview-view p {
+  margin-bottom: var(--p-spacing);
+}
+
+/* Bold & Italic */
+.markdown-preview-view strong,
+.cm-strong {
+  font-weight: 700;
+}
+
+.markdown-preview-view em,
+.cm-em {
+  font-style: italic;
+}
+
+/* Links */
+.markdown-preview-view a,
+.cm-link {
+  color: var(--text-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: var(--transition-fast);
+}
+
+.markdown-preview-view a:hover,
+.cm-link:hover {
+  color: var(--text-accent-hover);
+  border-bottom-color: var(--text-accent);
+}
+
+/* External Links */
+.external-link {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M6 1h5v5M11 1L6 6M4 2H2v8h8V8' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  padding-right: 16px;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  padding-left: 1.8em;
+  margin-bottom: var(--p-spacing);
+}
+
+.markdown-preview-view li {
+  margin-bottom: 0.5em;
+}
+
+.markdown-preview-view li > ul,
+.markdown-preview-view li > ol {
+  margin-top: 0.5em;
+}
+
+/* Task Lists */
+.task-list-item {
+  list-style: none;
+}
+
+.task-list-item-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--background-modifier-border);
+  border-radius: var(--radius-xs);
+  margin-right: 0.6em;
+  cursor: pointer;
+  position: relative;
+  transition: var(--transition-fast);
+}
+
+.task-list-item-checkbox:hover {
+  border-color: var(--text-accent);
+}
+
+.task-list-item-checkbox:checked {
+  background: var(--interactive-accent);
+  border-color: var(--interactive-accent);
+}
+
+.task-list-item-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid var(--text-on-accent);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.task-list-item.is-checked {
+  text-decoration: line-through;
+  color: var(--text-faint);
+}
+
+/* ==========================================================================
+   Code
+   ========================================================================== */
+
+/* Inline Code */
+.markdown-preview-view code,
+.cm-inline-code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--background-primary-alt);
+  padding: 0.2em 0.5em;
+  border-radius: var(--radius-xs);
+}
+
+/* Code Blocks */
+.markdown-preview-view pre {
+  background: var(--background-primary-alt);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-md);
+  padding: 1.2em;
+  margin: 1.2em 0;
+  overflow-x: auto;
+}
+
+.markdown-preview-view pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   Blockquotes
+   ========================================================================== */
+
+.markdown-preview-view blockquote,
+.HyperMD-quote {
+  border-left: 4px solid var(--text-accent);
+  padding: 0.8em 1.2em;
+  margin: 1.2em 0;
+  background: var(--background-primary-alt);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.markdown-preview-view blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+.markdown-preview-view table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.2em 0;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  border-right: 1px solid var(--background-modifier-border);
+}
+
+.markdown-preview-view th:last-child,
+.markdown-preview-view td:last-child {
+  border-right: none;
+}
+
+.markdown-preview-view tr:last-child td {
+  border-bottom: none;
+}
+
+.markdown-preview-view th {
+  background: var(--background-secondary);
+  font-weight: 600;
+  text-align: left;
+}
+
+.markdown-preview-view tr:nth-child(even) {
+  background: var(--background-primary-alt);
+}
+
+/* ==========================================================================
+   Horizontal Rule
+   ========================================================================== */
+
+.markdown-preview-view hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--background-modifier-border), transparent);
+  margin: 2em 0;
+}
+
+/* ==========================================================================
+   Images
+   ========================================================================== */
+
+.markdown-preview-view img {
+  max-width: 100%;
+  border-radius: var(--radius-md);
+}
+
+/* ==========================================================================
+   Callouts
+   ========================================================================== */
+
+.callout {
+  border-radius: var(--radius-md);
+  border-left-width: 4px;
+  padding: 1em 1.2em;
+  margin: 1.2em 0;
+  background: var(--background-primary-alt);
+}
+
+.callout-title {
+  font-weight: 600;
+  gap: 0.6em;
+}
+
+.callout-icon {
+  --icon-size: 20px;
+}
+
+/* ==========================================================================
+   Tags
+   ========================================================================== */
+
+.tag {
+  background: var(--background-primary-alt);
+  color: var(--text-accent);
+  padding: 0.25em 0.8em;
+  border-radius: var(--radius-full);
+  font-size: 0.85em;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid var(--background-modifier-border);
+  transition: var(--transition-fast);
+}
+
+.tag:hover {
+  background: var(--text-accent);
+  color: var(--text-on-accent);
+  border-color: var(--text-accent);
+}
+
+/* ==========================================================================
+   UI Components
+   ========================================================================== */
+
+/* Sidebar */
+.nav-folder-title,
+.nav-file-title {
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  margin: 2px 4px;
+  transition: var(--transition-fast);
+}
+
+.nav-folder-title:hover,
+.nav-file-title:hover {
+  background: var(--background-modifier-hover);
+}
+
+.nav-folder-title.is-active,
+.nav-file-title.is-active {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  font-weight: 500;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background-modifier-border);
+  border-radius: var(--radius-full);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Status Bar */
+.status-bar {
+  font-size: 12px;
+  padding: 4px 12px;
+  background: var(--background-secondary);
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Buttons */
+button {
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  transition: var(--transition-fast);
+}
+
+button.mod-cta {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+button.mod-cta:hover {
+  background: var(--interactive-accent-hover);
+}
+
+/* Dropdowns */
+.dropdown {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  padding: 6px 10px;
+}
+
+/* Modals */
+.modal {
+  border-radius: var(--radius-lg);
+}
+
+.modal-header {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 16px 20px;
+}
+
+/* Search */
+.search-result-file-matched-text {
+  background: var(--text-highlight-bg);
+  color: var(--text-normal);
+  padding: 2px 4px;
+  border-radius: var(--radius-xs);
+}
+
+/* ==========================================================================
+   Graph View
+   ========================================================================== */
+
+.graph-view.color-fill {
+  color: var(--graph-node);
+}
+
+.graph-view.color-fill-unresolved {
+  color: var(--graph-node-unresolved);
+  opacity: 0.5;
+}
+
+.graph-view.color-fill-tag {
+  color: var(--graph-node-tag);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--graph-node-attachment);
+}
+
+.graph-view.color-line {
+  color: var(--graph-line);
+}
+
+.graph-view.color-text {
+  color: var(--graph-text);
+}
+
+/* ==========================================================================
+   Mobile
+   ========================================================================== */
+
+@media screen and (max-width: 768px) {
+  .markdown-source-view .cm-content,
+  .markdown-preview-view .markdown-preview-sizer {
+    max-width: 100%;
+    padding: 16px;
+  }
+  
+  .markdown-preview-view h1 {
+    font-size: 1.8em;
+  }
+  
+  .markdown-preview-view h2 {
+    font-size: 1.5em;
+  }
+  
+  .markdown-preview-view h3 {
+    font-size: 1.25em;
+  }
+}
+
+/* ==========================================================================
+   Print
+   ========================================================================== */
+
+@media print {
+  .markdown-preview-view {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .external-link::after {
+    display: none;
+  }
+}

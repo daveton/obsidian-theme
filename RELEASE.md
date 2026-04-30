@@ -47,9 +47,17 @@ zip -r dave-themes-v1.0.0.zip dave-themes/
 ## 发布内容
 
 插件包 `dave-themes-v{version}.zip` 包含：
-- `manifest.json` - 插件配置
-- `main.js` - 插件代码（实现主题切换功能）
-- `themes/` - 12 个主题的 CSS 文件
+- `manifest.json` - 插件清单（Plugin manifest）
+  - `id`: "dave-themes"
+  - `name`: "Dave Themes"
+  - `minAppVersion`: "0.15.0"
+- `main.js` - 插件主代码（主题切换逻辑）
+  - 支持命令面板快速切换
+  - 快捷键支持（Ctrl+Shift+T/R）
+  - 设置面板可视化选择
+- `themes/` - 12 个主题 CSS 文件
+  - graphite, solarized, duotone, toothpaste（支持 Light + Dark）
+  - charcoal, dracula, gotham, high-contrast, panic-mode, cobalt, dieci, ayu（仅 Dark）
 
 ## 用户安装方式
 
