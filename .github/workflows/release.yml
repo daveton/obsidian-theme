@@ -81,7 +81,7 @@ jobs:
           body: |
             ## Dave Themes v${{ steps.get_version.outputs.VERSION }}
             
-            一款精心设计的 Obsidian 主题系列，包含 12 个精美主题。
+            一款精心设计的 Obsidian 主题系列，提供 4 个优雅的主题，全部支持浅色和深色双模式体验。
             
             ---
             
@@ -94,7 +94,7 @@ jobs:
             下载下方列表中的主题 zip 文件，解压到 `[Vault]/.obsidian/themes/[theme-name]/` 目录。
             
             ### 方式 3：Dave Themes 插件
-            下载 **dave-themes-plugin-xxx.zip**，解压到 `[Vault]/.obsidian/plugins/dave-themes/`，在插件设置中切换 12 个主题。
+            下载 **dave-themes-plugin-xxx.zip**，解压到 `[Vault]/.obsidian/plugins/dave-themes/`，在插件设置中切换 4 个主题。
             
             ---
             
@@ -111,14 +111,6 @@ jobs:
             | dave-solarized | Light + Dark | Solarized 配色 |
             | dave-duotone | Light + Dark | 双色调主题 |
             | dave-toothpaste | Light + Dark | 薄荷色调 |
-            | dave-charcoal | Dark | 深炭黑主题 |
-            | dave-dracula | Dark | Dracula 配色 |
-            | dave-gotham | Dark | 深蓝主题 |
-            | dave-high-contrast | Dark | 高对比度 |
-            | dave-panic-mode | Dark | 鲜艳粉/红色 |
-            | dave-cobalt | Dark | 钴蓝色调 |
-            | dave-dieci | Dark | 琥珀棕色 |
-            | dave-ayu | Dark | Ayu Mirage 配色 |
           files: releases/*.zip
           generate_release_notes: false
         env:
