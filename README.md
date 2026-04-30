@@ -50,6 +50,13 @@ Fresh mint colors，清新的薄荷色调。
 
 ## 特性
 
+### 兼容性
+
+- **主题（Graphite / Solarized / Duotone / Toothpaste）**：`minAppVersion` 为 **1.9.0**
+- **Dave Themes 插件**：`minAppVersion` 为 **0.15.0**
+
+说明：主题与插件独立发布，版本要求以各自 `manifest.json` 为准。
+
 ### 界面颜色和字体
 
 - **双主题模式** - 每个主题支持浅色和深色模式
