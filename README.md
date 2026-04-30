@@ -1,12 +1,12 @@
-# Dave's Bear Themes for Obsidian
+# Dave Graphite for Obsidian
 
-> 本主题系列包含 12 个 Bear App 风格的 Obsidian 主题，以及一个极简电影感的 DaveStyle 主题。
+> 一款精心设计的 Obsidian 主题系列，以 **Dave Graphite** 为主打主题，提供优雅的浅色和深色双模式体验。
 
-## 🎬 DaveStyle（极简风格主题）
+## � Dave Graphite（推荐主题）
 
-A minimalist, cinematic writing experience for Obsidian. Crafted by a senior UI/UX designer with 9 years of experience.
+Dave Graphite 是一个极简主义、电影感的 Obsidian 主题，提供专业的写作体验。
 
-> 一款极简主义、电影感的 Obsidian 写作体验。由拥有 9 年经验的高级 UI/UX 设计师精心打造。
+> A minimalist, cinematic writing experience for Obsidian. Crafted by a senior UI/UX designer with 9 years of experience.
 
 ### 特性 / Features
 
@@ -38,7 +38,7 @@ A minimalist, cinematic writing experience for Obsidian. Crafted by a senior UI/
 |---------------|-------------|
 | 背景 / Background | `#FFFFFF` |
 | 主文本 / Primary Text | `#2C2C2C` |
-| 强调色 / Accent | `#E04E4E` |
+| 强调色 / Accent | `#A03530` |
 | 次要文本 / Secondary | `#8E8E8E` |
 | 代码背景 / Code BG | `#F5F5F5` |
 
@@ -54,94 +54,88 @@ A minimalist, cinematic writing experience for Obsidian. Crafted by a senior UI/
 
 ---
 
-## 🎨 16 Bear Themes Converted
+## 🎨 其他主题 / Other Themes
 
-A pixel-perfect conversion of all 16 [Bear App](https://bear.app) themes to Obsidian. Each theme faithfully recreates Bear's iconic color palettes, typography, and spacing.
+本系列还包含更多精心设计的主题：
 
-| Theme | Light | Dark | Description |
-|-------|-------|------|-------------|
-| **Dave Graphite** | ✅ | ✅ | Classic Red Graphite (light) + Dark Graphite (dark) - The iconic Bear look |
-| **Dave Solarized** | ✅ | ✅ | Solarized Light + Solarized Dark |
-| **Dave Duotone** | ✅ | ✅ | Duotone Light (purple) + Duotone Heat (warm orange) |
-| **Dave Charcoal** | - | ✅ | Near-black dark theme |
-| **Dave Dracula** | - | ✅ | Popular Dracula color scheme |
-| **Dave Gotham** | - | ✅ | Deep blue theme |
-| **Dave High Contrast** | - | ✅ | Maximum accessibility |
-| **Dave Panic Mode** | - | ✅ | Vibrant pink/dark red |
-| **Dave Cobalt** | - | ✅ | Deep blue palette |
-| **Dave Toothpaste** | ✅ | ✅ | Fresh mint colors |
-| **Dave Dieci** | - | ✅ | Warm amber-brown |
-| **Dave Ayu** | - | ✅ | Ayu Mirage colors |
-| **DaveStyle** | ✅ | ✅ | 极简电影感主题 / Minimalist cinematic theme |
+| 主题 / Theme | Light | Dark | 描述 / Description |
+|-------------|-------|------|-------------------|
+| **Dave Solarized** | ✅ | ✅ | Solarized 配色方案 |
+| **Dave Duotone** | ✅ | ✅ | 双色调主题（紫色 + 暖橙色）|
+| **Dave Toothpaste** | ✅ | ✅ | 清新的薄荷色调 |
+| **Dave Charcoal** | - | ✅ | 深炭黑色暗色主题 |
+| **Dave Dracula** | - | ✅ | 流行的 Dracula 配色 |
+| **Dave Gotham** | - | ✅ | 深蓝色主题 |
+| **Dave High Contrast** | - | ✅ | 高对比度无障碍主题 |
+| **Dave Panic Mode** | - | ✅ | 鲜艳的粉色/深红色 |
+| **Dave Cobalt** | - | ✅ | 深蓝钴色调 |
+| **Dave Dieci** | - | ✅ | 温暖的琥珀棕色调 |
+| **Dave Ayu** | - | ✅ | Ayu Mirage 配色 |
 
-## ✨ Features
+## ✨ 特性 / Features
 
-- **Unified Format**: Each theme uses Obsidian's standard `.theme-light` / `.theme-dark` CSS structure
-- **Bear Typography**: 
-  - Line height: 1.65 (Bear's comfortable reading rhythm)
-  - Paragraph spacing: 1.2em
-  - Editor max-width: 720px
-  - Bottom breathing room: 30vh padding
-- **SVG Icons**: Bear-style checkboxes and UI elements embedded as data URIs
-- **Font Support**: References "Bear Sans UI" with system fallbacks (SF Pro, Segoe UI, etc.)
+- **统一格式 / Unified Format**: 每个主题使用 Obsidian 标准的 `.theme-light` / `.theme-dark` CSS 结构
+- **精致排版 / Refined Typography**:
+  - 行高：1.65（舒适的阅读节奏）
+  - 段落间距：1.2em
+  - 编辑器最大宽度：720px
+  - 底部留白：30vh padding
+- **SVG 图标 / SVG Icons**: 精心设计的 checkbox 和 UI 元素，以 data URI 嵌入
+- **字体支持 / Font Support**: 使用系统字体回退（SF Pro、Segoe UI 等）
 
-## 📦 Installation
+## 📦 安装 / Installation
 
-### Method 1: Community Themes (Obsidian Store)
-> ⚠️ **Note**: Only `Dave's Bear - Graphite` is submitted to Obsidian's community theme browser.
-> For other themes, use Method 2 below.
+### 方法 1：社区主题（Obsidian Store）
+> ⚠️ **注意**: 目前 `Dave Graphite` 已提交到 Obsidian 社区主题浏览器。
 
-1. Open Obsidian Settings → **Appearance** → **Themes**
-2. Click **Manage** → Search for "Dave's Bear"
-3. Install and select **Dave's Bear - Graphite**
+1. 打开 Obsidian 设置 → **外观** → **主题**
+2. 点击 **管理** → 搜索 "Dave Graphite"
+3. 安装并选择 **Dave Graphite**
 
-### Method 2: GitHub Releases (All 16 Themes)
+### 方法 2：GitHub Releases（所有主题）
 
-1. Go to [Releases](https://github.com/daveton/obsidian-theme/releases)
-2. Download the `.zip` for your desired theme (e.g., `dave-dracula-v1.0.0.zip`)
-3. Extract to `[Vault]/.obsidian/themes/[theme-name]/`
-   - Example: `.obsidian/themes/dave-dracula/`
-4. Enable in Obsidian: Settings → **Appearance** → **Themes**
+1. 前往 [Releases](https://github.com/daveton/obsidian-theme/releases)
+2. 下载所需主题的 `.zip` 文件（如 `dave-dracula-v1.0.0.zip`）
+3. 解压到 `[Vault]/.obsidian/themes/[theme-name]/`
+   - 示例：`.obsidian/themes/dave-dracula/`
+4. 在 Obsidian 设置 → **外观** → **主题** 中启用
 
-### Method 3: Git Clone (All Themes)
+### 方法 3：Git Clone（所有主题）
 
 ```bash
 cd [Vault]/.obsidian/themes/
 git clone https://github.com/daveton/obsidian-theme.git daveton-themes
-# Then copy individual theme folders:
+# 然后复制单个主题文件夹：
 cp -r daveton-themes/obsidian-theme/dave-dracula .
 ```
 
-## 🔤 Font Notes
+## 🔤 字体说明 / Font Notes
 
-These themes reference **"Bear Sans UI"** font. If you have Bear.app installed, the font should be available system-wide. Otherwise, themes gracefully fall back to:
+本主题使用系统字体回退：
 - **macOS**: SF Pro, SF Mono
 - **Windows**: Segoe UI, Cascadia Code
-- **Linux**: System default sans-serif and monospace fonts
+- **Linux**: 系统默认 sans-serif 和 monospace 字体
 
-## 🎯 Theme Previews
+## 🎯 主题预览 / Theme Previews
 
-### Dave Graphite (Light + Dark)
-The classic Bear look with signature red accents on light/dark backgrounds.
+### Dave Graphite（Light + Dark）
+经典的红黑配色，提供浅色和深色双模式。
 
 ### Dave Solarized
-Ethan Schoonover's Solarized palette adapted for Obsidian.
+Solarized 配色方案，护眼舒适。
 
 ### Dave Dracula
-Popular Dracula color scheme with purple/cyan accents.
+流行的 Dracula 配色，紫色/青色强调。
 
 ### Dave Charcoal
-Near-black background for OLED displays and dark room writing.
+接近纯黑的背景，适合 OLED 显示器和暗光环境。
 
-## 📝 File Structure
+## 📝 文件结构 / File Structure
 
 ```
 obsidian-theme/
 ├── README.md
-├── dave-style/             # ⭐ 极简电影感主题
-│   ├── theme.css
-│   └── manifest.json
-├── dave-graphite/          # Bear 风格主题
+├── dave-graphite/          # ⭐ 推荐主题
 │   ├── theme.css
 │   └── manifest.json
 ├── dave-solarized/
@@ -164,41 +158,18 @@ Each theme can be released independently using Git tags:
 - `v1.0.0-dracula` - Dave Dracula updates
 - `v1.0.0-all` - All themes updated
 
-## 🤝 Contributing
+## 🤝 贡献 / Contributing
 
-Contributions welcome! Areas for improvement:
-- Additional color refinements from Bear's actual values
-- Mobile-specific optimizations
-- Plugin compatibility fixes
+欢迎贡献！改进方向：
+- 颜色方案优化
+- 移动端适配
+- 插件兼容性修复
 
-## 📄 License
+## 📄 许可 / License
 
-MIT License - Free to use, modify, and distribute.
+MIT License - 可自由使用、修改和分发。
 
-## 🙏 Credits
+## 👤 作者 / Author
 
-- Original design by [Bear](https://bear.app) by Shiny Frog
-- Converted and maintained by Dave
-
----
-
-*This is an unofficial theme collection and is not affiliated with or endorsed by Shiny Frog or Bear App.*
-
-## 🔤 Typography
-
-The theme uses a carefully selected font stack:
-
-- **界面 / Interface**: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto`
-- **编辑 / Editor**: `-apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display"`
-- **代码 / Monospace**: `"SF Mono", Monaco, "Cascadia Code", "Fira Code"`
-
-## 🖥️ Compatibility
-
-- **Obsidian Version**: 0.16.0+
-- **Platforms**: macOS, Windows, Linux, iOS, Android
-- **Plugins**: Compatible with all community plugins
-
-## 👤 Author
-
-- **作者 / Author**: Dave
-- **许可 / License**: MIT License
+- **作者**: Dave
+- **许可**: MIT License
