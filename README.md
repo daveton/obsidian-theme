@@ -160,6 +160,68 @@ obsidian-theme/
 └── themes/                     # 构建输出的主题文件
 ```
 
+## 🚀 发布指南 / Release Guide
+
+### 自动发布（推荐）
+
+使用 GitHub Actions 自动打包插件并发布到 Releases。
+
+#### 步骤
+
+1. **创建标签**（触发自动发布）
+   ```bash
+   git tag -a v1.0.0 -m "Release version 1.0.0"
+   git push origin v1.0.0
+   ```
+
+2. **自动执行**
+   - GitHub Actions 会自动运行
+   - 构建主题 CSS 文件
+   - 打包整个插件（包含 manifest.json、main.js、themes/）
+   - 创建 Release 并上传插件 zip 文件
+
+3. **查看 Release**
+   - 前往 GitHub 仓库 → Releases
+   - 查看自动生成的发布页面
+
+### 手动打包
+
+```bash
+# 1. 构建主题 CSS
+node scripts/build-themes.js
+
+# 2. 创建插件目录
+mkdir -p dave-themes
+cp manifest.json dave-themes/
+cp main.js dave-themes/
+cp -r themes dave-themes/
+
+# 3. 打包
+zip -r dave-themes-v1.0.0.zip dave-themes/
+
+# 4. 手动上传到 GitHub Releases
+```
+
+### 发布内容
+
+插件包 `dave-themes-v{version}.zip` 包含：
+- `manifest.json` - 插件清单（Plugin manifest）
+  - `id`: "dave-themes"
+  - `name`: "Dave Themes"
+  - `minAppVersion`: "0.15.0"
+- `main.js` - 插件主代码（主题切换逻辑）
+  - 支持命令面板快速切换
+  - 快捷键支持（Ctrl+Shift+T/R）
+  - 设置面板可视化选择
+- `themes/` - 4 个主题 CSS 文件
+  - graphite, solarized, duotone, toothpaste（支持 Light + Dark）
+
+### 版本号规则
+
+- `v1.0.0` - 主版本（重大更新）
+- `v1.1.0` - 次版本（新功能）
+- `v1.1.1` - 补丁版本（Bug 修复）
+
 ## 🏷️ Release Tags
 
 Each theme can be released independently using Git tags:
