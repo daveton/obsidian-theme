@@ -1,0 +1,30 @@
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Insert tags separated by commas"; ObjectID = "5bz-5E-56j"; */
+"5bz-5E-56j.ibExternalAccessibilityHelp" = "Введите теги через запятые";
+
+/* Class = "NSView"; ibExternalAccessibilityHelp = "If enabled append page link to note"; ObjectID = "662-3p-sfL"; */
+"662-3p-sfL.ibExternalAccessibilityHelp" = "Если включено, добавьте к заметке ссылку на страницу";
+
+/* Class = "NSTextFieldCell"; title = "Set default tags"; ObjectID = "JJd-dg-hd3"; */
+"JJd-dg-hd3.title" = "Установить теги по умолчанию";
+
+/* Class = "NSTextFieldCell"; placeholderString = "web, to read, world domination"; ObjectID = "JuX-fg-dwO"; */
+"JuX-fg-dwO.placeholderString" = "веб, читать, мировое доминирование";
+
+/* Class = "NSTextFieldCell"; title = "Import web page images"; ObjectID = "Mus-ha-RKk"; */
+"Mus-ha-RKk.title" = "Импорт изобр. веб-стр.";
+
+/* Class = "NSTextFieldCell"; title = "WEB CONTENT PREFERENCES"; ObjectID = "q35-KV-jYQ"; */
+"q35-KV-jYQ.title" = "НАСТРОЙКИ ВЕБ-КОНТЕНТА";
+
+/* Class = "NSView"; ibExternalAccessibilityHelp = "If enabled import web images"; ObjectID = "T3B-jK-SXO"; */
+"T3B-jK-SXO.ibExternalAccessibilityHelp" = "Если включено, импортируйте веб-изображения";
+
+/* Class = "NSTextFieldCell"; title = "Append web page link to note"; ObjectID = "tf3-zj-TMH"; */
+"tf3-zj-TMH.title" = "Доб. ссылку веб-стр. к заметке";
+
+/* Class = "NSTextFieldCell"; title = "Multi-word tags are supported. Separate tags with commas. Es: web, to read, world domination."; ObjectID = "TyU-W6-nXQ"; */
+"TyU-W6-nXQ.title" = "Поддерживаются многословные теги. Разделяйте теги запятыми, напр.: web, to read, world domination.";
+
+/* Class = "NSTextFieldCell"; title = "Change the behavior of Bear when collecting web pages with the browser extensions."; ObjectID = "x8v-De-Aov"; */
+"x8v-De-Aov.title" = "Меняйте поведение Bear, когда собираете веб-страницы с расширениями браузера.";
+

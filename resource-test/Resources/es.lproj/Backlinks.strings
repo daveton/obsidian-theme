@@ -1,0 +1,15 @@
+/* Class = "NSMenuItem"; title = "Show Unlinked Mentions"; ObjectID = "gSQ-37-Zef"; */
+"gSQ-37-Zef.title" = "Mostrar menciones sin enlace";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "hro-fF-fbT"; */
+"hro-fF-fbT.title" = "Celda de vista de tabla";
+
+/* Class = "NSTextFieldCell"; title = "No Backlinks"; ObjectID = "Lfy-Q5-lQY"; */
+"Lfy-Q5-lQY.title" = "Sin enlaces entrantes";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "QhP-xI-uN3"; */
+"QhP-xI-uN3.title" = "Celda de texto";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "THH-Gw-37B"; */
+"THH-Gw-37B.title" = "Celda de vista de tabla";
+

@@ -79,7 +79,7 @@ body {
 
 /* Paragraph spacing */
 .markdown-preview-view p {
-  margin-bottom: 1.2em;
+  margin-bottom: 1.5em;
   margin-top: 0;
 }
 
@@ -109,7 +109,7 @@ body {
 .markdown-preview-view h6 {
   font-weight: 650;
   letter-spacing: -0.025em;
-  margin-top: 1.8em;
+  margin-top: 2em;
   margin-bottom: 0.6em;
   line-height: 1.25;
 }
@@ -151,11 +151,11 @@ body {
 .markdown-preview-view ul,
 .markdown-preview-view ol {
   padding-left: 1.8em;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.5em;
 }
 
 .markdown-preview-view li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.6em;
   padding-left: 0.3em;
 }
 

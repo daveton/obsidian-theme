@@ -1,0 +1,60 @@
+/* Class = "NSMenuItem"; title = "Bear Note"; ObjectID = "4f0-HS-ngw"; */
+"4f0-HS-ngw.title" = "Nota do Bear";
+
+/* Class = "NSMenuItem"; title = "JPG"; ObjectID = "6Hm-qh-4SN"; */
+"6Hm-qh-4SN.title" = "JPG";
+
+/* Class = "NSButtonCell"; title = "Merge notes in single file"; ObjectID = "7VP-gn-Vb8"; */
+"7VP-gn-Vb8.title" = "Mesclar notas";
+
+/* Class = "NSMenuItem"; title = "Text Bundle"; ObjectID = "afo-uo-Ob1"; */
+"afo-uo-Ob1.title" = "Pacote de texto";
+
+/* Class = "NSButtonCell"; title = "base64 Images"; ObjectID = "B1r-ef-eNz"; */
+"B1r-ef-eNz.title" = "Imagens como base64";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Export attachments"; ObjectID = "c0r-Cp-eZs"; */
+"c0r-Cp-eZs.ibExternalAccessibilityDescription" = "Exportar anexos";
+
+/* Class = "NSMenuItem"; title = "HTML"; ObjectID = "cBj-nN-xua"; */
+"cBj-nN-xua.title" = "HTML";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Export format"; ObjectID = "f0O-QK-vjT"; */
+"f0O-QK-vjT.ibExternalAccessibilityDescription" = "Exportar formato";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Merge notes in single file"; ObjectID = "jfm-8T-0a5"; */
+"jfm-8T-0a5.ibExternalAccessibilityDescription" = "Mesclar notas";
+
+/* Class = "NSMenuItem"; title = "RTF"; ObjectID = "Jma-Bn-XMY"; */
+"Jma-Bn-XMY.title" = "RTF";
+
+/* Class = "NSTextFieldCell"; title = "Export as:"; ObjectID = "lfh-18-aMH"; */
+"lfh-18-aMH.title" = "Exportar como:";
+
+/* Class = "NSButtonCell"; title = "Export attachments"; ObjectID = "NRz-UK-iXV"; */
+"NRz-UK-iXV.title" = "Exportar anexos";
+
+/* Class = "NSMenuItem"; title = "TXT"; ObjectID = "o01-Hh-WEc"; */
+"o01-Hh-WEc.title" = "TXT";
+
+/* Class = "NSMenuItem"; title = "ePub"; ObjectID = "rQM-FF-92C"; */
+"rQM-FF-92C.title" = "ePub";
+
+/* Class = "NSButtonCell"; title = "Convert note links to HTML links"; ObjectID = "sJS-Jy-cpA"; */
+"sJS-Jy-cpA.title" = "Converter links de notas";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Export attachments"; ObjectID = "t2d-Aq-vY4"; */
+"t2d-Aq-vY4.ibExternalAccessibilityDescription" = "Exportar anexos";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Export attachments"; ObjectID = "Utv-db-dpD"; */
+"Utv-db-dpD.ibExternalAccessibilityDescription" = "Exportar anexos";
+
+/* Class = "NSMenuItem"; title = "DOCX"; ObjectID = "Vb1-KN-mpe"; */
+"Vb1-KN-mpe.title" = "DOCX";
+
+/* Class = "NSMenuItem"; title = "PDF"; ObjectID = "WHS-O9-cbs"; */
+"WHS-O9-cbs.title" = "PDF";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "wmw-Dm-ECw"; */
+"wmw-Dm-ECw.title" = "Markdown";
+

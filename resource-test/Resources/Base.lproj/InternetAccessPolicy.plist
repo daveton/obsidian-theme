@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationDescription</key>
+	<string>Bear is a notes and writing app for macOS, iOS, and Apple Watch. It offers simple but flexible writing tools, strong Markdown support, and a robust tagging system for organization.</string>
+	<key>DeveloperName</key>
+	<string>Shiny Frog Ltd.</string>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*.appcenter.ms,*.data.microsoft.com,*.trafficmanager.net</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear recently crashed. May we have permission to send an anonymous crash log to AppCenter so we can investigate the problem? No personal data will be shared.</string>
+			<key>DenyConsequences</key>
+			<string>We will not be able to investigate the circumstances of this crash or potentially fix the problem.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>https://mercury.bear.app</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear needs permission to check this link in order to mobilize and save it as a note.  Bear does not share any personal information in this process.</string>
+			<key>DenyConsequences</key>
+			<string>Bear will not be able to save the content of this link’s website to a note.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear wants to check the URL in your clipboard in order to add and link the page’s title to a note. Bear does not share any personal information in this process. To disable this feature, toggle the “title autofill” option in Bear’s preferences.</string>
+			<key>DenyConsequences</key>
+			<string>Bear will not be able to check the page for a link title before the URL is pasted inside a note. You can disable this feature, by toggling the “Auto fill title” option in Bear’s preferences.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

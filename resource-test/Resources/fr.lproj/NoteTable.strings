@@ -1,0 +1,165 @@
+/* Class = "NSMenuItem"; title = "Todo"; ObjectID = "2IN-wn-DIw"; */
+"2IN-wn-DIw.title" = "À faire";
+
+/* Class = "NSMenuItem"; title = "Duplicate"; ObjectID = "3Na-AB-Wka"; */
+"3Na-AB-Wka.title" = "Dupliquer";
+
+/* Class = "NSMenuItem"; title = "Restore"; ObjectID = "3ZX-A7-aKr"; */
+"3ZX-A7-aKr.title" = "Restaurer";
+
+/* Class = "NSMenuItem"; title = "Pin To Top"; ObjectID = "5DZ-0Q-cF7"; */
+"5DZ-0Q-cF7.title" = "Épingler en haut";
+
+/* Class = "NSMenuItem"; title = "Copy Link To Note"; ObjectID = "7WZ-wU-Tou"; */
+"7WZ-wU-Tou.title" = "Copier le lien vers la note";
+
+/* Class = "NSMenuItem"; title = "Plain Text"; ObjectID = "8le-G7-4bi"; */
+"8le-G7-4bi.title" = "Texte simple";
+
+/* Class = "NSMenuItem"; title = "Highlighted Parts Only"; ObjectID = "9nx-rn-NbX"; */
+"9nx-rn-NbX.title" = "Parties surlignées uniquement";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "9wt-E7-glZ"; */
+"9wt-E7-glZ.title" = "Étiquette";
+
+/* Class = "NSMenuItem"; title = "Title"; ObjectID = "AXC-M9-YXj"; */
+"AXC-M9-YXj.title" = "Titre";
+
+/* Class = "NSMenu"; title = "Copy As"; ObjectID = "b4S-2S-wK9"; */
+"b4S-2S-wK9.title" = "Copier en tant que";
+
+/* Class = "NSMenuItem"; title = "Keep Tags"; ObjectID = "BnA-cP-DR7"; */
+"BnA-cP-DR7.title" = "Garder les tags";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "BsF-S0-Zfp"; */
+"BsF-S0-Zfp.title" = "Cellule de texte";
+
+/* Class = "NSMenuItem"; title = "Privacy"; ObjectID = "cpS-0o-b0l"; */
+"cpS-0o-b0l.title" = "Confidentialité";
+
+/* Class = "NSMenuItem"; title = "Preview Style"; ObjectID = "CQV-FA-hvW"; */
+"CQV-FA-hvW.title" = "Style de prévisualisation";
+
+/* Class = "NSMenu"; title = "Preview Style"; ObjectID = "dKL-iD-1iq"; */
+"dKL-iD-1iq.title" = "Style de prévisualisation";
+
+/* Class = "NSMenuItem"; title = "Locked"; ObjectID = "E28-oE-vnz"; */
+"E28-oE-vnz.title" = "Verrouillé";
+
+/* Class = "NSMenuItem"; title = "Change Password"; ObjectID = "egH-Hr-Zl6"; */
+"egH-Hr-Zl6.title" = "Modifier le mot de passe";
+
+/* Class = "NSMenuItem"; title = "Notes"; ObjectID = "er5-jb-ktK"; */
+"er5-jb-ktK.title" = "Notes";
+
+/* Class = "NSMenuItem"; title = "Hide Attachments"; ObjectID = "Ey3-rq-OC5"; */
+"Ey3-rq-OC5.title" = "Masquer les pièces jointes";
+
+/* Class = "NSMenuItem"; title = "HTML"; ObjectID = "F8L-O0-2yM"; */
+"F8L-O0-2yM.title" = "HTML";
+
+/* Class = "NSMenuItem"; title = "Export Notes"; ObjectID = "fVw-Re-txd"; */
+"fVw-Re-txd.title" = "Exporter les notes";
+
+/* Class = "NSMenuItem"; title = "Add Password"; ObjectID = "fYH-U7-p7P"; */
+"fYH-U7-p7P.title" = "Ajouter un mot de passe";
+
+/* Class = "NSMenuItem"; title = "Medium"; ObjectID = "hVr-tb-9i6"; */
+"hVr-tb-9i6.title" = "Moyen";
+
+/* Class = "NSMenuItem"; title = "Trash"; ObjectID = "IGy-fZ-7WR"; */
+"IGy-fZ-7WR.title" = "Corbeille";
+
+/* Class = "NSMenuItem"; title = "Creation Date"; ObjectID = "isO-KX-ceU"; */
+"isO-KX-ceU.title" = "Date de création";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Lock All Notes"; ObjectID = "jej-h9-pfD"; */
+"jej-h9-pfD.ibShadowedToolTip" = "Verrouiller toutes les notes";
+
+/* Class = "NSMenuItem"; title = "Today"; ObjectID = "Jfi-h2-TK7"; */
+"Jfi-h2-TK7.title" = "Aujourd'hui";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "jr8-AO-kXq"; */
+"jr8-AO-kXq.title" = "Markdown";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Kd0-Pp-Wa0"; */
+"Kd0-Pp-Wa0.title" = "Étiquette";
+
+/* Class = "NSMenu"; title = "Privacy"; ObjectID = "LfG-th-6cz"; */
+"LfG-th-6cz.title" = "Confidentialité";
+
+/* Class = "NSMenuItem"; title = "Untagged"; ObjectID = "lw6-5o-pER"; */
+"lw6-5o-pER.title" = "Non taguées";
+
+/* Class = "NSMenuItem"; title = "Modification Date"; ObjectID = "mbv-9o-xLg"; */
+"mbv-9o-xLg.title" = "Date de modification";
+
+/* Class = "NSMenuItem"; title = "Archive"; ObjectID = "mXx-Oy-HUE"; */
+"mXx-Oy-HUE.title" = "Archiver";
+
+/* Class = "NSMenuItem"; title = "Export Notes..."; ObjectID = "N6G-Ng-SFM"; */
+"N6G-Ng-SFM.title" = "Exporter les notes…";
+
+/* Class = "NSTextFieldCell"; title = "Date Label"; ObjectID = "O1s-cC-rR6"; */
+"O1s-cC-rR6.title" = "Étiquette de date";
+
+/* Class = "NSMenuItem"; title = "Archive"; ObjectID = "P1i-ja-wEO"; */
+"P1i-ja-wEO.title" = "Archiver";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "PaR-Xr-WWd"; */
+"PaR-Xr-WWd.title" = "Supprimer";
+
+/* Class = "NSMenuItem"; title = "Merge"; ObjectID = "QVk-2h-G0Q"; */
+"QVk-2h-G0Q.title" = "Fusionner";
+
+/* Class = "NSTextFieldCell"; title = "Notes"; ObjectID = "R0O-UZ-gvR"; */
+"R0O-UZ-gvR.title" = "Notes";
+
+/* Class = "NSMenuItem"; title = "Open In New Window"; ObjectID = "sit-f8-u4L"; */
+"sit-f8-u4L.title" = "Ouvrir dans une nouvelle fenêtre";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "sSC-ub-hvK"; */
+"sSC-ub-hvK.title" = "Étiquette";
+
+/* Class = "NSMenuItem"; title = "Copy As"; ObjectID = "uei-VV-cLw"; */
+"uei-VV-cLw.title" = "Copier en tant que";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "VBB-7i-vhi"; */
+"VBB-7i-vhi.title" = "Copier";
+
+/* Class = "NSMenuItem"; title = "Rich Text"; ObjectID = "vhH-sD-kzy"; */
+"vhH-sD-kzy.title" = "Texte enrichi";
+
+/* Class = "NSMenuItem"; title = "Unarchive"; ObjectID = "vJx-yz-N6e"; */
+"vJx-yz-N6e.title" = "Désarchiver";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "vPc-xY-RKr"; */
+"vPc-xY-RKr.title" = "Étiquette";
+
+/* Class = "NSMenuItem"; title = "Large"; ObjectID = "vqs-bv-3sM"; */
+"vqs-bv-3sM.title" = "Grand";
+
+/* Class = "NSMenuItem"; title = "Remove Password"; ObjectID = "xiW-8L-htw"; */
+"xiW-8L-htw.title" = "Supprimer le mot de passe";
+
+/* Class = "NSMenuItem"; title = "Small"; ObjectID = "Xry-9q-I8G"; */
+"Xry-9q-I8G.title" = "Petit";
+
+/* Class = "NSMenuItem"; title = "Notes"; ObjectID = "xsb-my-VHa"; */
+"xsb-my-VHa.title" = "Notes";
+
+/* Class = "NSMenuItem"; title = "Newest on Top"; ObjectID = "Xvu-BL-rpw"; */
+"Xvu-BL-rpw.title" = "Les plus récents en haut";
+
+/* Class = "NSMenu"; title = "Sorting"; ObjectID = "XZ8-Uf-Ryo"; */
+"XZ8-Uf-Ryo.title" = "Tri";
+
+/* Class = "NSMenuItem"; title = "Copy Note's Identifier"; ObjectID = "yGR-rI-dKX"; */
+"yGR-rI-dKX.title" = "Copier l’identifiant de la note";
+
+/* Class = "NSMenuItem"; title = "Sorting"; ObjectID = "z7u-rb-FUa"; */
+"z7u-rb-FUa.title" = "Tri";
+
+/* Class = "NSMenuItem"; title = "Hide Subtag Notes"; ObjectID = "ZLY-dt-dtN"; */
+"ZLY-dt-dtN.title" = "Masquer les notes du sous-tag";
+

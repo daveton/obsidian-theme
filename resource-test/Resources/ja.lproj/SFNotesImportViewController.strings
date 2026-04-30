@@ -1,0 +1,30 @@
+/* Class = "NSButtonCell"; title = "Escape involuntary tags"; ObjectID = "4iq-Wa-dyR"; */
+"4iq-Wa-dyR.title" = "インボラタグをエスケープ";
+
+/* Class = "NSButtonCell"; title = "Use file name as title (txt, md, textbundle)"; ObjectID = "EG1-gN-lzS"; */
+"EG1-gN-lzS.title" = "ファイル名をタイトルに使用 (txt、md、textbundle)";
+
+/* Class = "NSButtonCell"; title = "Keep original creation and modification date"; ObjectID = "GeO-Q1-WgR"; */
+"GeO-Q1-WgR.title" = "元の作成日付と変更日付を維持";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Escape involuntary tags"; ObjectID = "iKe-IJ-Rzl"; */
+"iKe-IJ-Rzl.ibExternalAccessibilityDescription" = "インボラタグをエスケープ";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "k6y-kw-h2b"; */
+"k6y-kw-h2b.title" = "ウインドウ";
+
+/* Class = "NSButtonCell"; title = "Use first line as title (txt, md, textbundle)"; ObjectID = "NRz-UK-iXV"; */
+"NRz-UK-iXV.title" = "最初の行をタイトルに使用 (txt、md、textbundle)";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Use first line as title (txt, md, textbundle)"; ObjectID = "Utv-db-dpD"; */
+"Utv-db-dpD.ibExternalAccessibilityDescription" = "最初の行をタイトルに使用 (txt、md、textbundle)";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Keep original creation and modification date"; ObjectID = "v0K-qP-s7A"; */
+"v0K-qP-s7A.ibExternalAccessibilityDescription" = "元の作成日付と変更日付を維持";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Use first line as title (txt, md, textbundle)"; ObjectID = "yFw-8N-3hR"; */
+"yFw-8N-3hR.ibExternalAccessibilityDescription" = "最初の行をタイトルに使用 (txt、md、textbundle)";
+
+/* Class = "NSTextFieldCell"; title = "Importing your notes"; ObjectID = "ZUO-O6-fNc"; */
+"ZUO-O6-fNc.title" = "メモをインポートしています";
+

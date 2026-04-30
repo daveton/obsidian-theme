@@ -1,0 +1,29 @@
+# Themes & Fonts
+Bear comes with a 10 different themes
+
+1. [Red Graphite](bear://x-callback-url/change-theme?theme=Red%20Graphite)
+2. [High Contrast](bear://x-callback-url/change-theme?theme=High%20Contrast)
+3. [Dark Griphite](bear://x-callback-url/change-theme?theme=Dark%20Graphite)
+4. [Charcoal](bear://x-callback-url/change-theme?theme=Charcoal)
+5. [Solarized Light](bear://x-callback-url/change-theme?theme=Solarized%20Light)
+6. [Solarized Dark](bear://x-callback-url/change-theme?theme=Solarized%20Dark)
+7. [Panic Mode](bear://x-callback-url/change-theme?theme=Panic%20Mode)
+8. [Dracula](bear://x-callback-url/change-theme?theme=Dracula)
+9. [Gotham](bear://x-callback-url/change-theme?theme=Gotham)
+10. [Toothpaste](bear://x-callback-url/change-theme?theme=Toothpaste)
+11. [Cobalt](bear://x-callback-url/change-theme?theme=Cobalt)
+12. [Duotone Light](bear://x-callback-url/change-theme?theme=Duotone%20Light)
+13. [Duotone Snow](bear://x-callback-url/change-theme?theme=Duotone%20Snow)
+14. [Duotone Heat](bear://x-callback-url/change-theme?theme=Duotone%20Heat)
+15. [Dieci](bear://x-callback-url/change-theme?theme=Dieci)
+16. [Ayu](bear://x-callback-url/change-theme?theme=Ayu)
+
+And 7 different fonts
+
+1. [Avenir Next](bear://x-callback-url/change-font?font=Avenir%20Next)
+2. [MacOS Default](bear://x-callback-url/change-font?font=System)
+3. [Helvetica Neue](bear://x-callback-url/change-font?font=Helvetica Neue)
+4. [Menlo](bear://x-callback-url/change-font?font=Menlo)
+5. [Georgia](bear://x-callback-url/change-font?font=Georgia)
+6. [Courier](bear://x-callback-url/change-font?font=Courier)
+7. [Open Dyslexic](bear://x-callback-url/change-font?font=Open%20Dyslexic)

@@ -1,0 +1,288 @@
+/* Class = "NSButtonCell"; title = "1.49 $ Subscribe"; ObjectID = "0t3-6z-Eks"; */
+"0t3-6z-Eks.title" = "$1.49 구독";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1e7-cy-DON"; */
+"1e7-cy-DON.title" = "레이블";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "2i4-N1-ERL"; */
+"2i4-N1-ERL.title" = "em";
+
+/* Class = "NSTextFieldCell"; title = "Yearly Subscription"; ObjectID = "5lY-wM-B8e"; */
+"5lY-wM-B8e.title" = "연간 구독";
+
+/* Class = "NSButtonCell"; title = "14.99 $ Subscribe"; ObjectID = "5pg-Wq-YOL"; */
+"5pg-Wq-YOL.title" = "$14.99 구독";
+
+/* Class = "NSTextFieldCell"; title = "12 minutes ago"; ObjectID = "6f4-5f-H7W"; */
+"6f4-5f-H7W.title" = "12분 전";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "6tE-yR-ryc"; */
+"6tE-yR-ryc.title" = "em";
+
+/* Class = "NSTextFieldCell"; title = "🐻❤️👇"; ObjectID = "8yW-tm-MX6"; */
+"8yW-tm-MX6.title" = "🐻❤️👇";
+
+/* Class = "NSTextFieldCell"; title = "Message"; ObjectID = "82x-qG-b8n"; */
+"82x-qG-b8n.title" = "메시지";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "ack-fH-7vR"; */
+"ack-fH-7vR.title" = "15";
+
+/* Class = "NSTextFieldCell"; title = "All subscriptions can be cancelled at any time."; ObjectID = "aX3-bq-atG"; */
+"aX3-bq-atG.title" = "모든 구독 항목은 언제든 취소할 수 있습니다.";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "AXD-dl-5IW"; */
+"AXD-dl-5IW.title" = "레이블";
+
+/* Class = "NSButtonCell"; title = "Manage Subscription"; ObjectID = "BCV-pl-P9F"; */
+"BCV-pl-P9F.title" = "구독 관리";
+
+/* Class = "NSButtonCell"; title = "Autocomplete tags, WikiLinks, emoji"; ObjectID = "BuB-j0-Wsl"; */
+"BuB-j0-Wsl.title" = "태그, Wiki 링크, 이모지 자동 완성";
+
+/* Class = "NSTabViewItem"; label = "App Icon"; ObjectID = "csc-P7-T2O"; */
+"csc-P7-T2O.label" = "앱 아이콘";
+
+/* Class = "NSTextFieldCell"; title = "Sync notes between all your devices"; ObjectID = "d2o-ba-2a7"; */
+"d2o-ba-2a7.title" = "모든 장치 간 메모 동기화";
+
+/* Class = "NSButtonCell"; title = "Restore Purchases"; ObjectID = "day-Wh-Tht"; */
+"day-Wh-Tht.title" = "구매 항목 복원";
+
+/* Class = "NSTextFieldCell"; title = "The date refers to the next renewal of the subscription. The free trial is counted as a one-time subscription period and will be renewed as a paid subscription automatically."; ObjectID = "DcS-Lx-ksI"; */
+"DcS-Lx-ksI.title" = "날짜는 다음 구독 갱신일을 나타냅니다. 무료 체험은 1회성 구독 기간으로 계산되고 자동으로 유료 구독으로 갱신됩니다.";
+
+/* Class = "NSTextFieldCell"; title = "Thank you for your support!"; ObjectID = "DgX-8q-pas"; */
+"DgX-8q-pas.title" = "성원해주셔서 감사합니다!";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "DRp-C7-eBN"; */
+"DRp-C7-eBN.title" = "날짜 및 시간";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "IqY-dU-1eC"; */
+"IqY-dU-1eC.title" = "날짜 및 시간 (ISO 8601)";
+
+/* Class = "NSTextFieldCell"; title = "Line Width:"; ObjectID = "dUb-TY-9U2"; */
+"dUb-TY-9U2.title" = "줄 너비:";
+
+/* Class = "NSButtonCell"; title = "Auto-fill titles when pasting web links"; ObjectID = "DwG-ne-KGI"; */
+"DwG-ne-KGI.title" = "웹 링크를 붙여넣을 때 자동으로 제목 기입";
+
+/* Class = "NSTextFieldCell"; title = "\n"; ObjectID = "dxB-Zz-GlH"; */
+"dxB-Zz-GlH.title" = "\n";
+
+/* Class = "NSTextFieldCell"; title = "Code Font:"; ObjectID = "EoS-zZ-Hi3"; */
+"EoS-zZ-Hi3.title" = "코드 글꼴:";
+
+/* Class = "NSMenuItem"; title = "15 minutes"; ObjectID = "F0k-da-yCe"; */
+"F0k-da-yCe.title" = "15분";
+
+/* Class = "NSTextFieldCell"; title = "Headings Font:"; ObjectID = "F1X-yV-K2y"; */
+"F1X-yV-K2y.title" = "머리말 글꼴:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Buy yearly subscription"; ObjectID = "fAQ-YM-eI4"; */
+"fAQ-YM-eI4.ibExternalAccessibilityDescription" = "연간 구독 구입";
+
+/* Class = "NSWindow"; title = "Settings"; ObjectID = "FMo-cR-Hmm"; */
+"FMo-cR-Hmm.title" = "환경설정";
+
+/* Class = "NSTextFieldCell"; title = "1 week free trial"; ObjectID = "fpa-YR-ymZ"; */
+"fpa-YR-ymZ.title" = "1주 무료 이용";
+
+/* Class = "NSTabViewItem"; label = "Sync"; ObjectID = "GIv-re-eoG"; */
+"GIv-re-eoG.label" = "동기화";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Manage Subscription"; ObjectID = "GNq-xV-Qtr"; */
+"GNq-xV-Qtr.ibExternalAccessibilityDescription" = "구독 관리";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Open iTunes subscription page"; ObjectID = "GNq-xV-Qtr"; */
+"GNq-xV-Qtr.ibExternalAccessibilityHelp" = "iTunes 구독 페이지 열기";
+
+/* Class = "NSButtonCell"; title = "Restore Editor Defaults"; ObjectID = "gRL-Gg-ZTa"; */
+"gRL-Gg-ZTa.title" = "기본값으로 재설정";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Restore Purchases"; ObjectID = "h1v-AX-lo8"; */
+"h1v-AX-lo8.ibExternalAccessibilityDescription" = "구매 항목 복원";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Restore previously purchased subscriptions"; ObjectID = "h1v-AX-lo8"; */
+"h1v-AX-lo8.ibExternalAccessibilityHelp" = "이전에 구입한 구독 항목 복원";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Last synchronization"; ObjectID = "HHk-bT-0nA"; */
+"HHk-bT-0nA.ibExternalAccessibilityHelp" = "마지막 동기화";
+
+/* Class = "NSTextFieldCell"; title = "Paragraph Spacing:"; ObjectID = "hIK-Qk-RfF"; */
+"hIK-Qk-RfF.title" = "단락 간격:";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "hny-Zk-mXZ"; */
+"hny-Zk-mXZ.title" = "15";
+
+/* Class = "NSButtonCell"; title = "iCloud Sync"; ObjectID = "inl-vf-5Ya"; */
+"inl-vf-5Ya.title" = "iCloud 동기화";
+
+/* Class = "NSTextFieldCell"; title = "SUBSCRIPTION"; ObjectID = "IZL-Mh-vL1"; */
+"IZL-Mh-vL1.title" = "구독";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Notes List Sorting"; ObjectID = "j4u-u8-GMO"; */
+"j4u-u8-GMO.ibExternalAccessibilityDescription" = "메모 목록 정렬";
+
+/* Class = "NSTextFieldCell"; title = "Title"; ObjectID = "J6X-Tj-6Dj"; */
+"J6X-Tj-6Dj.title" = "제목";
+
+/* Class = "NSTextFieldCell"; title = "Create new notes with:"; ObjectID = "JrR-SX-GrS"; */
+"JrR-SX-GrS.title" = "새로운 메모 생성 방법:";
+
+/* Class = "NSButtonCell"; title = "Terms of Service"; ObjectID = "KEo-1q-RLM"; */
+"KEo-1q-RLM.title" = "이용 약관";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "KXF-JL-zQN"; */
+"KXF-JL-zQN.title" = "em";
+
+/* Class = "NSButtonCell"; title = "Hide Markdown"; ObjectID = "laP-ZM-tAp"; */
+"laP-ZM-tAp.title" = "Markdown 숨기기";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "LXm-P9-5jd"; */
+"LXm-P9-5jd.title" = "레이블";
+
+/* Class = "NSButtonCell"; title = "Keep tags during export"; ObjectID = "lXo-yt-PmD"; */
+"lXo-yt-PmD.title" = "내보내는 동안 태그 유지";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "M0N-8S-6dB"; */
+"M0N-8S-6dB.title" = "15";
+
+/* Class = "NSTextFieldCell"; title = "Disabling sync on this device will not disable it on others. If you wish to stop syncing altogether, disable sync on each of your devices."; ObjectID = "MbB-et-tgk"; */
+"MbB-et-tgk.title" = "이 장치에서 동기화를 비활성화해도 다른 장치에서 비활성화되지 않습니다. 다른 장치에서도 동기화를 중지하려면 각 장치에서 동기화를 비활성화하세요.";
+
+/* Class = "NSTabViewItem"; label = "General"; ObjectID = "mbQ-am-Gnc"; */
+"mbQ-am-Gnc.label" = "일반";
+
+/* Class = "NSTextFieldCell"; title = "Advanced exports to PDF, HTML, DOCX, JPG"; ObjectID = "MCe-XI-Y75"; */
+"MCe-XI-Y75.title" = "PDF, HTML, DOCX, JPG로 고급 내보내기";
+
+/* Class = "NSTextFieldCell"; title = "Valid until 27 Oct 2016"; ObjectID = "nGM-4w-aEp"; */
+"nGM-4w-aEp.title" = "2016년 10월 27일까지 유효";
+
+/* Class = "NSButtonCell"; title = "Lock Bear at launch"; ObjectID = "NmM-WI-uLe"; */
+"NmM-WI-uLe.title" = "시작 시 베어 잠금";
+
+/* Class = "NSMenuItem"; title = "Heading 1"; ObjectID = "oIx-MC-rj2"; */
+"oIx-MC-rj2.title" = "머리말 1";
+
+/* Class = "NSMenuItem"; title = "Heading 2"; ObjectID = "oce-tg-Xi4"; */
+"oce-tg-Xi4.title" = "머리말 2";
+
+/* Class = "NSMenuItem"; title = "Heading 3"; ObjectID = "QlL-0B-xd6"; */
+"QlL-0B-xd6.title" = "머리말 3";
+
+/* Class = "NSMenuItem"; title = "Heading 4"; ObjectID = "4vk-O2-XYb"; */
+"4vk-O2-XYb.title" = "머리말 4";
+
+/* Class = "NSTextFieldCell"; title = "Last Sync:"; ObjectID = "oO4-bB-qAi"; */
+"oO4-bB-qAi.title" = "마지막 동기화:";
+
+/* Class = "NSMenuItem"; title = "5 minutes"; ObjectID = "P3i-Hr-fcN"; */
+"P3i-Hr-fcN.title" = "5분";
+
+/* Class = "NSTextFieldCell"; title = "Upgrade to Bear Pro to support further development and gain access to some great extra features:"; ObjectID = "P9r-59-Q5b"; */
+"P9r-59-Q5b.title" = "베어 Pro로 업그레이드해서 개발자를 지원하고 더 많은 우수한 기능을 이용하세요.";
+
+/* Class = "NSMenuItem"; title = "Empty"; ObjectID = "PRd-Mc-ibC"; */
+"PRd-Mc-ibC.title" = "비어 있음";
+
+/* Class = "NSTextFieldCell"; title = "Text Font:"; ObjectID = "PSL-1C-DQe"; */
+"PSL-1C-DQe.title" = "텍스트 글꼴:";
+
+/* Class = "NSMenuItem"; title = "10 minutes"; ObjectID = "pUS-v3-Xel"; */
+"pUS-v3-Xel.title" = "10분";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "QMc-Ca-OQv"; */
+"QMc-Ca-OQv.title" = "15";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Any Questions? Contact Us!"; ObjectID = "r8d-jA-U06"; */
+"r8d-jA-U06.ibExternalAccessibilityDescription" = "질문이 있으면 문의해 주세요!";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Open Bear's support page"; ObjectID = "r8d-jA-U06"; */
+"r8d-jA-U06.ibExternalAccessibilityHelp" = "베어 지원 페이지 열기";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Buy monthly subscription"; ObjectID = "Rmc-GL-b8V"; */
+"Rmc-GL-b8V.ibExternalAccessibilityDescription" = "월간 구독 구입";
+
+/* Class = "NSTextFieldCell"; title = "Lock after Mac is idle for:"; ObjectID = "seW-nt-iUc"; */
+"seW-nt-iUc.title" = "다음 Mac 유휴 시간 후 잠금:";
+
+/* Class = "NSTextFieldCell"; title = "YOU ARE A PRO"; ObjectID = "SG7-nO-EeR"; */
+"SG7-nO-EeR.title" = "프로 회원이 되었습니다";
+
+/* Class = "NSTextFieldCell"; title = "pt"; ObjectID = "ShY-fH-0rk"; */
+"ShY-fH-0rk.title" = "pt";
+
+/* Class = "NSMenuItem"; title = "1 hour"; ObjectID = "sOm-be-ghV"; */
+"sOm-be-ghV.title" = "1시간";
+
+/* Class = "NSButtonCell"; title = "Privacy Policy"; ObjectID = "ta8-tW-u1F"; */
+"ta8-tW-u1F.title" = "개인정보 취급방침";
+
+/* Class = "NSButtonCell"; title = "Any Questions? Contact Us!"; ObjectID = "tah-KI-Kdt"; */
+"tah-KI-Kdt.title" = "질문이 있으면 문의해 주세요!";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "TeT-qO-BWX"; */
+"TeT-qO-BWX.title" = "em";
+
+/* Class = "NSTextFieldCell"; title = "Open main window:"; ObjectID = "Tg2-ve-p4b"; */
+"Tg2-ve-p4b.title" = "메인 창 열기:";
+
+/* Class = "NSTextFieldCell"; title = "1 month free trial + save 15%"; ObjectID = "tuw-f9-3p8"; */
+"tuw-f9-3p8.title" = "1개월 무료 이용";
+
+/* Class = "NSButtonCell"; title = "Contact us"; ObjectID = "tvu-bz-uB4"; */
+"tvu-bz-uB4.title" = "고객 문의";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "UlT-IA-Ow2"; */
+"UlT-IA-Ow2.title" = "15";
+
+/* Class = "NSTextFieldCell"; title = "Create a new note:"; ObjectID = "UT4-Lw-H0O"; */
+"UT4-Lw-H0O.title" = "새 메모 생성:";
+
+/* Class = "NSTabViewItem"; label = "Themes"; ObjectID = "uVq-R4-jco"; */
+"uVq-R4-jco.label" = "테마";
+
+/* Class = "NSTextFieldCell"; title = "Paragraph Indent:"; ObjectID = "UW3-Lo-tDL"; */
+"UW3-Lo-tDL.title" = "단락 들여쓰기:";
+
+/* Class = "NSMenuItem"; title = "30 minutes"; ObjectID = "vfx-y5-aVy"; */
+"vfx-y5-aVy.title" = "30분";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Notes List Sorting"; ObjectID = "w7P-8J-Pr8"; */
+"w7P-8J-Pr8.ibExternalAccessibilityDescription" = "메모 목록 정렬";
+
+/* Class = "NSTextFieldCell"; title = "Application themes"; ObjectID = "w9z-Kk-dCF"; */
+"w9z-Kk-dCF.title" = "응용 프로그램 테마";
+
+/* Class = "NSTabViewItem"; label = "Typography"; ObjectID = "Wi9-AP-L5C"; */
+"Wi9-AP-L5C.label" = "타이포그래피";
+
+/* Class = "NSMenuItem"; title = "1 minute"; ObjectID = "xgY-Bf-IIX"; */
+"xgY-Bf-IIX.title" = "1분";
+
+/* Class = "NSTextFieldCell"; title = "Monthly Subscription"; ObjectID = "XhA-LV-q9g"; */
+"XhA-LV-q9g.title" = "월간 구독";
+
+/* Class = "NSMenuItem"; title = "2 minutes"; ObjectID = "xhE-mR-AyT"; */
+"xhE-mR-AyT.title" = "2분";
+
+/* Class = "NSTextFieldCell"; title = "Line Height:"; ObjectID = "XmR-Rp-SXg"; */
+"XmR-Rp-SXg.title" = "줄 높이:";
+
+/* Class = "NSTextFieldCell"; title = "Editor:"; ObjectID = "XUd-4I-7R5"; */
+"XUd-4I-7R5.title" = "편집기:";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "xwi-a8-xub"; */
+"xwi-a8-xub.title" = "날짜";
+
+/* Class = "NSMenuItem"; title = "Date (ISO 8601)"; ObjectID = "2WY-I3-8ry"; */
+"2WY-I3-8ry.title" = "날짜 (ISO 8601)";
+
+/* Class = "NSButtonCell"; title = "Action name"; ObjectID = "y7S-Vv-LmC"; */
+"y7S-Vv-LmC.title" = "작업 이름";
+
+/* Class = "NSTextFieldCell"; title = "Font Size:"; ObjectID = "Ydz-B5-vec"; */
+"Ydz-B5-vec.title" = "글꼴 크기:";
+

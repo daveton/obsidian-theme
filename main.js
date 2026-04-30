@@ -6,7 +6,43 @@ const { Plugin, PluginSettingTab, Setting, Notice } = require('obsidian');
  */
 
 const DEFAULT_SETTINGS = {
-  activeTheme: 'graphite'
+  activeTheme: 'graphite',
+  activeFont: 'bear-sans-ui'
+};
+
+const FONTS = {
+  'bear-sans-ui': {
+    name: 'Bear Sans UI',
+    description: 'Bear default font'
+  },
+  'avenir-next': {
+    name: 'Avenir Next',
+    description: 'Modern sans-serif font'
+  },
+  'system': {
+    name: 'MacOS Default',
+    description: 'System default font'
+  },
+  'helvetica-neue': {
+    name: 'Helvetica Neue',
+    description: 'Classic sans-serif'
+  },
+  'menlo': {
+    name: 'Menlo',
+    description: 'Monospace font'
+  },
+  'georgia': {
+    name: 'Georgia',
+    description: 'Serif font'
+  },
+  'courier': {
+    name: 'Courier',
+    description: 'Monospace typewriter font'
+  },
+  'open-dyslexic': {
+    name: 'Open Dyslexic',
+    description: 'Font for dyslexic readers'
+  }
 };
 
 const THEMES = {
@@ -15,20 +51,60 @@ const THEMES = {
     description: 'Classic red accents on light/dark backgrounds',
     modes: ['light', 'dark']
   },
+  'high-contrast': {
+    name: 'Dave High Contrast',
+    description: 'High contrast for better visibility',
+    modes: ['dark']
+  },
+  'charcoal': {
+    name: 'Dave Charcoal',
+    description: 'Dark charcoal with red accents',
+    modes: ['dark']
+  },
   'solarized': {
     name: 'Dave Solarized',
     description: 'Solarized Light + Solarized Dark',
     modes: ['light', 'dark']
+  },
+  'panic-mode': {
+    name: 'Dave Panic Mode',
+    description: 'Vibrant, eye-catching colors',
+    modes: ['dark']
+  },
+  'dracula': {
+    name: 'Dave Dracula',
+    description: 'Dracula color palette',
+    modes: ['dark']
+  },
+  'gotham': {
+    name: 'Dave Gotham',
+    description: 'Dark blue-based theme',
+    modes: ['dark']
+  },
+  'toothpaste': {
+    name: 'Dave Toothpaste',
+    description: 'Fresh mint colors',
+    modes: ['light', 'dark']
+  },
+  'cobalt': {
+    name: 'Dave Cobalt',
+    description: 'Deep blue color palette',
+    modes: ['dark']
   },
   'duotone': {
     name: 'Dave Duotone',
     description: 'Duotone Light (purple) + Duotone Heat (warm orange)',
     modes: ['light', 'dark']
   },
-  'toothpaste': {
-    name: 'Dave Toothpaste',
-    description: 'Fresh mint colors',
-    modes: ['light', 'dark']
+  'dieci': {
+    name: 'Dave Dieci',
+    description: 'Warm amber-brown palette',
+    modes: ['light']
+  },
+  'ayu': {
+    name: 'Dave Ayu',
+    description: 'Ayu Mirage color palette',
+    modes: ['dark']
   }
 };
 
@@ -87,6 +163,24 @@ class DaveThemesSettingTab extends PluginSettingTab {
             await this.plugin.applyTheme(value);
             this.display();
           }
+        });
+      });
+
+    // Font selector
+    new Setting(containerEl)
+      .setName('当前字体')
+      .setDesc('选择要应用的字体')
+      .addDropdown(dropdown => {
+        Object.entries(FONTS).forEach(([id, font]) => {
+          dropdown.addOption(id, font.name);
+        });
+        
+        dropdown.setValue(this.plugin.settings.activeFont);
+        dropdown.onChange(async (value) => {
+          this.plugin.settings.activeFont = value;
+          await this.plugin.saveSettings();
+          await this.plugin.applyFont(value);
+          this.display();
         });
       });
 
@@ -213,6 +307,62 @@ class DaveThemesPlugin extends Plugin {
 
   async saveSettings() {
     await this.saveData(this.settings);
+  }
+
+  async applyFont(fontId) {
+    const fontConfig = FONTS[fontId];
+    if (!fontConfig) return;
+
+    // Define font family based on selection
+    let fontFamily;
+    switch (fontId) {
+      case 'bear-sans-ui':
+        fontFamily = "'Bear Sans UI', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif";
+        break;
+      case 'avenir-next':
+        fontFamily = "'Avenir Next', -apple-system, BlinkMacSystemFont, sans-serif";
+        break;
+      case 'system':
+        fontFamily = "-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif";
+        break;
+      case 'helvetica-neue':
+        fontFamily = "'Helvetica Neue', Helvetica, Arial, sans-serif";
+        break;
+      case 'menlo':
+        fontFamily = "'Menlo', 'SF Mono', Monaco, 'Cascadia Code', Consolas, monospace";
+        break;
+      case 'georgia':
+        fontFamily = "'Georgia', 'Times New Roman', Times, serif";
+        break;
+      case 'courier':
+        fontFamily = "'Courier New', Courier, monospace";
+        break;
+      case 'open-dyslexic':
+        fontFamily = "'OpenDyslexic', 'Comic Sans MS', cursive, sans-serif";
+        break;
+      default:
+        fontFamily = "-apple-system, BlinkMacSystemFont, sans-serif";
+    }
+
+    // Apply font to editor and preview
+    const styleEl = document.getElementById('dave-fonts-style') || document.createElement('style');
+    styleEl.id = 'dave-fonts-style';
+    styleEl.textContent = `
+      body {
+        --font-interface: ${fontFamily};
+        --font-editor: ${fontFamily};
+      }
+      .markdown-source-view,
+      .markdown-preview-view {
+        font-family: ${fontFamily};
+      }
+    `;
+    
+    if (!document.getElementById('dave-fonts-style')) {
+      document.head.appendChild(styleEl);
+    }
+
+    new Notice(`已切换字体：${fontConfig.name}`, 2000);
   }
 
   async applyTheme(themeId, animate = true) {

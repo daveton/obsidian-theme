@@ -1,0 +1,30 @@
+/* Class = "NSButtonCell"; title = "Escape involuntary tags"; ObjectID = "4iq-Wa-dyR"; */
+"4iq-Wa-dyR.title" = "Избегать случайных тегов";
+
+/* Class = "NSButtonCell"; title = "Use file name as title (txt, md, textbundle)"; ObjectID = "EG1-gN-lzS"; */
+"EG1-gN-lzS.title" = "Исп. имя файла как название (txt, md, textbundle)";
+
+/* Class = "NSButtonCell"; title = "Keep original creation and modification date"; ObjectID = "GeO-Q1-WgR"; */
+"GeO-Q1-WgR.title" = "Оставить исходные даты создания и изменения";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Escape involuntary tags"; ObjectID = "iKe-IJ-Rzl"; */
+"iKe-IJ-Rzl.ibExternalAccessibilityDescription" = "Избегать случайных тегов";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "k6y-kw-h2b"; */
+"k6y-kw-h2b.title" = "Окно";
+
+/* Class = "NSButtonCell"; title = "Use first line as title (txt, md, textbundle)"; ObjectID = "NRz-UK-iXV"; */
+"NRz-UK-iXV.title" = "Исп. первую строку как название (txt, md, textbundle)";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Use first line as title (txt, md, textbundle)"; ObjectID = "Utv-db-dpD"; */
+"Utv-db-dpD.ibExternalAccessibilityDescription" = "Исп. первую строку как название (txt, md, textbundle)";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Keep original creation and modification date"; ObjectID = "v0K-qP-s7A"; */
+"v0K-qP-s7A.ibExternalAccessibilityDescription" = "Оставить исходные даты создания и изменения";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Use first line as title (txt, md, textbundle)"; ObjectID = "yFw-8N-3hR"; */
+"yFw-8N-3hR.ibExternalAccessibilityDescription" = "Исп. первую строку как название (txt, md, textbundle)";
+
+/* Class = "NSTextFieldCell"; title = "Importing your notes"; ObjectID = "ZUO-O6-fNc"; */
+"ZUO-O6-fNc.title" = "Импорт ваших заметок";
+

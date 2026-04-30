@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationDescription</key>
+	<string>Bear — это приложение для написания заметок и текстов в macOS, iOS и Apple Watch. Оно предлагает простые, но гибкие инструменты написания текстов, сильную поддержку Markdown и мощную систему маркировки тегами для компании.</string>
+	<key>DeveloperName</key>
+	<string>Shiny Frog Ltd.</string>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*.appcenter.ms,*.data.microsoft.com</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear недавно претерпел сбой. Можем ли мы получить разрешение отправить анонимную журнальную запись сбоя в AppCenter для последующего исследования проблемы? Личные данные распространяться не будут.</string>
+			<key>DenyConsequences</key>
+			<string>Мы не будем в состоянии расследовать обстоятельства этого сбоя или в перспективе исправить эту проблему.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>https://mercury.bear.app</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear необходимо разрешение для проверки этой ссылки, чтобы использовать ее и сохранить как заметку.   В ходе этого процесса Bear не делится ни с кем персональной информацией.</string>
+			<key>DenyConsequences</key>
+			<string>Bear не сможет сохранить контент сайта этой ссылки на заметку.</string>
+		</dict>
+		<dict>
+			<key>IsIncoming</key>
+			<false/>
+			<key>Host</key>
+			<string>*</string>
+			<key>NetworkProtocol</key>
+			<string>TCP</string>
+			<key>Relevance</key>
+			<string>Default</string>
+			<key>Purpose</key>
+			<string>Bear хочет проверить URL в вашем буфере, чтобы добавить и связать название страницы с заметкой.  В ходе этого процесса Bear не делится ни с кем персональной информацией. Чтобы отключить эту функцию, переключите параметр «автозаполнение заголовка» в настройках Bear.</string>
+			<key>DenyConsequences</key>
+			<string>Bear не сможет проверить на странице заголовок ссылки до того, как URL-адрес вставлен внутри заметки.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

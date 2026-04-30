@@ -1,0 +1,288 @@
+/* Class = "NSButtonCell"; title = "1.49 $ Subscribe"; ObjectID = "0t3-6z-Eks"; */
+"0t3-6z-Eks.title" = "Assinatura de $ 1.49 dólares";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1e7-cy-DON"; */
+"1e7-cy-DON.title" = "Etiqueta";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "2i4-N1-ERL"; */
+"2i4-N1-ERL.title" = "em";
+
+/* Class = "NSTextFieldCell"; title = "Yearly Subscription"; ObjectID = "5lY-wM-B8e"; */
+"5lY-wM-B8e.title" = "Assinatura anual";
+
+/* Class = "NSButtonCell"; title = "14.99 $ Subscribe"; ObjectID = "5pg-Wq-YOL"; */
+"5pg-Wq-YOL.title" = "Assinatura de $ 14.99 dólares";
+
+/* Class = "NSTextFieldCell"; title = "12 minutes ago"; ObjectID = "6f4-5f-H7W"; */
+"6f4-5f-H7W.title" = "12 minutos atrás";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "6tE-yR-ryc"; */
+"6tE-yR-ryc.title" = "em";
+
+/* Class = "NSTextFieldCell"; title = "🐻❤️👇"; ObjectID = "8yW-tm-MX6"; */
+"8yW-tm-MX6.title" = "🐻❤️👇";
+
+/* Class = "NSTextFieldCell"; title = "Message"; ObjectID = "82x-qG-b8n"; */
+"82x-qG-b8n.title" = "Mensagem";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "ack-fH-7vR"; */
+"ack-fH-7vR.title" = "15";
+
+/* Class = "NSTextFieldCell"; title = "All subscriptions can be cancelled at any time."; ObjectID = "aX3-bq-atG"; */
+"aX3-bq-atG.title" = "Todas as assinaturas podem ser canceladas a qualquer momento.";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "AXD-dl-5IW"; */
+"AXD-dl-5IW.title" = "Etiqueta";
+
+/* Class = "NSButtonCell"; title = "Manage Subscription"; ObjectID = "BCV-pl-P9F"; */
+"BCV-pl-P9F.title" = "Gerenciar assinatura";
+
+/* Class = "NSButtonCell"; title = "Autocomplete tags, WikiLinks, emoji"; ObjectID = "BuB-j0-Wsl"; */
+"BuB-j0-Wsl.title" = "Etiquetas de autocompletar, WikiLinks, emoji";
+
+/* Class = "NSTabViewItem"; label = "App Icon"; ObjectID = "csc-P7-T2O"; */
+"csc-P7-T2O.label" = "Ícone do aplicativo";
+
+/* Class = "NSTextFieldCell"; title = "Sync notes between all your devices"; ObjectID = "d2o-ba-2a7"; */
+"d2o-ba-2a7.title" = "Sincronize notas entre seus dispositivos";
+
+/* Class = "NSButtonCell"; title = "Restore Purchases"; ObjectID = "day-Wh-Tht"; */
+"day-Wh-Tht.title" = "Restaurar compras";
+
+/* Class = "NSTextFieldCell"; title = "The date refers to the next renewal of the subscription. The free trial is counted as a one-time subscription period and will be renewed as a paid subscription automatically."; ObjectID = "DcS-Lx-ksI"; */
+"DcS-Lx-ksI.title" = "A data se refere à próxima renovação da assinatura. A versão de avaliação gratuita é contada como uma assinatura de período único e será renovada como assinatura paga automaticamente.";
+
+/* Class = "NSTextFieldCell"; title = "Thank you for your support!"; ObjectID = "DgX-8q-pas"; */
+"DgX-8q-pas.title" = "Obrigado pelo seu apoio!";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "DRp-C7-eBN"; */
+"DRp-C7-eBN.title" = "Data e hora";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "IqY-dU-1eC"; */
+"IqY-dU-1eC.title" = "Data e hora (ISO 8601)";
+
+/* Class = "NSTextFieldCell"; title = "Line Width:"; ObjectID = "dUb-TY-9U2"; */
+"dUb-TY-9U2.title" = "Largura da linha:";
+
+/* Class = "NSButtonCell"; title = "Auto-fill titles when pasting web links"; ObjectID = "DwG-ne-KGI"; */
+"DwG-ne-KGI.title" = "Preenchimento de títulos ao colar links";
+
+/* Class = "NSTextFieldCell"; title = "\n"; ObjectID = "dxB-Zz-GlH"; */
+"dxB-Zz-GlH.title" = "\n";
+
+/* Class = "NSTextFieldCell"; title = "Code Font:"; ObjectID = "EoS-zZ-Hi3"; */
+"EoS-zZ-Hi3.title" = "Fonte do código:";
+
+/* Class = "NSMenuItem"; title = "15 minutes"; ObjectID = "F0k-da-yCe"; */
+"F0k-da-yCe.title" = "15 minutos";
+
+/* Class = "NSTextFieldCell"; title = "Headings Font:"; ObjectID = "F1X-yV-K2y"; */
+"F1X-yV-K2y.title" = "Fonte dos títulos:";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Buy yearly subscription"; ObjectID = "fAQ-YM-eI4"; */
+"fAQ-YM-eI4.ibExternalAccessibilityDescription" = "Comprar a assinatura anual";
+
+/* Class = "NSWindow"; title = "Settings"; ObjectID = "FMo-cR-Hmm"; */
+"FMo-cR-Hmm.title" = "Preferências";
+
+/* Class = "NSTextFieldCell"; title = "1 week free trial"; ObjectID = "fpa-YR-ymZ"; */
+"fpa-YR-ymZ.title" = "Avaliação grátis de 1 semana";
+
+/* Class = "NSTabViewItem"; label = "Sync"; ObjectID = "GIv-re-eoG"; */
+"GIv-re-eoG.label" = "Sinc.";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Manage Subscription"; ObjectID = "GNq-xV-Qtr"; */
+"GNq-xV-Qtr.ibExternalAccessibilityDescription" = "Gerenciar assinatura";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Open iTunes subscription page"; ObjectID = "GNq-xV-Qtr"; */
+"GNq-xV-Qtr.ibExternalAccessibilityHelp" = "Abrir a página de assinaturas iTunes";
+
+/* Class = "NSButtonCell"; title = "Restore Editor Defaults"; ObjectID = "gRL-Gg-ZTa"; */
+"gRL-Gg-ZTa.title" = "Restaurar padrões";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Restore Purchases"; ObjectID = "h1v-AX-lo8"; */
+"h1v-AX-lo8.ibExternalAccessibilityDescription" = "Restaurar compras";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Restore previously purchased subscriptions"; ObjectID = "h1v-AX-lo8"; */
+"h1v-AX-lo8.ibExternalAccessibilityHelp" = "Restaurar as assinaturas adquiridas anteriormente";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "Last synchronization"; ObjectID = "HHk-bT-0nA"; */
+"HHk-bT-0nA.ibExternalAccessibilityHelp" = "Última sincronização";
+
+/* Class = "NSTextFieldCell"; title = "Paragraph Spacing:"; ObjectID = "hIK-Qk-RfF"; */
+"hIK-Qk-RfF.title" = "Espaçamento do parágrafo:";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "hny-Zk-mXZ"; */
+"hny-Zk-mXZ.title" = "15";
+
+/* Class = "NSButtonCell"; title = "iCloud Sync"; ObjectID = "inl-vf-5Ya"; */
+"inl-vf-5Ya.title" = "Sincronização com o iCloud";
+
+/* Class = "NSTextFieldCell"; title = "SUBSCRIPTION"; ObjectID = "IZL-Mh-vL1"; */
+"IZL-Mh-vL1.title" = "ASSINATURA";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Notes List Sorting"; ObjectID = "j4u-u8-GMO"; */
+"j4u-u8-GMO.ibExternalAccessibilityDescription" = "Ordem da lista de notas";
+
+/* Class = "NSTextFieldCell"; title = "Title"; ObjectID = "J6X-Tj-6Dj"; */
+"J6X-Tj-6Dj.title" = "Título";
+
+/* Class = "NSTextFieldCell"; title = "Create new notes with:"; ObjectID = "JrR-SX-GrS"; */
+"JrR-SX-GrS.title" = "Criar novas notas com:";
+
+/* Class = "NSButtonCell"; title = "Terms of Service"; ObjectID = "KEo-1q-RLM"; */
+"KEo-1q-RLM.title" = "Termos de uso";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "KXF-JL-zQN"; */
+"KXF-JL-zQN.title" = "em";
+
+/* Class = "NSButtonCell"; title = "Hide Markdown"; ObjectID = "laP-ZM-tAp"; */
+"laP-ZM-tAp.title" = "Ocultar Markdown";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "LXm-P9-5jd"; */
+"LXm-P9-5jd.title" = "Etiqueta";
+
+/* Class = "NSButtonCell"; title = "Keep tags during export"; ObjectID = "lXo-yt-PmD"; */
+"lXo-yt-PmD.title" = "Manter etiquetas na exportação";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "M0N-8S-6dB"; */
+"M0N-8S-6dB.title" = "15";
+
+/* Class = "NSTextFieldCell"; title = "Disabling sync on this device will not disable it on others. If you wish to stop syncing altogether, disable sync on each of your devices."; ObjectID = "MbB-et-tgk"; */
+"MbB-et-tgk.title" = "A desativação da sincronização neste aplicativo não a desativará nos outros. Se quiser interromper toda a sincronização, desative em cada um dos dispositivos.";
+
+/* Class = "NSTabViewItem"; label = "General"; ObjectID = "mbQ-am-Gnc"; */
+"mbQ-am-Gnc.label" = "Geral";
+
+/* Class = "NSTextFieldCell"; title = "Advanced exports to PDF, HTML, DOCX, JPG"; ObjectID = "MCe-XI-Y75"; */
+"MCe-XI-Y75.title" = "Exportação avançada para PDF, HTML, DOCX, JPG";
+
+/* Class = "NSTextFieldCell"; title = "Valid until 27 Oct 2016"; ObjectID = "nGM-4w-aEp"; */
+"nGM-4w-aEp.title" = "Válido até 27 out 2016";
+
+/* Class = "NSButtonCell"; title = "Lock Bear at launch"; ObjectID = "NmM-WI-uLe"; */
+"NmM-WI-uLe.title" = "Bloquear o Bear ao ser carregado";
+
+/* Class = "NSMenuItem"; title = "Heading 1"; ObjectID = "oIx-MC-rj2"; */
+"oIx-MC-rj2.title" = "Título 1";
+
+/* Class = "NSMenuItem"; title = "Heading 2"; ObjectID = "oce-tg-Xi4"; */
+"oce-tg-Xi4.title" = "Título 2";
+
+/* Class = "NSMenuItem"; title = "Heading 3"; ObjectID = "QlL-0B-xd6"; */
+"QlL-0B-xd6.title" = "Título 3";
+
+/* Class = "NSMenuItem"; title = "Heading 4"; ObjectID = "4vk-O2-XYb"; */
+"4vk-O2-XYb.title" = "Título 4";
+
+/* Class = "NSTextFieldCell"; title = "Last Sync:"; ObjectID = "oO4-bB-qAi"; */
+"oO4-bB-qAi.title" = "Última sincronização:";
+
+/* Class = "NSMenuItem"; title = "5 minutes"; ObjectID = "P3i-Hr-fcN"; */
+"P3i-Hr-fcN.title" = "5 minutos";
+
+/* Class = "NSTextFieldCell"; title = "Upgrade to Bear Pro to support further development and gain access to some great extra features:"; ObjectID = "P9r-59-Q5b"; */
+"P9r-59-Q5b.title" = "Faça upgrade do Bear Pro para dar suporte ao desenvolvimento e acessar incríveis recursos adicionais:";
+
+/* Class = "NSMenuItem"; title = "Empty"; ObjectID = "PRd-Mc-ibC"; */
+"PRd-Mc-ibC.title" = "Vazio";
+
+/* Class = "NSTextFieldCell"; title = "Text Font:"; ObjectID = "PSL-1C-DQe"; */
+"PSL-1C-DQe.title" = "Fonte do texto:";
+
+/* Class = "NSMenuItem"; title = "10 minutes"; ObjectID = "pUS-v3-Xel"; */
+"pUS-v3-Xel.title" = "10 minutos";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "QMc-Ca-OQv"; */
+"QMc-Ca-OQv.title" = "15";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Any Questions? Contact Us!"; ObjectID = "r8d-jA-U06"; */
+"r8d-jA-U06.ibExternalAccessibilityDescription" = "Alguma dúvida? Entre em contato!";
+
+/* Class = "NSButton"; ibExternalAccessibilityHelp = "Open Bear's support page"; ObjectID = "r8d-jA-U06"; */
+"r8d-jA-U06.ibExternalAccessibilityHelp" = "Abrir página de suporte do Bear";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Buy monthly subscription"; ObjectID = "Rmc-GL-b8V"; */
+"Rmc-GL-b8V.ibExternalAccessibilityDescription" = "Compre a assinatura mensal";
+
+/* Class = "NSTextFieldCell"; title = "Lock after Mac is idle for:"; ObjectID = "seW-nt-iUc"; */
+"seW-nt-iUc.title" = "Bloquear depois ocioso por:";
+
+/* Class = "NSTextFieldCell"; title = "YOU ARE A PRO"; ObjectID = "SG7-nO-EeR"; */
+"SG7-nO-EeR.title" = "VOCÊ É UM PRO";
+
+/* Class = "NSTextFieldCell"; title = "pt"; ObjectID = "ShY-fH-0rk"; */
+"ShY-fH-0rk.title" = "pt";
+
+/* Class = "NSMenuItem"; title = "1 hour"; ObjectID = "sOm-be-ghV"; */
+"sOm-be-ghV.title" = "1 hora";
+
+/* Class = "NSButtonCell"; title = "Privacy Policy"; ObjectID = "ta8-tW-u1F"; */
+"ta8-tW-u1F.title" = "Política de privacidade";
+
+/* Class = "NSButtonCell"; title = "Any Questions? Contact Us!"; ObjectID = "tah-KI-Kdt"; */
+"tah-KI-Kdt.title" = "Alguma dúvida? Entre em contato!";
+
+/* Class = "NSTextFieldCell"; title = "em"; ObjectID = "TeT-qO-BWX"; */
+"TeT-qO-BWX.title" = "em";
+
+/* Class = "NSTextFieldCell"; title = "Open main window:"; ObjectID = "Tg2-ve-p4b"; */
+"Tg2-ve-p4b.title" = "Abrir janela principal:";
+
+/* Class = "NSTextFieldCell"; title = "1 month free trial + save 15%"; ObjectID = "tuw-f9-3p8"; */
+"tuw-f9-3p8.title" = "1 mês grátis + economia de 15%";
+
+/* Class = "NSButtonCell"; title = "Contact us"; ObjectID = "tvu-bz-uB4"; */
+"tvu-bz-uB4.title" = "Fale conosco";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "UlT-IA-Ow2"; */
+"UlT-IA-Ow2.title" = "15";
+
+/* Class = "NSTextFieldCell"; title = "Create a new note:"; ObjectID = "UT4-Lw-H0O"; */
+"UT4-Lw-H0O.title" = "Criar uma nova nota:";
+
+/* Class = "NSTabViewItem"; label = "Themes"; ObjectID = "uVq-R4-jco"; */
+"uVq-R4-jco.label" = "Temas";
+
+/* Class = "NSTextFieldCell"; title = "Paragraph Indent:"; ObjectID = "UW3-Lo-tDL"; */
+"UW3-Lo-tDL.title" = "Recuo de parágrafo:";
+
+/* Class = "NSMenuItem"; title = "30 minutes"; ObjectID = "vfx-y5-aVy"; */
+"vfx-y5-aVy.title" = "30 minutos";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Notes List Sorting"; ObjectID = "w7P-8J-Pr8"; */
+"w7P-8J-Pr8.ibExternalAccessibilityDescription" = "Ordem da lista de notas";
+
+/* Class = "NSTextFieldCell"; title = "Application themes"; ObjectID = "w9z-Kk-dCF"; */
+"w9z-Kk-dCF.title" = "Temas do Aplicativo";
+
+/* Class = "NSTabViewItem"; label = "Typography"; ObjectID = "Wi9-AP-L5C"; */
+"Wi9-AP-L5C.label" = "Tipografia";
+
+/* Class = "NSMenuItem"; title = "1 minute"; ObjectID = "xgY-Bf-IIX"; */
+"xgY-Bf-IIX.title" = "1 minuto";
+
+/* Class = "NSTextFieldCell"; title = "Monthly Subscription"; ObjectID = "XhA-LV-q9g"; */
+"XhA-LV-q9g.title" = "Assinatura mensal";
+
+/* Class = "NSMenuItem"; title = "2 minutes"; ObjectID = "xhE-mR-AyT"; */
+"xhE-mR-AyT.title" = "2 minutos";
+
+/* Class = "NSTextFieldCell"; title = "Line Height:"; ObjectID = "XmR-Rp-SXg"; */
+"XmR-Rp-SXg.title" = "Altura da linha:";
+
+/* Class = "NSTextFieldCell"; title = "Editor:"; ObjectID = "XUd-4I-7R5"; */
+"XUd-4I-7R5.title" = "Editor:";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "xwi-a8-xub"; */
+"xwi-a8-xub.title" = "Data";
+
+/* Class = "NSMenuItem"; title = "Date (ISO 8601)"; ObjectID = "2WY-I3-8ry"; */
+"2WY-I3-8ry.title" = "Data (ISO 8601)";
+
+/* Class = "NSButtonCell"; title = "Action name"; ObjectID = "y7S-Vv-LmC"; */
+"y7S-Vv-LmC.title" = "Nome da ação";
+
+/* Class = "NSTextFieldCell"; title = "Font Size:"; ObjectID = "Ydz-B5-vec"; */
+"Ydz-B5-vec.title" = "Tamanho da fonte:";
+

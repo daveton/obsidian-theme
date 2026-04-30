@@ -134,10 +134,22 @@
 /* Bear Sans UI Font Face */
 @font-face {
   font-family: 'Bear Sans UI';
-  src: local('BearSansUI-Regular'),
-       local('BearSansUI-Medium'),
-       local('Bear Sans UI');
-  font-weight: 400 500;
+  src: url('../dave-themes-plugin/BearSansUI-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bear Sans UI';
+  src: url('../dave-themes-plugin/BearSansUI-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bear Sans UI';
+  src: url('../dave-themes-plugin/BearSansUI-Bold.otf') format('opentype');
+  font-weight: 700;
   font-display: swap;
 }
 
