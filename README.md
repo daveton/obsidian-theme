@@ -2,245 +2,190 @@
 
 > 一款精心设计的 Obsidian 主题系列，提供 4 个优雅的主题，全部支持浅色和深色双模式体验。
 
-## 🎨 主题列表
+适用于桌面、手机和平板电脑。荣获极简主义设计理念，提供舒适的写作体验。
 
-| 主题 / Theme | Light | Dark | 描述 / Description |
-|-------------|-------|------|-------------------|
-| **Dave Graphite** | ✅ | ✅ | 经典红黑配色（推荐）|
-| **Dave Solarized** | ✅ | ✅ | Solarized 配色方案 |
-| **Dave Duotone** | ✅ | ✅ | 双色调主题（紫色 + 暖橙色）|
-| **Dave Toothpaste** | ✅ | ✅ | 清新的薄荷色调 |
+## 关于 Dave Themes
 
-## ⭐ Dave Graphite（推荐主题）
+Dave Themes 是一款无干扰且高度可定制的 Obsidian 主题系列，提供 4 个精心设计的配色方案：
 
-Dave Graphite 是一个极简主义、电影感的 Obsidian 主题，提供专业的写作体验。
+- **Dave Graphite** - 经典红黑配色，专业电影感
+- **Dave Solarized** - Solarized 配色方案，护眼舒适
+- **Dave Duotone** - 双色调主题，紫色与暖橙色融合
+- **Dave Toothpaste** - 清新薄荷色调，愉悦写作体验
 
-> A minimalist, cinematic writing experience for Obsidian. Crafted by a senior UI/UX designer with 9 years of experience.
+## 屏幕截图
 
-### 特性 / Features
+### Dave Graphite
 
-- **双主题模式 / Dual Themes**
-  - **Light** - 干净的白色背景配以标志性的红色强调色
-  - **Dark** - 深炭灰色背景配以亮红色强调色
-
-- **精致排版 / Refined Typography**
-  - 系统字体栈，优化字间距和行高
-  - System font stack with optimized letter spacing and line height
-
-- **SVG 图标 / SVG Icons**
-  - 内嵌精心设计的 checkbox 和外链箭头图标
-  - Embedded custom checkbox and external link arrow icons
-
-- **语法高亮 / Syntax Highlighting**
-  - 优雅的代码块和内联代码样式
-  - Elegant code block and inline code styling
-
-- **Graph 视图配色 / Graph View Colors**
-  - 精心调校的节点和连线配色
-  - Carefully tuned node and line colors
-
-### 颜色方案 / Color Schemes
-
-#### Light Theme
-
-| 元素 / Element | 色值 / Color |
-|---------------|-------------|
-| 背景 / Background | `#FFFFFF` |
-| 主文本 / Primary Text | `#2C2C2C` |
-| 强调色 / Accent | `#D7494C` (Bear品牌色) |
-| 次要文本 / Secondary | `#8E8E8E` |
-| 代码背景 / Code BG | `#F5F5F5` |
-
-#### Dark Theme
-
-| 元素 / Element | 色值 / Color |
-|---------------|-------------|
-| 背景 / Background | `#2C2C2C` |
-| 主文本 / Primary Text | `#E0E0E0` |
-| 强调色 / Accent | `#D7494C` (Bear品牌色) |
-| 次要文本 / Secondary | `#999999` |
-| 代码背景 / Code BG | `#1E1E1E` |
-
----
-
-## ✨ 特性 / Features
-
-- **统一格式 / Unified Format**: 每个主题使用 Obsidian 标准的 `.theme-light` / `.theme-dark` CSS 结构
-- **精致排版 / Refined Typography**:
-  - 行高：1.75（舒适的阅读节奏）
-  - 段落间距：1.5em
-  - 标题间距：2em
-  - 编辑器最大宽度：720px
-  - 底部留白：30vh padding
-- **SVG 图标 / SVG Icons**: 精心设计的 checkbox 和 UI 元素，以 data URI 嵌入
-- **字体支持 / Font Support**: 使用系统字体回退（SF Pro、Segoe UI 等）
-
-## 📦 安装方式 / Installation Options
-
-你可以选择以下 **3 种方式**安装使用 Dave 主题：
-
-### 方式 1：Obsidian 主题商店（推荐）
-> 下载 Dave Graphite 推荐主题
-
-1. 打开 Obsidian 设置 → **外观** → **主题**
-2. 点击 **管理** → 搜索 "Dave Graphite"
-3. 安装并选择 **Dave Graphite**
-
-### 方式 2：手动下载安装（所有主题）
-> 下载任意主题，手动安装到 Obsidian
-
-1. 前往 [GitHub Releases](https://github.com/daveton/obsidian-theme/releases)
-2. 下载所需主题的 `.zip` 文件（如 `dave-dracula-v1.0.0.zip`）
-3. 解压到 `[Vault]/.obsidian/themes/[theme-name]/`
-   - 示例：`.obsidian/themes/dave-dracula/`
-4. 重启 Obsidian，在设置 → 外观 → 主题 中选择启用
-
-### 方式 3：Dave Themes 插件（一键切换）
-> 安装插件，在插件内轻松切换 4 个主题
-
-1. 前往 [GitHub Releases](https://github.com/daveton/obsidian-theme/releases)
-2. 下载 `dave-themes-v{版本}.zip`
-3. 解压到 `[Vault]/.obsidian/plugins/dave-themes/`
-4. 重启 Obsidian
-5. 在设置 → 社区插件 中启用 **Dave Themes**
-6. 在 Dave Themes 设置面板中选择喜欢的主题
-
-**插件文件结构：**
-```
-dave-themes/
-├── manifest.json      # 插件清单
-├── main.js           # 主题切换功能
-└── themes/           # 4个主题CSS文件
-    ├── graphite.css
-    ├── solarized.css
-    ├── duotone.css
-    └── toothpaste.css
-```
-
-## 🔤 字体说明 / Font Notes
-
-本主题使用系统字体回退：
-- **macOS**: SF Pro, SF Mono
-- **Windows**: Segoe UI, Cascadia Code
-- **Linux**: 系统默认 sans-serif 和 monospace 字体
-
-## 🎯 主题预览 / Theme Previews
-
-### Dave Graphite（Light + Dark）
-经典的红黑配色，提供浅色和深色双模式。
+经典的红黑配色，提供浅色和深色双模式体验。
 
 ### Dave Solarized
-Solarized 配色方案，护眼舒适。
+
+Solarized Light + Solarized Dark，护眼配色方案。
 
 ### Dave Duotone
-双色调主题，紫色与暖橙色的完美融合。
+
+Duotone Light（紫色）+ Duotone Heat（暖橙色）。
 
 ### Dave Toothpaste
-清新的薄荷色调，带来愉悦的写作体验。
 
-## 📝 文件结构 / File Structure
+Fresh mint colors，清新的薄荷色调。
+
+## 安装
+
+### 安装主题
+
+1. 打开 Obsidian 设置
+2. 前往 **外观** 并点击 **管理**
+3. 在社区主题下搜索 "Dave Graphite"、"Dave Solarized"、"Dave Duotone" 或 "Dave Toothpaste"
+4. 点击 **使用**
+
+### 安装插件
+
+1. 前往 **社区插件** 并关闭 **受限模式**
+2. 在社区插件中搜索 "Dave Themes"
+3. 点击 **安装**，然后点击 **启用**
+
+有问题吗？请访问 [GitHub Issues](https://github.com/daveton/obsidian-theme/issues)。
+
+## 特性
+
+### 界面颜色和字体
+
+- **双主题模式** - 每个主题支持浅色和深色模式
+- **精致排版** - 优化的行高、段落间距和标题层级
+- **系统字体** - 使用系统字体回退（SF Pro、Segoe UI 等）
+- **编辑器宽度** - 舒适的 720px 阅读宽度
+
+### 配色方案
+
+每个主题提供精心调校的配色方案：
+
+| 主题 | Light 模式 | Dark 模式 |
+|------|-----------|-----------|
+| Graphite | 白色背景 + 红色强调色 | 深灰背景 + 亮红色强调色 |
+| Solarized | Solarized Light 配色 | Solarized Dark 配色 |
+| Duotone | 紫色调 | 暖橙色调 |
+| Toothpaste | 薄荷绿调 | 深青色调 |
+
+## 插件支持
+
+Dave Themes 与大多数 Obsidian 插件兼容，特别优化了以下插件：
+
+- Calendar
+- Dataview
+- Kanban
+- Outliner
+- Excalidraw
+- Tags
+- Tasks
+
+## CSS 辅助类
+
+您可以使用 `cssClasses` YAML front matter 键在每个文件的基础上添加 CSS 辅助类。这些类是可组合的，因此您可以包含多个来组合效果。
+
+例如，在文件顶部使用以下代码来启用卡片布局：
+
+```yaml
+---
+cssClasses: cards
+---
+```
+
+## 复选框样式
+
+Dave Themes 支持多种复选框样式：
+
+| 语法 | 描述 |
+|------|------|
+| `- [ ]` | 待办事项 |
+| `- [x]` | 已完成 |
+| `- [-]` | 已取消 |
+
+## 快捷键
+
+Dave Themes 插件提供以下快捷键：
+
+- `Ctrl+Shift+T` - 切换主题
+- `Ctrl+Shift+R` - 重置主题
+
+## 贡献
+
+如果您想添加对插件的支持，或者发现了一个您想帮助修复的 bug，请随时提交 Pull Request。有问题？请在 [GitHub Issues](https://github.com/daveton/obsidian-theme/issues) 中提出。
+
+## 开发者
+
+### 文件结构
 
 ```
 obsidian-theme/
-├── README.md                   # 项目文档
-├── manifest.json               # 插件配置
-├── main.js                     # 插件代码（主题切换功能）
-├── dave-themes-plugin/         # 插件分发文件夹
+├── README.md
+├── manifest.json
+├── main.js
+├── Graphite/
 │   ├── manifest.json
-│   ├── main.js
-│   └── themes/                 # 4个主题CSS文件
-│       ├── graphite.css
-│       ├── solarized.css
-│       ├── duotone.css
-│       └── toothpaste.css
-├── dave-graphite/              # ⭐ 推荐主题源码
-├── dave-solarized/             # 主题源码
-├── dave-duotone/               # 主题源码
-├── dave-toothpaste/            # 主题源码
-└── themes/                     # 构建输出的主题文件
+│   └── theme.css
+├── Duotone/
+│   ├── manifest.json
+│   └── theme.css
+├── Solarized/
+│   ├── manifest.json
+│   └── theme.css
+├── Toothpaste/
+│   ├── manifest.json
+│   └── theme.css
+└── dave-themes/
+    ├── manifest.json
+    ├── main.js
+    └── themes/
+        ├── graphite.css
+        ├── duotone.css
+        ├── solarized.css
+        └── toothpaste.css
 ```
 
-## 🚀 发布指南 / Release Guide
+### 构建主题
 
-### 自动发布（推荐）
+```bash
+# 构建主题 CSS
+node scripts/build-themes.js
+
+# 归一化主题
+node scripts/normalize-themes.js
+```
+
+### 发布
 
 使用 GitHub Actions 自动打包插件并发布到 Releases。
 
-#### 步骤
-
-1. **创建标签**（触发自动发布）
-   ```bash
-   git tag -a v1.0.0 -m "Release version 1.0.0"
-   git push origin v1.0.0
-   ```
-
-2. **自动执行**
-   - GitHub Actions 会自动运行
-   - 构建主题 CSS 文件
-   - 打包整个插件（包含 manifest.json、main.js、themes/）
-   - 创建 Release 并上传插件 zip 文件
-
-3. **查看 Release**
-   - 前往 GitHub 仓库 → Releases
-   - 查看自动生成的发布页面
-
-### 手动打包
-
 ```bash
-# 1. 构建主题 CSS
-node scripts/build-themes.js
-
-# 2. 创建插件目录
-mkdir -p dave-themes
-cp manifest.json dave-themes/
-cp main.js dave-themes/
-cp -r themes dave-themes/
-
-# 3. 打包
-zip -r dave-themes-v1.0.0.zip dave-themes/
-
-# 4. 手动上传到 GitHub Releases
+# 创建标签（触发自动发布）
+git tag -a v1.0.0 -m "Release version 1.0.0"
+git push origin v1.0.0
 ```
 
-### 发布内容
+## 许可证
 
-插件包 `dave-themes-v{version}.zip` 包含：
-- `manifest.json` - 插件清单（Plugin manifest）
-  - `id`: "dave-themes"
-  - `name`: "Dave Themes"
-  - `minAppVersion`: "0.15.0"
-- `main.js` - 插件主代码（主题切换逻辑）
-  - 支持命令面板快速切换
-  - 快捷键支持（Ctrl+Shift+T/R）
-  - 设置面板可视化选择
-- `themes/` - 4 个主题 CSS 文件
-  - graphite, solarized, duotone, toothpaste（支持 Light + Dark）
+适用于桌面和移动设备的极简设计
 
-### 版本号规则
+Dave Themes for Obsidian 采用 MIT 许可证，允许您修改和重新分发代码，但您必须在 CSS 文件中保留版权和许可声明。
 
-- `v1.0.0` - 主版本（重大更新）
-- `v1.1.0` - 次版本（新功能）
-- `v1.1.1` - 补丁版本（Bug 修复）
+如果您想分发 Dave Themes 的一个分支或其部分代码，请在您的 Readme 文件中保留我的 GitHub 链接。
 
-## 🏷️ Release Tags
+Dave Themes 会定期更新，以保持与最新版本 Obsidian 的同步。为了方便您及时获取最新改进，我建议您使用 GitHub 的 fork 功能，以便将最新更改合并到您的 fork 中。
 
-Each theme can be released independently using Git tags:
-- `v1.0.0-graphite` - Dave Graphite updates
-- `v1.0.0-dracula` - Dave Dracula updates
-- `v1.0.0-all` - All themes updated
+## 免责声明
 
-## 🤝 贡献 / Contributing
+此主题按原样提供，专为我在 macOS 上使用 Obsidian 主题而设计。因此，它并未在所有操作系统和使用场景下进行全面测试。
 
-欢迎贡献！改进方向：
-- 颜色方案优化
-- 移动端适配
-- 插件兼容性修复
+此主题修改了 Obsidian 界面的重要部分，因此可能会在未来的更新中出现问题。它也可能与您已有的其他自定义 CSS 不兼容。
 
-## 📄 许可 / License
+## 关于
 
-MIT License - 可自由使用、修改和分发。
+一款无干扰且高度可定制的 Obsidian 主题系列。
 
-## 👤 作者 / Author
+## 作者
 
 - **作者**: Dave
+- **GitHub**: [daveton](https://github.com/daveton)
 - **许可**: MIT License
