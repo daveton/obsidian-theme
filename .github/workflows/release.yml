@@ -1,0 +1,76 @@
+name: Release Themes
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      - name: Package themes
+        id: package_themes
+        run: |
+          mkdir -p releases
+          THEMES=()
+          for theme_dir in dave-*/; do
+            theme_name=$(basename "$theme_dir")
+            zip_file="releases/${theme_name}-v${{ steps.get_version.outputs.VERSION }}.zip"
+            
+            # Create zip with theme.css and manifest.json
+            if [ -f "${theme_dir}theme.css" ] && [ -f "${theme_dir}manifest.json" ]; then
+              zip -j "$zip_file" "${theme_dir}theme.css" "${theme_dir}manifest.json"
+              echo "Packaged: $theme_name"
+              THEMES+=("$zip_file")
+            else
+              echo "Skipping $theme_name: missing theme.css or manifest.json"
+            fi
+          done
+          
+          # Output list of zip files for upload
+          echo "files=${THEMES[*]}" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release ${{ steps.get_version.outputs.VERSION }}
+          body: |
+            ## Dave's Obsidian Themes v${{ steps.get_version.outputs.VERSION }}
+            
+            ### 包含主题 / Included Themes
+            
+            | 主题 | 说明 |
+            |------|------|
+            | **Dave Graphite** | ⭐ 推荐主题，红黑经典配色 |
+            | Dave Solarized | Solarized 配色 |
+            | Dave Duotone | 双色调主题 |
+            | Dave Toothpaste | 薄荷色调 |
+            | Dave Charcoal | 深炭黑主题 |
+            | Dave Dracula | Dracula 配色 |
+            | Dave Gotham | 深蓝主题 |
+            | Dave High Contrast | 高对比度 |
+            | Dave Panic Mode | 鲜艳粉/红色 |
+            | Dave Cobalt | 钴蓝色调 |
+            | Dave Dieci | 琥珀棕色 |
+            | Dave Ayu | Ayu Mirage 配色 |
+            
+            ### 安装方法 / Installation
+            
+            1. 下载所需主题的 zip 文件
+            2. 解压到 `[Vault]/.obsidian/themes/[theme-name]/`
+            3. 在 Obsidian 设置 → 外观 → 主题 中启用
+          files: releases/*.zip
+          generate_release_notes: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
