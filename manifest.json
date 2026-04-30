@@ -1,0 +1,10 @@
+{
+  "id": "dave-themes",
+  "name": "Dave Themes",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "A collection of 12 beautifully crafted Obsidian themes with easy switching",
+  "author": "Dave",
+  "authorUrl": "https://github.com/daveton",
+  "isDesktopOnly": false
+}
