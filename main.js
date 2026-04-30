@@ -105,39 +105,6 @@ class DaveThemesSettingTab extends PluginSettingTab {
       infoDiv.createEl('small', { text: modesText, cls: 'dave-theme-modes' });
     }
 
-    // All themes list
-    containerEl.createEl('h3', { text: '所有主题', cls: 'dave-theme-section-title' });
-    
-    const themeList = containerEl.createDiv('dave-theme-list');
-    Object.entries(THEMES).forEach(([id, theme]) => {
-      const themeItem = themeList.createDiv('dave-theme-item');
-      themeItem.style.marginBottom = '12px';
-      themeItem.style.padding = '8px';
-      themeItem.style.borderRadius = '4px';
-      themeItem.style.background = 'var(--background-modifier-form-field)';
-      
-      const header = themeItem.createDiv();
-      header.createEl('strong', { text: theme.name });
-      header.createEl('small', { text: ` [${theme.modes.join('/')}]` });
-      
-      themeItem.createEl('p', { 
-        text: theme.description, 
-        cls: 'theme-desc',
-        attr: { style: 'margin: 4px 0; font-size: 0.9em; opacity: 0.8;' }
-      });
-      
-      const applyBtn = themeItem.createEl('button', { 
-        text: '应用此主题',
-        cls: 'mod-cta'
-      });
-      applyBtn.style.marginTop = '4px';
-      applyBtn.addEventListener('click', async () => {
-        this.plugin.settings.activeTheme = id;
-        await this.plugin.saveSettings();
-        await this.plugin.applyTheme(id);
-        this.display();
-      });
-    });
   }
 }
 
