@@ -1,4 +1,4 @@
-name: Release Dave Themes Plugin
+name: Release Dave Themes
 
 on:
   push:
@@ -19,19 +19,40 @@ jobs:
         id: get_version
         run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Build themes
-        run: node scripts/build-themes.js
-
-      - name: Package Plugin
+      - name: Package Individual Themes
         run: |
           mkdir -p releases
           
-          # Create plugin directory structure
+          # Package each theme individually (for manual installation)
+          for theme_dir in dave-*/; do
+            theme_name=$(basename "$theme_dir")
+            zip_file="releases/${theme_name}-v${{ steps.get_version.outputs.VERSION }}.zip"
+            
+            if [ -f "${theme_dir}theme.css" ] && [ -f "${theme_dir}manifest.json" ]; then
+              # Create a temporary directory with proper structure
+              temp_dir="temp_${theme_name}"
+              mkdir -p "$temp_dir"
+              cp "${theme_dir}theme.css" "$temp_dir/"
+              cp "${theme_dir}manifest.json" "$temp_dir/"
+              
+              # Create zip with theme folder inside
+              cd "$temp_dir"
+              zip -r "../$zip_file" .
+              cd ..
+              rm -rf "$temp_dir"
+              
+              echo "✓ Packaged: ${theme_name}"
+            else
+              echo "✗ Skipped ${theme_name}: missing theme.css or manifest.json"
+            fi
+          done
+
+      - name: Package Plugin
+        run: |
+          # Build themes for plugin
+          node scripts/build-themes.js
+          
+          # Create plugin package (for plugin installation)
           PLUGIN_DIR="dave-themes"
           mkdir -p "$PLUGIN_DIR"
           
@@ -40,53 +61,64 @@ jobs:
           cp main.js "$PLUGIN_DIR/"
           cp -r themes "$PLUGIN_DIR/"
           
-          # Create zip package
-          zip_file="releases/dave-themes-v${{ steps.get_version.outputs.VERSION }}.zip"
+          # Create plugin zip
+          zip_file="releases/dave-themes-plugin-v${{ steps.get_version.outputs.VERSION }}.zip"
           zip -r "$zip_file" "$PLUGIN_DIR"
           
-          echo "Plugin packaged: $zip_file"
+          echo "✓ Plugin packaged: dave-themes-plugin-v${{ steps.get_version.outputs.VERSION }}.zip"
+          
+          # Cleanup
+          rm -rf "$PLUGIN_DIR"
+          
+          echo ""
+          echo "All packages created:"
           ls -lh releases/
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          name: Dave Themes Plugin v${{ steps.get_version.outputs.VERSION }}
+          name: Dave Themes v${{ steps.get_version.outputs.VERSION }}
           body: |
-            ## Dave Themes Plugin v${{ steps.get_version.outputs.VERSION }}
+            ## Dave Themes v${{ steps.get_version.outputs.VERSION }}
             
-            一个包含 12 个精美主题的 Obsidian 插件，支持一键切换。
+            一款精心设计的 Obsidian 主题系列，包含 12 个精美主题。
             
-            ### 包含主题 / Included Themes
+            ---
+            
+            ## 🚀 安装方式 / Installation Options
+            
+            ### 方式 1：Obsidian 主题商店（推荐）
+            直接在 Obsidian 设置 → 外观 → 主题 → 管理 中搜索 "Dave Graphite" 安装。
+            
+            ### 方式 2：手动安装单个主题
+            下载下方列表中的主题 zip 文件，解压到 `[Vault]/.obsidian/themes/[theme-name]/` 目录。
+            
+            ### 方式 3：Dave Themes 插件
+            下载 **dave-themes-plugin-xxx.zip**，解压到 `[Vault]/.obsidian/plugins/dave-themes/`，在插件设置中切换 12 个主题。
+            
+            ---
+            
+            ## 📦 下载 / Downloads
+            
+            ### 插件包（方式 3）
+            - **dave-themes-plugin-v${{ steps.get_version.outputs.VERSION }}.zip** - 包含所有主题的插件
+            
+            ### 单个主题包（方式 2）
             
             | 主题 | 支持模式 | 说明 |
             |------|---------|------|
-            | **Dave Graphite** | Light + Dark | ⭐ 推荐主题，红黑经典配色 |
-            | Dave Solarized | Light + Dark | Solarized 配色 |
-            | Dave Duotone | Light + Dark | 双色调主题 |
-            | Dave Toothpaste | Light + Dark | 薄荷色调 |
-            | Dave Charcoal | Dark | 深炭黑主题 |
-            | Dave Dracula | Dark | Dracula 配色 |
-            | Dave Gotham | Dark | 深蓝主题 |
-            | Dave High Contrast | Dark | 高对比度 |
-            | Dave Panic Mode | Dark | 鲜艳粉/红色 |
-            | Dave Cobalt | Dark | 钴蓝色调 |
-            | Dave Dieci | Dark | 琥珀棕色 |
-            | Dave Ayu | Dark | Ayu Mirage 配色 |
-            
-            ### 安装方法 / Installation
-            
-            1. 下载 `dave-themes-v${{ steps.get_version.outputs.VERSION }}.zip`
-            2. 解压到 `[Vault]/.obsidian/plugins/dave-themes/`
-            3. 重启 Obsidian
-            4. 在设置 → 社区插件 → 已安装插件 中启用 Dave Themes
-            5. 在 Dave Themes 设置中选择喜欢的主题
-            
-            ### 使用方法 / Usage
-            
-            1. 打开 Obsidian 设置
-            2. 找到 "Dave Themes" 设置标签
-            3. 从下拉菜单选择主题
-            4. 主题会立即应用
+            | **dave-graphite** | Light + Dark | ⭐ 推荐主题，红黑经典配色 |
+            | dave-solarized | Light + Dark | Solarized 配色 |
+            | dave-duotone | Light + Dark | 双色调主题 |
+            | dave-toothpaste | Light + Dark | 薄荷色调 |
+            | dave-charcoal | Dark | 深炭黑主题 |
+            | dave-dracula | Dark | Dracula 配色 |
+            | dave-gotham | Dark | 深蓝主题 |
+            | dave-high-contrast | Dark | 高对比度 |
+            | dave-panic-mode | Dark | 鲜艳粉/红色 |
+            | dave-cobalt | Dark | 钴蓝色调 |
+            | dave-dieci | Dark | 琥珀棕色 |
+            | dave-ayu | Dark | Ayu Mirage 配色 |
           files: releases/*.zip
           generate_release_notes: false
         env:
