@@ -436,3 +436,112 @@ community:
 - excalidraw
 - tags
 */
+/* ==========================================================================
+   QUALITY IMPROVEMENTS (Based on mainstream community theme patterns)
+   ========================================================================== */
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-preview-view {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  max-width: var(--editor-max-width, var(--file-line-width));
+  margin-inline: auto;
+}
+
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--interactive-accent);
+  background: color-mix(in srgb, var(--background-secondary) 88%, var(--interactive-accent) 12%);
+  border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+  padding: 0.5em 1em;
+}
+
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+}
+
+.markdown-preview-view table th,
+.markdown-preview-view table td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 0.45em 0.6em;
+}
+
+.markdown-preview-view table th {
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  font-weight: 600;
+}
+
+.markdown-rendered code,
+.markdown-source-view.mod-cm6 .cm-inline-code,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  border-radius: var(--border-radius-sm);
+}
+
+.workspace-leaf-content[data-type="markdown"] .view-content {
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg);
+}
+
+.workspace-leaf-content[data-type="markdown"] .view-content::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 999px;
+}
+
+.workspace-leaf-content[data-type="markdown"] .view-content::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
+}
+
+/* ==========================================================================
+   ACCESSIBILITY & UX POLISH
+   ========================================================================== */
+:root {
+  --focus-ring: 0 0 0 2px color-mix(in srgb, var(--interactive-accent) 35%, transparent);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+.cm-line:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--border-radius-sm);
+}
+
+.markdown-preview-view a {
+  text-underline-offset: 0.12em;
+  text-decoration-thickness: 0.08em;
+}
+
+.markdown-preview-view .task-list-item.is-checked,
+.markdown-preview-view .task-list-item-checkbox:checked,
+.markdown-preview-view li[data-task="x"] {
+  opacity: 0.72;
+}
+
+.markdown-preview-view li[data-task="x"] > p,
+.markdown-preview-view li[data-task="x"] {
+  text-decoration: line-through;
+  text-decoration-thickness: 0.08em;
+}
+
+.callout {
+  border: 1px solid var(--background-modifier-border);
+  border-left: 4px solid var(--interactive-accent);
+  border-radius: var(--border-radius-md);
+}
+
+.callout .callout-title {
+  font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
