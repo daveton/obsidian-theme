@@ -173,10 +173,10 @@ body {
 
   /* Text Colors */
   --text-normal: #2C2C2C;
-  --text-muted: #8E8E8E;
-  --text-faint: #B4B4B4;
-  --text-accent: #A03530;
-  --text-accent-hover: #8B2D28;
+  --text-muted: #666666;
+  --text-faint: #999999;
+  --text-accent: #D7494C;
+  --text-accent-hover: #B83D3D;
   --text-error: #A03530;
   --text-success: #0EA35F;
   --text-highlight-bg: rgba(160, 53, 48, 0.15);
@@ -185,8 +185,8 @@ body {
   /* Interactive Elements */
   --interactive-normal: #FFFFFF;
   --interactive-hover: #F5F5F5;
-  --interactive-accent: #A03530;
-  --interactive-accent-hover: #8B2D28;
+  --interactive-accent: #D7494C;
+  --interactive-accent-hover: #B83D3D;
 
   /* Graph Colors */
   --graph-node: #2C2C2C;
@@ -203,8 +203,8 @@ body {
   --scrollbar-active-thumb: rgba(0, 0, 0, 0.35);
 
   /* Theme Colors */
-  --dave-red: #A03530;
-  --dave-red-hover: #8B2D28;
+  --dave-red: #D7494C;
+  --dave-red-hover: #B83D3D;
   --dave-gray: #8E8E8E;
   --dave-light-gray: #B4B4B4;
   --dave-border: #E5E5E5;
@@ -236,8 +236,8 @@ body {
   --text-normal: #E0E0E0;
   --text-muted: #999999;
   --text-faint: #666666;
-  --text-accent: #D45A54;
-  --text-accent-hover: #E07A75;
+  --text-accent: #D7494C;
+  --text-accent-hover: #E06666;
   --text-error: #D45A54;
   --text-success: #4CAF50;
   --text-highlight-bg: rgba(212, 90, 84, 0.2);
@@ -246,13 +246,13 @@ body {
   /* Interactive Elements */
   --interactive-normal: #3C3C3C;
   --interactive-hover: #4C4C4C;
-  --interactive-accent: #D45A54;
-  --interactive-accent-hover: #E07A75;
+  --interactive-accent: #D7494C;
+  --interactive-accent-hover: #E06666;
 
   /* Graph Colors */
   --graph-node: #E0E0E0;
   --graph-node-unresolved: #666666;
-  --graph-node-tag: #D45A54;
+  --graph-node-tag: #D7494C;
   --graph-node-attachment: #4CAF50;
   --graph-line: #444444;
   --graph-text: #E0E0E0;
@@ -264,8 +264,8 @@ body {
   --scrollbar-active-thumb: rgba(255, 255, 255, 0.35);
 
   /* Theme Colors */
-  --dave-red: #D45A54;
-  --dave-red-hover: #E07A75;
+  --dave-red: #D7494C;
+  --dave-red-hover: #E06666;
   --dave-gray: #999999;
   --dave-light-gray: #666666;
   --dave-border: #444444;

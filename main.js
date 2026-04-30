@@ -48,63 +48,23 @@ const FONTS = {
 const THEMES = {
   'graphite': {
     name: 'Dave Graphite',
-    description: 'Classic red accents on light/dark backgrounds',
+    description: '经典红黑配色（推荐）',
     modes: ['light', 'dark']
-  },
-  'high-contrast': {
-    name: 'Dave High Contrast',
-    description: 'High contrast for better visibility',
-    modes: ['dark']
-  },
-  'charcoal': {
-    name: 'Dave Charcoal',
-    description: 'Dark charcoal with red accents',
-    modes: ['dark']
   },
   'solarized': {
     name: 'Dave Solarized',
-    description: 'Solarized Light + Solarized Dark',
+    description: 'Solarized 配色方案',
     modes: ['light', 'dark']
-  },
-  'panic-mode': {
-    name: 'Dave Panic Mode',
-    description: 'Vibrant, eye-catching colors',
-    modes: ['dark']
-  },
-  'dracula': {
-    name: 'Dave Dracula',
-    description: 'Dracula color palette',
-    modes: ['dark']
-  },
-  'gotham': {
-    name: 'Dave Gotham',
-    description: 'Dark blue-based theme',
-    modes: ['dark']
-  },
-  'toothpaste': {
-    name: 'Dave Toothpaste',
-    description: 'Fresh mint colors',
-    modes: ['light', 'dark']
-  },
-  'cobalt': {
-    name: 'Dave Cobalt',
-    description: 'Deep blue color palette',
-    modes: ['dark']
   },
   'duotone': {
     name: 'Dave Duotone',
-    description: 'Duotone Light (purple) + Duotone Heat (warm orange)',
+    description: '双色调主题（紫色 + 暖橙色）',
     modes: ['light', 'dark']
   },
-  'dieci': {
-    name: 'Dave Dieci',
-    description: 'Warm amber-brown palette',
-    modes: ['light']
-  },
-  'ayu': {
-    name: 'Dave Ayu',
-    description: 'Ayu Mirage color palette',
-    modes: ['dark']
+  'toothpaste': {
+    name: 'Dave Toothpaste',
+    description: '清新的薄荷色调',
+    modes: ['light', 'dark']
   }
 };
 

@@ -1,8 +1,0 @@
-{
-  "id": "dave-dracula",
-  "name": "Dave Dracula",
-  "version": "1.0.0",
-  "minAppVersion": "0.15.0",
-  "author": "Dave",
-  "modes": ["dark"]
-}
