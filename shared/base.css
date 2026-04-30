@@ -1,0 +1,239 @@
+/*
+ * Dave Themes - Shared Base Styles
+ * 所有主题共用的基础样式（排版、间距、图标等）
+ * 每个主题只需定义颜色变量即可
+ */
+
+/* ==========================================================================
+   Typography - 字体设置
+   ========================================================================== */
+
+/* Font Families */
+body {
+  --font-interface: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-editor: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", SFMono-Regular, Monaco, "Cascadia Code", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* Editor and Preview Font */
+.markdown-source-view,
+.markdown-preview-view {
+  font-family: var(--font-editor);
+  line-height: 1.65;
+}
+
+/* Code Font */
+.cm-s-obsidian .cm-inline-code,
+.cm-s-obsidian .cm-code,
+.markdown-preview-view code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Spacing - 间距设置
+   ========================================================================== */
+
+/* Paragraph spacing */
+.markdown-preview-view p {
+  margin-bottom: 1.2em;
+  margin-top: 0;
+}
+
+/* Editor comfortable reading width */
+.markdown-source-view .cm-content,
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Bottom breathing room */
+.markdown-preview-view .markdown-preview-sizer {
+  padding-bottom: 30vh;
+}
+
+/* ==========================================================================
+   Headings - 标题样式
+   ========================================================================== */
+
+.HyperMD-header,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+.markdown-preview-view h1 {
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+.markdown-preview-view h2 {
+  font-size: 1.6em;
+  line-height: 1.3;
+}
+
+.markdown-preview-view h3 {
+  font-size: 1.3em;
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   Lists - 列表样式
+   ========================================================================== */
+
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.markdown-preview-view li {
+  margin-bottom: 0.4em;
+}
+
+/* Task lists */
+.markdown-preview-view .task-list-item-checkbox {
+  margin-right: 0.5em;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+/* ==========================================================================
+   Links - 链接样式
+   ========================================================================== */
+
+.markdown-preview-view a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.markdown-preview-view a:hover {
+  border-bottom-color: var(--text-accent);
+}
+
+/* External links */
+.markdown-preview-view .external-link {
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  padding-right: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='10' viewBox='0 0 11 10'%3E%3Cpath d='M0 5h9M11 5L6 0.5v9L11 5z' fill='none' stroke='%23999' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+
+/* ==========================================================================
+   Code Blocks - 代码块
+   ========================================================================== */
+
+.markdown-preview-view pre {
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em 0;
+  overflow-x: auto;
+}
+
+.markdown-preview-view code {
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+}
+
+.markdown-preview-view pre code {
+  padding: 0;
+  background: none;
+}
+
+/* ==========================================================================
+   Blockquotes - 引用块
+   ========================================================================== */
+
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--text-accent);
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* ==========================================================================
+   Tables - 表格
+   ========================================================================== */
+
+.markdown-preview-view table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td {
+  padding: 0.5em 0.8em;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.markdown-preview-view th {
+  font-weight: 600;
+  background: var(--background-secondary);
+}
+
+/* ==========================================================================
+   UI Elements - 界面元素
+   ========================================================================== */
+
+/* Sidebar */
+.nav-folder-title,
+.nav-file-title {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: var(--background-modifier-border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Status bar */
+.status-bar {
+  font-size: 12px;
+  padding: 0 8px;
+}
+
+/* ==========================================================================
+   Mobile Optimizations - 移动端优化
+   ========================================================================== */
+
+@media screen and (max-width: 768px) {
+  .markdown-source-view .cm-content,
+  .markdown-preview-view .markdown-preview-sizer {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  
+  .markdown-preview-view h1 {
+    font-size: 1.6em;
+  }
+  
+  .markdown-preview-view h2 {
+    font-size: 1.4em;
+  }
+}
